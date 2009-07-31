@@ -2,8 +2,15 @@
 // Basic demo and example of form validation
 function validate(){
 	
+	// first, remove any old error message array
+	var old = document.getElementById('error_message');
+	if(old){
+		old.parentNode.removeChild(old);
+	}
+	
 	// Begin array of errors, which at the moment is empty
 	var errors = new Array;
+	
 	
 	/**
 	 * VALIDATION RULES
@@ -43,22 +50,7 @@ function validate(){
 		website.style.border = '1px solid red';
 		errors.push('Please provide a website address.');
 	}
-	
-	// Grab the gender radio fields, check if none selected empty
-	var gender = document.forms[0].gender;
-	if( typeof(gender.value) == 'undefined' ){
-		document.getElementById('li_6').style.border = '1px solid red';
-		errors.push('Please choose a gender.');
-	}
-	
-	// Grab the skills checkbox fields, check if none selected empty
-	var skills = document.forms[0].skills;
-	console.log(skills);
-	if( typeof(skills.value) == 'undefined' ){
-		document.getElementById('li_7').style.border = '1px solid red';
-		errors.push('Please choose a skill.');
-	}
-	
+
 	
 	// If the errors array has a length (size), it's not empty
 	// Which means we need to display errors
