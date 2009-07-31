@@ -76,9 +76,13 @@ function validate(){
 		var f = document.getElementById('elements');
 		f.parentNode.insertBefore(error_ul, f);
 		// https://developer.mozilla.org/en/DOM/element.insertBefore
+		
+		// We have errors, so we need to return false
+		// to stop the form POST event.
+		return false;
 				
 	}
 	
-	return false;
+	return true;
 	
 }
