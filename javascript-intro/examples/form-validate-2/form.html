@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Javascript Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="view.css" media="all" />
+	<script type="text/javascript" src="validate.js"></script>
+</head>
+<body id="main_body" >
+	
+	<div id="form_container">
+	
+		<h1><a>Javascript Form Validation</a></h1>
+		
+		<form id="test-form" onsubmit="return validate();" class="appnitro" method="post" action="#">
+			
+			<a href="#" onclick="validate();">Test</a>
+			
+			<div class="form_description">
+				<h2>Javascript Form Validation</h2>
+				<p>This is an example form that we will attempt to validate with javascript.</p>
+			</div>
+					
+			<ul id="elements">
+				<li id="li_1" >
+					<label class="description" for="first_name">Name </label>
+					<span>
+						<input id="first_name" name="first_name" class="element text" maxlength="255" size="8" value="" />
+						<label>First</label>
+					</span>
+					<span>
+						<input id="last_name" name= "last_name" class="element text" maxlength="255" size="14" value="" />
+						<label>Last</label>
+					</span> 
+				</li>
+		
+				<li id="li_2" >
+					<label class="description" for="email">Email </label>
+					<div>
+						<input id="email" name="email" class="element text medium" type="text" maxlength="255" value="" /> 
+					</div> 
+				</li>
+		
+				<li id="li_8" >
+					<label class="description" for="element_8">State </label>
+					<div>
+						<select class="element select medium" id="element_8" name="element_8"> 
+							<option value="1">Select One...</option>
+							<option value="2">Washington</option>
+							<option value="3">Oregon</option>
+						</select>
+					</div> 
+				</li>
+		
+				<li id="li_4" >
+					<label class="description" for="element_4">Web Site </label>
+					<div>
+						<input id="element_4" name="element_4" class="element text medium" type="text" maxlength="255" value="http://" /> 
+					</div> 
+				</li>
+		
+				<li id="li_5" >
+					<label class="description" for="element_5">Brief Bio </label>
+					<div>
+						<textarea id="element_5" name="element_5" cols="20" rows="10" class="element textarea medium"></textarea> 
+					</div> 
+				</li>
+		
+				<li id="li_6" >
+					<label class="description" for="element_6">Gender </label>
+					<span>
+						<input id="element_6_1" name="element_6" class="element radio" type="radio" value="1" />
+						<label class="choice" for="element_6_1">Male</label>
+						<input id="element_6_2" name="element_6" class="element radio" type="radio" value="2" />
+						<label class="choice" for="element_6_2">Female</label>
+						<input id="element_6_3" name="element_6" class="element radio" type="radio" value="3" />
+						<label class="choice" for="element_6_3">No Answer</label>
+					</span> 
+				</li>
+		
+				<li id="li_7" >
+					<label class="description" for="element_7">Skills </label>
+					<span>
+						<input id="element_7_1" name="element_7_1" class="element checkbox" type="checkbox" value="1" />
+						<label class="choice" for="element_7_1">HTML</label>
+						<input id="element_7_2" name="element_7_2" class="element checkbox" type="checkbox" value="1" />
+						<label class="choice" for="element_7_2">CSS</label>
+						<input id="element_7_3" name="element_7_3" class="element checkbox" type="checkbox" value="1" />
+						<label class="choice" for="element_7_3">JavaScript</label>
+						<input id="element_7_4" name="element_7_4" class="element checkbox" type="checkbox" value="1" />
+						<label class="choice" for="element_7_4">PHP</label>
+					</span> 
+				</li>
+			
+				<li class="buttons">
+					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+				</li>
+			</ul>
+		</form>	
+	</div>
+</body>
+</html>
