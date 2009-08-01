@@ -5,7 +5,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Javascript Form Validation</title>
 	<link rel="stylesheet" type="text/css" href="view.css" media="all" />
+
 	<script type="text/javascript" src="validate.js"></script>
+	<script type="text/javascript" src="../jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="j_validate.js"></script>
 </head>
 <body id="main_body" >
 	
@@ -15,7 +18,7 @@
 		
 		<form id="test-form" onsubmit="return validate();" class="appnitro" method="post" action="#">
 			
-			<p><a href="#" onclick="validate();">Test Validate</a></p>
+			<p><a href="#" onclick="validate();">Test Validate</a> | <a href="#" onclick="j_validate();">Test jQuery Validate</a></p>
 			
 			<div class="form_description">
 				<h2>Javascript Form Validation</h2>

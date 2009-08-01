@@ -1,0 +1,24 @@
+
+
+
+Topics - Class Three
+
+Building a form validation function using a
+pre-built html form.
+
+- document.getElementById()
+- array .push method
+- document.createElement
+- .setAttribute
+- .appendChild
+- .insertBefore
+- .removeNode ?
+
+- Brief look at form validator, but in jquery
+
+
+
+
+self-executing anonymous functions (pg 31)
+optimizing code - compressing/packing/minify
+node navigation

@@ -1,12 +1,9 @@
 
 // Basic demo and example of form validation
-function validate(){
+function j_validate(){
 	
 	// first, remove any old error message array
-	var old = document.getElementById('error_message');
-	if(old){
-		old.parentNode.removeChild(old);
-	}
+	$('#error_message').remove();
 	
 	// Begin array of errors, which at the moment is empty
 	var errors = new Array;
@@ -16,7 +13,16 @@ function validate(){
 	 * VALIDATION RULES
 	 */
 	
+	
 	// Grab the first name field, check if it's empty
+	if($('#first_name').val() == ''){
+		$('#first_name').css('border', '1px solid #BF171E');
+		errors.push('Please provide your first name.');
+	}
+
+	
+	/*
+	
 	var fname = document.getElementById('first_name');
 	if(fname.value == ''){
 		fname.style.border = '1px solid #BF171E';
@@ -50,7 +56,7 @@ function validate(){
 		website.style.border = '1px solid #BF171E';
 		errors.push('Please provide a website address.');
 	}
-
+*/
 	
 	// If the errors array has a length (size), it's not empty
 	// Which means we need to display errors

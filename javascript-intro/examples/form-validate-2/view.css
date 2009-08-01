@@ -72,10 +72,8 @@ textarea.small { height: 5.5em; }
 textarea.medium { height: 10em; }
 textarea.large { height: 20em; }
 
-#error_message { background: #fff; border: 1px dotted red; margin-bottom: 1em; padding-left: 0; padding-right: 0; padding-top: 4px; text-align: center; width: 99%; }
-#error_message_title { color: #df0000; font-size: 125%; margin: 7px 0 5px; padding: 0; }
-#error_message_desc { color: #000; font-size: 100%; margin: 0 0 .8em; }
-#error_message_desc strong { background-color: #ffdfdf; color: red; padding: 2px 3px; }
+#error_message { color: #BF171E; margin-bottom: 1em; padding-left: 0; padding-right: 0; padding-top: 4px; width: 99%; }
+
 
 form li.error { background-color: #ffdfdf !important; border-bottom: 1px solid #eacbcc; border-right: 1px solid #eacbcc; margin: 3px 0; }
 form li.error label { color: #df0000 !important; }
