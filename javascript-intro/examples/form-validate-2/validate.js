@@ -57,7 +57,7 @@ function validate(){
 	if(errors.length){
 		
 		// We use the document object to create a new HTML element
-		// which in this case, is an Unordered List
+		// which, in this case, is an Unordered List
 		// http://www.w3schools.com/tags/tag_ul.asp
 		var error_ul = document.createElement('ul');
 		error_ul.setAttribute('id', 'error_message');
