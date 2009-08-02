@@ -6,15 +6,15 @@ Topics - Class Three
 Building a form validation function using a
 pre-built html form.
 
+Topics we'll look at are:
+
 - document.getElementById()
 - array .push method
 - document.createElement
 - .setAttribute
 - .appendChild
 - .insertBefore
-- .removeNode ?
-
-- Brief look at form validator, but in jquery
+- .removeNode ? (possibly)
 
 
 
