@@ -75,7 +75,6 @@ function validate(){
 		// and then ask the parent to insert our UL before the elements div
 		var f = document.getElementById('elements');
 		f.parentNode.insertBefore(error_ul, f);
-		// https://developer.mozilla.org/en/DOM/element.insertBefore
 		
 		// We have errors, so we need to return false
 		// to stop the form POST event.
