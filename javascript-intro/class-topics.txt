@@ -1,3 +1,4 @@
+========================================
 Topics - Class Three
 
 Building a form validation function using a
@@ -24,8 +25,14 @@ https://developer.mozilla.org/en/DOM/element.insertBefore
 - .removeNode ? (possibly)
 
 
+========================================
+Topics - Class Four
 
+- Review of last class
 
-self-executing anonymous functions (pg 31)
-optimizing code - compressing/packing/minify
-node navigation
+- Introduction to Ajax. Comparing javascript xhr with jquery.
+
+- Cross domain ajax
+
+- Looking at javascript in real world - understanding what's css versus javascript
+
