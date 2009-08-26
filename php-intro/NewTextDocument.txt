@@ -1,0 +1,120 @@
+
+((((((======
+
+All Outlined Topics in Keynote Pres
+
+- Intro to php history
+- Running phpinfo();
+- print
+- echo
+- variables
+- strings
+- integers, floats
+- arrays, variations on creating
+- multi-dimensional arrays
+- note on data persistence
+- if / else conditional
+- elseif
+- switch
+- ternary
+- evaluations (bool, false, strict operator, etc)
+- true distinction
+- loops, while
+- for
+- foreach
+- include / require
+- functions
+- variable scope
+- function scope
+- classes
+- methods
+- creating class instances / calling methods
+- member variables
+- php5 access rights to class methods
+- constructors
+- arguments
+- class extensions
+- final (no children)
+- parent::
+- sessions
+- session_start, saving data
+- superglobals
+- session, cookie, server, post, get, env
+
+- built-in functions
+- isset
+- defined
+- empty
+- is_*
+- string functions: strpos, strlen, str_replace, substr, strtolower
+- dates: time, date, strtotime
+- arrays: in_array, array_key_exists, array_push, array_merge, array_pop, sort, count, implode, explode
+- code comments
+- errors reporting
+- How to debug: print_r, var_dump, xdebug
+- security: 
+- including files with variables
+- validating data
+- regex
+- best practices
+
+
+
+
+Additional Coverage For:
+
+
+
+
+
+
+
+
+
+++++++)))))))
+
+
+
+
+Course Topics
+
+
+Course 1 (3 Hrs)
+==========================
+10/6/2009
+
+
+
+Course 2 (3 Hrs)
+==========================
+10/8/2009
+
+
+Course 3 (3 Hrs)
+==========================
+10/13/2009
+
+
+Course 4 (3 Hrs)
+==========================
+10/15/2009
+
+
+Course 5 (3 Hrs)
+==========================
+10/20/2009
+
+
+Course 6 (3 Hrs)
+==========================
+10/22/2009
+
+
+Course 7 (3 Hrs)
+==========================
+10/27/2009
+
+
+Course 8 (3 Hrs)
+==========================
+10/29/2009

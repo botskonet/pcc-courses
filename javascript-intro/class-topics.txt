@@ -36,3 +36,21 @@ Topics - Class Four
 
 - Looking at javascript in real world - understanding what's css versus javascript
 
+
+
+========================================
+Topics - Class Five
+
+
+- Looking at chained select boxes
+
+- Looking word, character counting for a textarea
+
+- Brief review of cookies
+
+
+========================================
+Topics - Class Six
+
+- Further examples of DOM interaction
+
