@@ -1,10 +1,11 @@
 ========================================
 Topics - Class One
 
-- How the internet works: 
+- How the internet works:
+    - Browsers (History, IE versus Others)
 	- HTTP
-	- Browsers (History, IE versus Others)
 	- Client/Server
+	
 - How browsers read/render pages:
 	- HTML (Boxes, Structures, Top-Down, Left-Right)
 	- CSS
@@ -61,3 +62,9 @@ Remaining topics:
 - ul//ol/li
 - images
 - SEO: titles, alts
+
+
+Resources:
+
+http://www.w3schools.com/html/DEFAULT.asp
+http://www.w3.org/TR/html4/
