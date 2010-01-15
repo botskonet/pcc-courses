@@ -1,0 +1,63 @@
+========================================
+Topics - Class One
+
+- How the internet works: 
+	- HTTP
+	- Browsers (History, IE versus Others)
+	- Client/Server
+- How browsers read/render pages:
+	- HTML (Boxes, Structures, Top-Down, Left-Right)
+	- CSS
+	- What does "XHTML" mean?
+	- "Separation of Style and Markup"
+	
+- Your First HTML
+	- Doctype
+	- html, head, title, body elements
+	- h[1-6], p elements
+	
+- How to do it right
+	- Learn terminology (elements, attributes, values)
+	- Understand elements, attributes
+	- Understand browser problems
+	- Understand intermediate CSS, basic Javascript
+
+- How to get help
+	- Google
+
+========================================
+Topics - Class Two
+
+
+========================================
+Topics - Class Three
+
+
+
+========================================
+Topics - Class Four
+
+
+
+========================================
+Topics - Class Five
+
+
+
+========================================
+Topics - Class Six
+
+
+
+
+Remaining topics:
+
+
+- html5
+- character encoding/entities
+- old elements and how to do them today: font, b, i, (css, strong, em)
+- forms: form, fieldset, inputs, buttons
+- divs
+- ul//ol/li
+- images
+- SEO: titles, alts

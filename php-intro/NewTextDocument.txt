@@ -83,6 +83,27 @@ Course 1 (3 Hrs)
 ==========================
 10/6/2009
 
+- Introduction to Michael Botsko
+- History of PHP
+- Overview of the state of the web and what PHP is, and where it fits
+- Discussion of Apache and what servers are
+- HTTP Roundtrip Process - Request, Process, Response, Render of HTML/JS/CSS
+- Server-side versus Client-side
+
+- Demo how to create, edit php files
+- Where to put the files (description of document root)
+
+- Mention opening/closing tags, file extensions
+- Demo: phpinfo();  (example 1-1)
+- Demo: PHP inside html, intro to print statement (ex: 1-2)
+- Demo: Variables - what they are (ex: 2-1)
+- Demo: Constants - what they are (ex 2-1)
+- Demo: Types of variables (strings ex: 2-2)
+(types: strings, int, float, boolean, null, array, object)
+- Demo: int/float and basic math (example: 2-3)
+- Demo: basic Array (ex: 2-4)
+- Demo: Alt way to create/add to array (ex: 2-5)
+- Demo: Nested arrays (2-6)
 
 
 Course 2 (3 Hrs)
