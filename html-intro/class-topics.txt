@@ -1,21 +1,29 @@
+
+CEU977W HTML - 05:30 PM-09:30 PM  	TuTh  	09-Feb-2010 thru 25-Feb-2010
+Learn to write and use HTML for producing effective web sites. Course covers web site design, navigation principles hyperlinks, tables, frames, forms and Cascading Style Sheets (CSS). An added emphasis of this course is the use of CSS for both formatting and for creating dynamic content. Other topics include in-depth CSS, Server Side Scripting and Client Side Scripting. Helpful Experience: comfortable working with Windows. 
+
+
+Emphasis: 
+- Navigation
+- Tables
+- Forms
+- CSS
+
+
 ========================================
 Topics - Class One
 
 - How the internet works:
-    - Browsers (History, IE versus Others)
+    - What is a browser (general description)?
 	- HTTP
 	- Client/Server
 	
 - How browsers read/render pages:
 	- HTML (Boxes, Structures, Top-Down, Left-Right)
-	- CSS
+	- What is a rendering engine? (Gecko, Webkit, Trident)
 	- What does "XHTML" mean?
+	- CSS
 	- "Separation of Style and Markup"
-	
-- Your First HTML
-	- Doctype
-	- html, head, title, body elements
-	- h[1-6], p elements
 	
 - How to do it right
 	- Learn terminology (elements, attributes, values)
@@ -23,8 +31,26 @@ Topics - Class One
 	- Understand browser problems
 	- Understand intermediate CSS, basic Javascript
 
-- How to get help
+- How to get help/learn
 	- Google
+	- Power of view source
+	
+	
+- The Foundation of an HTML Document
+	- Doctype
+	- html, head, title, body elements
+	- Brief overview of differences of html versions
+	- Don't use old elements: font, b, i, etc
+	
+- Creating your first document
+	- html, head, title, body
+	- it's blank!
+
+
+
+	- Copy core html page (provided)
+	
+
 
 ========================================
 Topics - Class Two
@@ -54,9 +80,7 @@ Topics - Class Six
 Remaining topics:
 
 
-- html5
 - character encoding/entities
-- old elements and how to do them today: font, b, i, (css, strong, em)
 - forms: form, fieldset, inputs, buttons
 - divs
 - ul//ol/li
@@ -68,3 +92,9 @@ Resources:
 
 http://www.w3schools.com/html/DEFAULT.asp
 http://www.w3.org/TR/html4/
+
+
+Related topics:
+
+http://video.google.com/videoplay?docid=1020647662203348823# (Gecko Rendering)
+http://en.wikipedia.org/wiki/Browser_wars
