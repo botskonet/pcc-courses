@@ -79,7 +79,12 @@ Topics - Class Six
 
 Remaining topics:
 
-
+- relative versus absolute urls
+- web server hosting
+- using ftp
+- nesting html
+- tag pairs
+- anatomy of a url
 - character encoding/entities
 - forms: form, fieldset, inputs, buttons
 - divs
