@@ -3,7 +3,7 @@ CEU977W HTML - 05:30 PM-09:30 PM  	TuTh  	09-Feb-2010 thru 25-Feb-2010
 Learn to write and use HTML for producing effective web sites. Course covers web site design, navigation principles hyperlinks, tables, frames, forms and Cascading Style Sheets (CSS). An added emphasis of this course is the use of CSS for both formatting and for creating dynamic content. Other topics include in-depth CSS, Server Side Scripting and Client Side Scripting. Helpful Experience: comfortable working with Windows. 
 
 
-Emphasis: 
+Emphasis:
 - Navigation
 - Tables
 - Forms
@@ -13,28 +13,39 @@ Emphasis:
 ========================================
 Topics - Class One
 
+- Attendance (Name, what experience you have on the web, and why you're here)
+- Books
+
+- About Me
+	- Web developer running two local web development companies
+	
+
 - How the internet works:
-    - What is a browser (general description)?
-	- HTTP
+    - Traffic is routed through the networks
+	- HTTP / DNS / IP Address
+	- Register a domain with a registrar
 	- Client/Server
 	
-- How browsers read/render pages:
-	- HTML (Boxes, Structures, Top-Down, Left-Right)
+- What is a web browser?
+	- There are many browser packages, both for computers and cell phones
+	- The primary browsers are IE, Firefox, Safari, and Chrome
 	- What is a rendering engine? (Gecko, Webkit, Trident)
-	- What does "XHTML" mean?
-	- CSS
-	- "Separation of Style and Markup"
+	- There are variations in how engines display pages
 	
-- How to do it right
-	- Learn terminology (elements, attributes, values)
-	- Understand elements, attributes
-	- Understand browser problems
-	- Understand intermediate CSS, basic Javascript
+- What is HTML, and where does it fit?
+	- HTML describes a document structure
+	- It's a markup language and isn't intended to do anything else
+	- CSS is used to describe how the elements look
+	- Javascript is used to make them more interactive
 
 - How to get help/learn
 	- Google
 	- Power of view source
 	
+- How to create an html document
+	- Create a new plain text file, called "index.html"
+	- Why index? Why ".html"?
+	- What is plain text versus rich text editors?
 	
 - The Foundation of an HTML Document
 	- Doctype
@@ -45,10 +56,6 @@ Topics - Class One
 - Creating your first document
 	- html, head, title, body
 	- it's blank!
-
-
-
-	- Copy core html page (provided)
 	
 
 
