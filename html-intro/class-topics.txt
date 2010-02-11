@@ -55,12 +55,54 @@ Topics - Class One
 	
 - Creating your first document
 	- html, head, title, body
-	- it's blank!
+	- p, img, strong, em, a, h1, ul/ol/li
+	
+- Basics of CSS
+	- element selector
+	- classes
+	- IDs
 	
 
 
 ========================================
 Topics - Class Two
+
+
+- notes on the book:
+	- Very similar to how I've been going
+	- Recommends using outdated tags that while they still work, is not the best idea to use often
+	- Chap. 6 mentions imagemaps, which are never used anymore
+	- Uses tables for layout as an example
+	
+- What happens when you link to a non-document?
+
+- Homework Questions
+
+- span
+- block versus inline
+
+- Including external css
+- css comments
+- media-specific styles
+
+- Encoding
+
+- ASCII values for things
+
+- Comments
+
+-Abbr
+
+- Meta
+
+- Tables
+	- table
+	- tr, th, td
+	- thead, tbody, tfoot
+	- colspan, rowspan
+	- Data versus layout
+
+http://video.google.com/videoplay?docid=1020647662203348823# (Gecko Rendering)
 
 
 ========================================
@@ -86,27 +128,49 @@ Topics - Class Six
 
 Remaining topics:
 
+- Forms
+	- form, action method
+	- fieldset, legend
+	- input
+		- text
+		- radio
+		- checkbox
+		- password
+		- hidden
+	- select
+	- textarea
+	- labels
+	- buttons
+	- tab order
+
+- show page without any styles
+- using fonts
+- inner-page anchors
 - relative versus absolute urls
 - web server hosting
 - using ftp
-- nesting html
-- tag pairs
-- anatomy of a url
 - character encoding/entities
 - forms: form, fieldset, inputs, buttons
 - divs
-- ul//ol/li
-- images
-- SEO: titles, alts
+- SEO
+- css selectors
+
+- Box Model:
+	- width, height (problems with calcs among browsers)
+	- padding, border, margin
+	- top, left, right, bottom
+	- position
+	- min-width, max-width (no IE6)
+	
+	
+z-index
+clear
+overflow
+cursor
+display
+:hover
+background images (sprites?)
+suckerfish-style menus
 
 
-Resources:
-
-http://www.w3schools.com/html/DEFAULT.asp
-http://www.w3.org/TR/html4/
-
-
-Related topics:
-
-http://video.google.com/videoplay?docid=1020647662203348823# (Gecko Rendering)
-http://en.wikipedia.org/wiki/Browser_wars
+- Making a link look like a button
