@@ -101,7 +101,7 @@ http://pullmanregional.org/
 	
 	
 - Include external css file
-	<link type="text/css" href="style.css" media="">
+	<link rel="stylesheet" type="text/css" href="class.css" />
 	<style type="text/css">@import url(style.css);</style>
 	
 	- Discuss relative URLs
