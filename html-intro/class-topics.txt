@@ -67,40 +67,86 @@ Topics - Class One
 ========================================
 Topics - Class Two
 
+- Attendance
+- Break?
+- How to use the WIFI: MyPCC username, G# is password
 
-- notes on the book:
+- Questions from anything done outside class?
+- Did anyone build their own?
+
+- My thoughts on the book
 	- Very similar to how I've been going
 	- Recommends using outdated tags that while they still work, is not the best idea to use often
 	- Chap. 6 mentions imagemaps, which are never used anymore
 	- Uses tables for layout as an example
+	- Center element hasn't been valid for a long time
 	
-- What happens when you link to a non-document?
+	
+- Recap of last class
 
-- Homework Questions
-
-- span
-- block versus inline
-
-- Including external css
-- css comments
-- media-specific styles
-
-- Encoding
-
-- ASCII values for things
-
-- Comments
-
--Abbr
-
-- Meta
-
+- Show an example of good style vs structure (disable css)
+http://pullmanregional.org/
+	
+	
 - Tables
 	- table
 	- tr, th, td
 	- thead, tbody, tfoot
+	- caption
 	- colspan, rowspan
 	- Data versus layout
+	- discuss semantics of tables (data!)
+	- Show an example of a site built with tables:
+	http://nobeltec.com/products/prod_sounder.asp
+	
+	
+- Include external css file
+	<link type="text/css" href="style.css" media="">
+	<style type="text/css">@import url(style.css);</style>
+	
+	- Discuss relative URLs
+	- Discuss media-specific style sheets
+	
+- CSS and HTML comments
+	
+- Style table using css
+	- background colors
+	- borders
+	- spacing
+	- th vs td
+
+- Positioning a table with text next to it
+	- Using just table and p
+	- Using DIVs:
+	
+- DIVs
+	- The empty element for all purposes
+	- Often used for "wrapping"
+	
+- Special Characters
+	- different encoding sets
+	- how to specify one
+	- the best one to choose
+	
+	- What is an entity?
+	- What is a character reference?
+	- &copy; vs &#169;
+	- ISO 8859 (windows) and UTF-8 are widely supported
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	http://leftlogic.com/lounge/articles/entity-lookup/
+	
+	
+- How Search Engines work
+	- What's an index/spider
+	- How does Google evaluate content?
+		- Importance to titles, URL, h1s, incoming link text
+		- Importance from how it appears on the page
+		- Reading your navigation properly
+		- Associating content together for better understanding
+		
+		Spider simulator
+		http://www.feedthebot.com/tools/spider/index.php
 
 http://video.google.com/videoplay?docid=1020647662203348823# (Gecko Rendering)
 
@@ -142,16 +188,17 @@ Remaining topics:
 	- labels
 	- buttons
 	- tab order
+	
+- What happens when you link to a non-document?
+- span
+- block versus inline
+- abbr
 
-- show page without any styles
+
 - using fonts
 - inner-page anchors
-- relative versus absolute urls
 - web server hosting
 - using ftp
-- character encoding/entities
-- forms: form, fieldset, inputs, buttons
-- divs
 - SEO
 - css selectors
 
