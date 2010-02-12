@@ -114,27 +114,6 @@ http://pullmanregional.org/
 	- borders
 	- spacing
 	- th vs td
-
-- Positioning a table with text next to it
-	- Using just table and p
-	- Using DIVs:
-	
-- DIVs
-	- The empty element for all purposes
-	- Often used for "wrapping"
-	
-- Special Characters
-	- different encoding sets
-	- how to specify one
-	- the best one to choose
-	
-	- What is an entity?
-	- What is a character reference?
-	- &copy; vs &#169;
-	- ISO 8859 (windows) and UTF-8 are widely supported
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	http://leftlogic.com/lounge/articles/entity-lookup/
 	
 	
 - How Search Engines work
@@ -153,6 +132,30 @@ http://video.google.com/videoplay?docid=1020647662203348823# (Gecko Rendering)
 
 ========================================
 Topics - Class Three
+
+
+- Attendance
+
+- Answer questions from view source homework
+	
+- DIVs
+	- The empty element for all purposes
+	- Often used for "wrapping"
+	- 
+
+
+- Special Characters
+	- different encoding sets
+	- how to specify one
+	- the best one to choose
+	
+	- What is an entity?
+	- What is a character reference?
+	- &copy; vs &#169;
+	- ISO 8859 (windows) and UTF-8 are widely supported
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	http://leftlogic.com/lounge/articles/entity-lookup/
 
 
 
