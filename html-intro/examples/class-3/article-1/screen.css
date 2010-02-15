@@ -1,0 +1,9 @@
+
+
+body { text-align: center; font-family: Georgia, serif; background-color: #eee; }
+#content { margin: 0 auto; width:790px; text-align: left; }
+h1 { margin-bottom: 5px; border-bottom: 1px solid #ccc;}
+.byline { font-size: 10pt; }
+.img-left { float: left; margin: 5px 10px 5px 0; border: 1px solid #ccc; padding: 5px; background-color: #fff; }
+p { line-height: 1.4em;  }
+blockquote { text-align: center; font-size: 1.3em; font-style: italic; }

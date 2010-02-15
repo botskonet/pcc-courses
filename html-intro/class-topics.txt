@@ -141,8 +141,40 @@ Topics - Class Three
 - DIVs
 	- The empty element for all purposes
 	- Often used for "wrapping"
-	- 
+	- More power than tables and not forced into a structure like table cells
+	
+	
+- Article Example 1
 
+	- Start with core html and p tag content
+	- Include an image into the first paragraph
+	
+	- Assign font-family to body, background color of #eee
+	- Playing with line-height
+	- Use wrapping div to center text, create narrow page
+	- Explain text-align and margin for centering
+	- Byline and H1 styling
+	- Float image left, give it padding, border, margin
+	- Adding a blockquote
+	- Styling blockquote with font-style, text-align, font-size
+	- Discus EM measurement, makes sizes relative
+	
+	
+- Article 2
+
+	- How to divide up your content into sections
+	- Header, content (left/right), footer
+	- How to float divs left, right
+	- Measurement issues
+	- How to use css to show DIV positioning
+
+- How to use google to solve your problems
+
+
+
+
+========================================
+Topics - Class Four
 
 - Special Characters
 	- different encoding sets
@@ -156,13 +188,6 @@ Topics - Class Three
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	http://leftlogic.com/lounge/articles/entity-lookup/
-
-
-
-========================================
-Topics - Class Four
-
-
 
 ========================================
 Topics - Class Five
