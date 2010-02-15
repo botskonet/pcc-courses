@@ -144,6 +144,17 @@ Topics - Class Three
 	- More power than tables and not forced into a structure like table cells
 	
 	
+- Box Model:
+	- width, height (problems with calcs among browsers)
+	- padding, border, margin
+	- top, left, right, bottom
+	- position
+	- min-width, max-width (no IE6)
+	
+	
+- DIV Experiments
+	
+	
 - Article Example 1
 
 	- Start with core html and p tag content
@@ -159,7 +170,6 @@ Topics - Class Three
 	- Styling blockquote with font-style, text-align, font-size
 	- Discus EM measurement, makes sizes relative
 	
-	
 - Article 2
 
 	- How to divide up your content into sections
@@ -167,10 +177,11 @@ Topics - Class Three
 	- How to float divs left, right
 	- Measurement issues
 	- How to use css to show DIV positioning
+	- Show what happens when two float left items are used
+	
+	- Ask class how to add a 1px black separator between cols
 
 - How to use google to solve your problems
-
-
 
 
 ========================================
@@ -188,6 +199,7 @@ Topics - Class Four
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	http://leftlogic.com/lounge/articles/entity-lookup/
+
 
 ========================================
 Topics - Class Five
@@ -218,34 +230,24 @@ Remaining topics:
 	- tab order
 	
 - What happens when you link to a non-document?
-- span
-- block versus inline
-- abbr
 
 
-- using fonts
 - inner-page anchors
 - web server hosting
 - using ftp
 - SEO
-- css selectors
-
-- Box Model:
-	- width, height (problems with calcs among browsers)
-	- padding, border, margin
-	- top, left, right, bottom
-	- position
-	- min-width, max-width (no IE6)
 	
 	
 z-index
 clear
 overflow
 cursor
-display
 :hover
 background images (sprites?)
 suckerfish-style menus
 
 
 - Making a link look like a button
+
+
+http://www.456bereastreet.com/
