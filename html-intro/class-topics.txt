@@ -15,6 +15,7 @@ Topics - Class One
 
 - Attendance (Name, what experience you have on the web, and why you're here)
 - Books
+- How to use the WIFI: MyPCC username, G# is password
 
 - About Me
 	- Web developer running two local web development companies
@@ -68,8 +69,6 @@ Topics - Class One
 Topics - Class Two
 
 - Attendance
-- Break?
-- How to use the WIFI: MyPCC username, G# is password
 
 - Questions from anything done outside class?
 - Did anyone build their own?
@@ -137,12 +136,12 @@ Topics - Class Three
 - Attendance
 
 - Answer questions from view source homework
+- Inner-page anchors
 	
 - DIVs
 	- The empty element for all purposes
 	- Often used for "wrapping"
 	- More power than tables and not forced into a structure like table cells
-	
 	
 - Box Model:
 	- width, height (problems with calcs among browsers)
@@ -151,9 +150,7 @@ Topics - Class Three
 	- position
 	- min-width, max-width (no IE6)
 	
-	
 - DIV Experiments
-	
 	
 - Article Example 1
 
@@ -170,6 +167,21 @@ Topics - Class Three
 	- Styling blockquote with font-style, text-align, font-size
 	- Discus EM measurement, makes sizes relative
 	
+- Special Characters
+	- different encoding sets
+	- how to specify one
+	- the best one to choose
+
+	- What is an entity?
+	- What is a character reference?
+	- &copy; vs &#169;
+	- ISO 8859 (windows) and UTF-8 are widely supported
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	http://leftlogic.com/lounge/articles/entity-lookup/
+	
+	
+	{not enough time:}
 - Article 2
 
 	- How to divide up your content into sections
@@ -180,39 +192,33 @@ Topics - Class Three
 	- Show what happens when two float left items are used
 	
 	- Ask class how to add a 1px black separator between cols
-
-- How to use google to solve your problems
+	
+	- Clearing floats
 
 
 ========================================
 Topics - Class Four
 
-- Special Characters
-	- different encoding sets
-	- how to specify one
-	- the best one to choose
-	
-	- What is an entity?
-	- What is a character reference?
-	- &copy; vs &#169;
-	- ISO 8859 (windows) and UTF-8 are widely supported
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	http://leftlogic.com/lounge/articles/entity-lookup/
+- Background images - img as h1 background with hidden text
 
+- CSS Selectors
+	- elements (previously seen)
+	- classes, ids (previously seen)
+	- comma-separated (previously seen)
+	- child selectors
+	- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
+	- attribute/value selectors
+	- sibling selectors
+	
+	 http://www.quirksmode.org/css/contents.html
+	
+- min/max width
+
+- How to use google to solve your problems
 
 ========================================
 Topics - Class Five
 
-
-
-========================================
-Topics - Class Six
-
-
-
-
-Remaining topics:
 
 - Forms
 	- form, action method
@@ -229,25 +235,43 @@ Remaining topics:
 	- buttons
 	- tab order
 	
-- What happens when you link to a non-document?
+- GET versus POST
+- How to do something with the data on the server
 
 
-- inner-page anchors
-- web server hosting
-- using ftp
-- SEO
+========================================
+Topics - Class Six
+
+- How to find web servers, purchase domain names
+- How to use FTP to put your files on the server
+- "index.htm" is what's loaded by default
+
+
+
 	
-	
-z-index
-clear
-overflow
-cursor
-:hover
-background images (sprites?)
-suckerfish-style menus
 
 
-- Making a link look like a button
 
+- Resources:
 
 http://www.456bereastreet.com/
+http://leftlogic.com/lounge/articles/entity-lookup/
+http://stackoverflow.com/questions/tagged/html
+http://www.smashingmagazine.com/2007/01/19/53-css-techniques-you-couldnt-live-without/
+http://www.campaignmonitor.com/css/
+http://www.alvit.de/handbook/index.php
+https://www.google.com/analytics
+https://browserlab.adobe.com/index.html#
+http://analyze.websiteoptimization.com
+http://www.feedthebot.com/tools/spider/index.php
+http://www.alvit.de/handbook/index.php
+http://css-discuss.incutio.com/?page=FrontPage
+http://www.blueprintcss.org/
+http://www.css3.info/
+
+
+https://addons.mozilla.org/en-US/firefox/addon/1490
+http://getfirebug.com/
+
+
+https://addons.mozilla.org/en-US/firefox/collections/view/3df574e1-a4a3-7c48-965b-0625fc25c01b
