@@ -199,19 +199,18 @@ Topics - Class Three
 ========================================
 Topics - Class Four
 	
-
 - Restaurant Basic Page Example
 
 	- How to plan a page layout with mockups, drawings
 	- Create a core structure of divs: container, h1, main, ul, content, footer
 	- How to start with some debug styling (grid, bg colors, min heights)
 	- Background image into h1, text-indent
+	- Background image repeating, positioning
 	- Set widths and floats for main content
 	- Solve float collapse problem with a clear float
 	- Style navigation, discuss nested elements
 	- Style content h2, p tag (explain why h2, not h1)
 	- Style footer
-	
 	
 - All CSS Selector Types
 	- elements (previously seen)
@@ -224,9 +223,18 @@ Topics - Class Four
 
 	 http://www.quirksmode.org/css/contents.html
 
+
 - Min/max width/height
 	
-	
+- Discuss css frameworks
+	- Blueprint
+	- 960
+
+- Images and Design
+	- Software for image editing
+	- What is a JPG, GIF, PNG?
+	- How to optimize for the web?
+	- Basics of splicing out images?
 
 
 - How to use google to solve your problems
@@ -244,7 +252,7 @@ Topics - Class Five
 		- checkbox
 		- password
 		- hidden
-	- select
+	- select/option/optgroup
 	- textarea
 	- labels
 	- buttons
@@ -262,14 +270,27 @@ Topics - Class Six
 - "index.htm" is what's loaded by default
 
 
+- Looking at basic javascript
+
+
 - Feel free to email for help
 - Questions about the business of web development
 
 
 
+
+
+Remaining Tags
+========================================
 	
 
+- br
+- code
+- abbr (title)/acronym
+- sub/sup
 
+
+- Discuss basics of flash
 
 - Resources:
 
