@@ -2,26 +2,30 @@
 
 
 /* DEBUG ONLY */
-#container { min-height: 400px; }
 /*#container { background: transparent url('img/grid.gif'); top left no-repeat; }*/
+/*#content, ul { background-color: blue; }*/
 
 
 /* content wrapping */
-body { background-color: #2C3E4F; text-align: center; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+body { background-color: #220000; text-align: center; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
 
-#container { width: 760px; margin: 0 auto; text-align: left; background-color: #fff;  }
+#container { width: 760px; margin: 0 auto; text-align: left; background-color: #fff; border: 1px solid #000;  }
 
-#header, #content, #footer { margin: 0 5px; }
+#header, #content { margin: 0 5px; }
 
 h1 { height: 200px; background: transparent url('img/restaurant_sm.jpg'); text-indent: -9999px; margin: 0 0 20px 0; }
 
-.nav { width: 195px; background-color: #ccc; float: left; }
+.nav { width: 150px; float: left; margin-left: 5px; }
 .nav li { list-style: none; line-height: 1.5em; margin-left: 20px; }
-.nav a { color: #8F2311; text-decoration: none; }
+.nav a { color: #770000; text-decoration: none;   }
 .nav ul a { font-size: .8em; }
 
+.nav a:before { content: "\00bb\00a0"; }
+.nav a:hover { color: #ddbb77; text-decoration: underline; }
+
+
 .clear { clear: both;}
-#content { float: right; width: 550px;  }
+#content { float: right; width: 590px;  }
 
 
 h2 { font-size: 2em; }
@@ -29,4 +33,4 @@ h2 { font-size: 2em; }
 #content p { margin-top: 20px; line-height: 1.3em; }
 
 
-#footer { font-size: .8em; margin-top: 20px; padding: 5px; border-top: 1px dashed #ccc;}
+#footer { font-size: .8em; margin-top: 20px; padding: 8px; background-color: #ddbb77; }
