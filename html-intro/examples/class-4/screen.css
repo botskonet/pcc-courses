@@ -3,7 +3,7 @@
 
 /* DEBUG ONLY */
 #container { min-height: 400px; }
-#container { background: transparent url('img/grid.gif'); top left no-repeat; }
+/*#container { background: transparent url('img/grid.gif'); top left no-repeat; }*/
 
 
 /* content wrapping */
@@ -13,14 +13,20 @@ body { background-color: #2C3E4F; text-align: center; font-family: "Palatino Lin
 
 #header, #content, #footer { margin: 0 5px; }
 
-h1 { height: 200px; background: transparent url('img/restaurant_sm.jpg'); text-indent: -9999px; margin: 10px 0 20px 0; }
+h1 { height: 200px; background: transparent url('img/restaurant_sm.jpg'); text-indent: -9999px; margin: 0 0 20px 0; }
 
-.nav { width: 195px; background-color: black; float: left; }
-.nav li { list-style: none; line-height: 1.5em; }
+.nav { width: 195px; background-color: #ccc; float: left; }
+.nav li { list-style: none; line-height: 1.5em; margin-left: 20px; }
 .nav a { color: #8F2311; text-decoration: none; }
+.nav ul a { font-size: .8em; }
 
 .clear { clear: both;}
-#content { float: right; width: 530px; padding: 0 10px; }
+#content { float: right; width: 550px;  }
 
 
 h2 { font-size: 2em; }
+
+#content p { margin-top: 20px; line-height: 1.3em; }
+
+
+#footer { font-size: .8em; margin-top: 20px; padding: 5px; border-top: 1px dashed #ccc;}
