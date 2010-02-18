@@ -3,34 +3,46 @@
 
 /* DEBUG ONLY */
 /*#container { background: transparent url('img/grid.gif'); top left no-repeat; }*/
-/*#content, ul { background-color: blue; }*/
+/*#container div, ul { background-color: blue; }*/
 
 
 /* content wrapping */
-body { background-color: #220000; text-align: center; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
-
+body { background-color: #220000; text-align: center; font-family: Palatino, "Book Antiqua", serif;}
 #container { width: 760px; margin: 0 auto; text-align: left; background-color: #fff; border: 1px solid #000;  }
 
-#header, #content { margin: 0 5px; }
-
-h1 { height: 200px; background: transparent url('img/restaurant_sm.jpg'); text-indent: -9999px; margin: 0 0 20px 0; }
+h1 { height: 200px; background: transparent url('img/restaurant_sm.jpg'); text-indent: -9999px; margin-bottom: 20px; }
 
 .nav { width: 150px; float: left; margin-left: 5px; }
-.nav li { list-style: none; line-height: 1.5em; margin-left: 20px; }
+.nav li { line-height: 1.5em; margin-left: 20px; }
 .nav a { color: #770000; text-decoration: none;   }
 .nav ul a { font-size: .8em; }
-
 .nav a:before { content: "\00bb\00a0"; }
-.nav a:hover { color: #ddbb77; text-decoration: underline; }
+.nav a:hover, .nav a.at { color: #aa5522; text-decoration: underline; }
 
 
 .clear { clear: both;}
-#content { float: right; width: 590px;  }
 
-
-h2 { font-size: 2em; }
-
-#content p { margin-top: 20px; line-height: 1.3em; }
+#content { float: right; width: 590px; margin: 0 5px;  }
+#content h2 { font-size: 2em; }
+#content p { margin-top: 20px; line-height: 1.4em; }
 
 
 #footer { font-size: .8em; margin-top: 20px; padding: 8px; background-color: #ddbb77; }
+
+
+/* all css selectors experiments */
+
+/*ul { background-color: green; }*/
+/*.nav { background-color: green; }*/
+/*#main-nav { background-color: green; }*/
+/*.nav, p { background-color: green; }*/
+/*#main-nav a { background-color: green; }*/
+/*ul li:first-child { background-color: green; }*/
+/*ul li:hover { background-color: green; }*/
+/*ul[id="main-nav"] { background-color: green; }*/
+/*div>p { background-color: green; }  /*comment out footer for this to work)*/
+/*h2+p { background-color: green; }*/
+
+/*body div#container>div.main>div#content h2+p a { background-color: green; }*/
+
+/*p a:after { content:" (" attr(href) ") "; }*/
