@@ -18,8 +18,6 @@ Topics - Class One
 - How to use the WIFI: MyPCC username, G# is password
 
 - About Me
-	- Web developer running two local web development companies
-	
 
 - How the internet works:
     - Traffic is routed through the networks
@@ -114,7 +112,6 @@ http://pullmanregional.org/
 	- spacing
 	- th vs td
 	
-	
 - How Search Engines work
 	- What's an index/spider
 	- How does Google evaluate content?
@@ -134,7 +131,6 @@ Topics - Class Three
 
 
 - Attendance
-
 - Answer questions from view source homework
 - Inner-page anchors
 	
@@ -225,23 +221,14 @@ Topics - Class Four
 
 
 - Min/max width/height
-	
-- Discuss css frameworks
-	- Blueprint
-	- 960
-
-- Images and Design
-	- Software for image editing
-	- What is a JPG, GIF, PNG?
-	- How to optimize for the web?
-	- Basics of splicing out images?
-
-
-- How to use google to solve your problems
 
 ========================================
 Topics - Class Five
 
+- How to learn about browser bugs
+	- IE (http://www.positioniseverything.net/explorer.html)
+	- Firefox/Safari
+	- Finding your own http://experiments.botsko.net/tests/firefox_li_bug/li-test.html
 
 - Forms
 	- form, action method
@@ -255,63 +242,101 @@ Topics - Class Five
 	- select/option/optgroup
 	- textarea
 	- labels
-	- buttons
+	- buttons/submit/reset
 	- tab order
+
+- Processing Form Data
+	- GET versus POST
+	- What is PHP/PERL/RUBY
+
+- Images and Design
+	- Software for image editing
+	- What is a JPG, GIF, PNG?
+	- How to optimize for the web?
+	- Basics of splicing out images?
 	
-- GET versus POST
-- How to do something with the data on the server
+- What is Flash
 
 
 ========================================
 Topics - Class Six
 
-- How to find web servers, purchase domain names
-- How to use FTP to put your files on the server
-- "index.htm" is what's loaded by default
+- Finding Web Hosting
+	- What is a server, really?
+	- What is FTP?
+	- Url is mapped to specific folder on server (www, htdocs, public_html)
+	- Uploading your files
+	- "index.html" file is always the default
 
+- Purchasing a domain name
+	- Costs
+	- What is SSL
+	- What are nameservers?
+	- Expiration watchers
+	
+- Looking at an FTP Client
+	- Hostname (domain name)
+	- User/password
+	- Navigating remote/local folders
+	- Uploading/downloading
 
-- Looking at basic javascript
-
-
-- Feel free to email for help
-- Questions about the business of web development
-
-
-
-
-
-Remaining Tags
-========================================
+- Basics of Javascript
+	- What is the DOM?
+	- getElementById
+	- innerHTML example
+	- jQuery Demo, using css selectors
+	
+- Where next?
+	- Javascript courses
+	- PHP courses
+	- Incubator Program
+	- Version control
 	
 
-- br
-- code
-- abbr (title)/acronym
-- sub/sup
+- Final Questions
+
+- Evaluations. THESE MUST BE COMPLETED
+
+- Distribute all class materials
+
+- Distribute certifications
 
 
-- Discuss basics of flash
+Resources and Tools
+========================================
+	
+http://www.alvit.de/handbook/index.php
+	
 
-- Resources:
-
+CSS Resources / Reading
+http://meyerweb.com/eric/tools/css/reset/
 http://www.456bereastreet.com/
-http://leftlogic.com/lounge/articles/entity-lookup/
-http://stackoverflow.com/questions/tagged/html
 http://www.smashingmagazine.com/2007/01/19/53-css-techniques-you-couldnt-live-without/
 http://www.campaignmonitor.com/css/
-http://www.alvit.de/handbook/index.php
-https://www.google.com/analytics
-https://browserlab.adobe.com/index.html#
-http://analyze.websiteoptimization.com
-http://www.feedthebot.com/tools/spider/index.php
-http://www.alvit.de/handbook/index.php
 http://css-discuss.incutio.com/?page=FrontPage
-http://www.blueprintcss.org/
 http://www.css3.info/
 
 
-https://addons.mozilla.org/en-US/firefox/addon/1490
-http://getfirebug.com/
+CSS Frameworks:
+http://www.blueprintcss.org/
+http://960.gs/
 
 
+Tools:
+http://leftlogic.com/lounge/articles/entity-lookup/
+https://www.google.com/analytics
+https://browserlab.adobe.com/index.html
+http://analyze.websiteoptimization.com
+http://www.feedthebot.com/tools/spider/index.php
+
+
+HTML
+http://stackoverflow.com/questions/tagged/html
+
+
+Recommended Firefox Extensions
 https://addons.mozilla.org/en-US/firefox/collections/view/3df574e1-a4a3-7c48-965b-0625fc25c01b
+
+
+Me
+http://www.botsko.net
