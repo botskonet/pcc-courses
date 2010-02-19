@@ -252,8 +252,9 @@ Topics - Class Five
 - Images and Design
 	- Software for image editing
 	- What is a JPG, GIF, PNG?
-	- How to optimize for the web?
-	- Basics of splicing out images?
+	- AmberGlen Example (http://www.amberglen.com/)
+	- How to optimize for the web
+	- Basics of splicing out images
 	
 - What is Flash
 
