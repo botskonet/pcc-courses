@@ -225,6 +225,8 @@ Topics - Class Four
 ========================================
 Topics - Class Five
 
+- Conditional comments http://www.quirksmode.org/css/condcom.html
+
 - How to learn about browser bugs
 	- IE (http://www.positioniseverything.net/explorer.html)
 	- Firefox/Safari
