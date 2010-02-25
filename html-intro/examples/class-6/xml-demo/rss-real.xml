@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- generator="WordPress/2.9.1" -->
+<rss version="0.92">
+<channel>
+	<title>botsko</title>
+	<link>http://www.botsko.net/blog</link>
+	<description>continuing education</description>
+	<lastBuildDate>Thu, 18 Feb 2010 16:37:21 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
+
+	<language>en</language>
+	
+	<item>
+		<title>Installing Git on Mac OS X Snow Leapord</title>
+		<description><![CDATA[Git is an amazing source control system, and is even better when used with GitHub.com. Installing git on Mac is pretty simple.
+
+First, download the latest version from git-scm.com. Extract the contents of the archive and open terminal to the new folder.
+Note: Since this requires compiling, you must have the developer tools installed. Download and install [...]]]></description>
+		<link>http://www.botsko.net/blog/2010/02/installing-git-on-mac-os-x-snow-leapord/</link>
+			</item>
+	<item>
+
+		<title>Magic Mouse</title>
+		<description><![CDATA[I was planning on getting a magic mouse for my office machine sometime in 2010, but my parents got one for me for the holidays. It finally arrived and I&#8217;ve had some time to play with it. Here are some briefs thoughts and comments.
+
+As always the &#8220;unboxing&#8221; was exciting and the packaging was very clean [...]]]></description>
+		<link>http://www.botsko.net/blog/2010/01/magic-mouse/</link>
+			</item>
+	<item>
+		<title>Fastspring.com Ecommerce PHP Class</title>
+		<description><![CDATA[I&#8217;ve recently done some work with the Fastspring.com ecommerce website. It&#8217;s essentially similar to the flow of a paypal purchase &#8211; companies create pages with products and Fastspring acts as the checkout process doing the user information/payment processing work for you.
+
+The customer service was above average but I had to take advantage of it frequently [...]]]></description>
+
+		<link>http://www.botsko.net/blog/2010/01/fastspring-com-ecommerce-php-class/</link>
+			</item>
+	<item>
+		<title>Download Old CakePHP Versions</title>
+		<description><![CDATA[I&#8217;m not really a fan of CakePHP, but I work with it often and understand it well. I recently had a project where a previous developer modified random cakephp library files directly, thus making it difficult for me to upgrade the framework.
+
+I determined that the version currently in use was 1.2.1.8004, which surprisingly is no [...]]]></description>
+		<link>http://www.botsko.net/blog/2010/01/download-old-cakephp-versions/</link>
+			</item>
+
+	<item>
+		<title>Announcing Peregrine &#8211; a PHP Security Class</title>
+		<description><![CDATA[Today I release a new php caging class for improved security &#8211; Peregrine.
+I&#8217;ve always been impressed by the idea of a &#8220;variable cage&#8221; in programming. It&#8217;s an additional method of protecting your incoming variables and making sure that you only accept what you&#8217;re expecting.
+If you&#8217;re not familiar with a cage, think of it as a [...]]]></description>
+		<link>http://www.botsko.net/blog/2009/12/announcing-peregrine-a-php-security-class/</link>
+			</item>
+	<item>
+		<title>MySquibbles.com Offline</title>
+
+		<description><![CDATA[Almost four years ago I launched MySquibbles.com &#8211; a community for parents and teachers to find and share links their children enjoy. It was a great idea and would have been extremely useful, but it failed for several reasons.
+Primarily, it wasn&#8217;t enough to draw visitors. Parents tend to frequent sites that have parenting information from [...]]]></description>
+		<link>http://www.botsko.net/blog/2009/12/mysquibbles-com-offline/</link>
+			</item>
+	<item>
+		<title>Transitioning MySQL Field to Foreign Key</title>
+		<description><![CDATA[When working with MySQL databases it&#8217;s often necessary to convert a regular field into one that refers to a second table using a foreign key. The process for this requires several steps:
+
+Insert distinct column values into new secondary table.
+Replace (update) existing table fields with proper foreign key for the related record in the secondary table.
+
+This [...]]]></description>
+		<link>http://www.botsko.net/blog/2009/12/transitioning-mysql-field-to-foreign-key/</link>
+
+			</item>
+	<item>
+		<title>Version Numbers Using git tag, git describe</title>
+		<description><![CDATA[I&#8217;ve spent the past year doing all of my development using the Git version control system. It&#8217;s far better than than subversion and has made my job as project manager/developer/commit manager much easier.
+However, since it does not use revision numbers like subversion it&#8217;s more difficult to include as build numbers or version numbers. I wanted [...]]]></description>
+		<link>http://www.botsko.net/blog/2009/12/version-numbers-using-git-tag-git-describe/</link>
+			</item>
+	<item>
+		<title>Correcting CGI Perl Module for Bugzilla 3.4.2</title>
+
+		<description><![CDATA[I was recently installing Bugzilla on a new server and ran into problems with the CGI perl module from CPAN being too recent. Apparently, version 3.47 has some issues, so I had to downgrade to 3.45.
+Bugzilla recommends that you use their installer when the checksetup.pl script spits out missing modules. However, if you encounter problems [...]]]></description>
+		<link>http://www.botsko.net/blog/2009/12/correcting-cgi-perl-module-for-bugzilla-3-4-2/</link>
+			</item>
+	<item>
+		<title>Bugzilla 3.4 localtime issue on CentOS</title>
+		<description><![CDATA[While recently upgrading and moving Bugzilla to 3.4.2 I ran into an issue on a CentOS 5 server that was giving the following error any time I tried to access a buglist:
+undef error &#8211; Cannot determine local time zone
+After some searching I finally discovered that the issue was with Bugzilla looking for the timezone information [...]]]></description>
+		<link>http://www.botsko.net/blog/2009/09/bugzilla-3-4-localtime-issue-on-centos/</link>
+
+			</item>
+</channel>
+</rss>

@@ -13,11 +13,8 @@ Emphasis:
 ========================================
 Topics - Class One
 
-- Attendance (Name, what experience you have on the web, and why you're here)
 - Books
 - How to use the WIFI: MyPCC username, G# is password
-
-- About Me
 
 - How the internet works:
     - Traffic is routed through the networks
@@ -66,24 +63,15 @@ Topics - Class One
 ========================================
 Topics - Class Two
 
-- Attendance
-
-- Questions from anything done outside class?
-- Did anyone build their own?
-
 - My thoughts on the book
 	- Very similar to how I've been going
 	- Recommends using outdated tags that while they still work, is not the best idea to use often
 	- Chap. 6 mentions imagemaps, which are never used anymore
 	- Uses tables for layout as an example
 	- Center element hasn't been valid for a long time
-	
-	
-- Recap of last class
 
-- Show an example of good style vs structure (disable css)
+- Review an example of good style vs structure (disable css)
 http://pullmanregional.org/
-	
 	
 - Tables
 	- table
@@ -123,15 +111,10 @@ http://pullmanregional.org/
 		Spider simulator
 		http://www.feedthebot.com/tools/spider/index.php
 
-http://video.google.com/videoplay?docid=1020647662203348823# (Gecko Rendering)
-
 
 ========================================
 Topics - Class Three
 
-
-- Attendance
-- Answer questions from view source homework
 - Inner-page anchors
 	
 - DIVs
@@ -176,8 +159,10 @@ Topics - Class Three
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	http://leftlogic.com/lounge/articles/entity-lookup/
 	
+- Clearing floats
 	
-	{not enough time:}
+	
+	{Only complete if enough time available}
 - Article 2
 
 	- How to divide up your content into sections
@@ -186,10 +171,7 @@ Topics - Class Three
 	- Measurement issues
 	- How to use css to show DIV positioning
 	- Show what happens when two float left items are used
-	
 	- Ask class how to add a 1px black separator between cols
-	
-	- Clearing floats
 
 
 ========================================
