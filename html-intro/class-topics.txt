@@ -285,16 +285,31 @@ Topics - Class Six
 
 - Basics of Javascript
 	- What is the DOM?
-	- getElementById
-	- innerHTML example
-	- jQuery Demo, using css selectors
+	- jQuery
+	- Form/jQuery Form Validation
+	
+- Basics of PHP
+	- Includes
+	
+- Basics of Version Control
+
+
+- Basics of XML Sitemaps
+- Basics of RSS
+
+- Basics of CMS (Wordpress)
+
+- Quality Assurance
 	
 - Where next?
-	- Javascript courses
-	- PHP courses
-	- Incubator Program
-	- Version control
+	- Why/Why Not Javascript
+	- Why/Why Not PHP
+	- Freelancer Education Program
 	
+	
+- Book Recommendations?
+	
+- Introduce StackOverflow
 
 - Final Questions
 
@@ -305,7 +320,10 @@ Topics - Class Six
 - Distribute certifications
 
 
-Resources and Tools
+
+
+
+Resources
 ========================================
 	
 http://www.alvit.de/handbook/index.php
@@ -333,8 +351,7 @@ http://analyze.websiteoptimization.com
 http://www.feedthebot.com/tools/spider/index.php
 
 
-HTML
-http://stackoverflow.com/questions/tagged/html
+http://stackoverflow.com
 
 
 Recommended Firefox Extensions
@@ -343,3 +360,30 @@ https://addons.mozilla.org/en-US/firefox/collections/view/3df574e1-a4a3-7c48-965
 
 Me
 http://www.botsko.net
+
+
+
+Tools
+========================================
+
+Windows
+
+Notepad++
+PSPad
+Dreamweaver
+
+FileZilla
+FireFTP
+
+Firefox
+Chrome
+Safari
+
+
+Mac
+
+Coda
+TextMate
+BBEdit
+
+Transmit
