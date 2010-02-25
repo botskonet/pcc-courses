@@ -264,34 +264,45 @@ Topics - Class Six
 	- User/password
 	- Navigating remote/local folders
 	- Uploading/downloading
+	
+- Basics of PHP
+	- Includes
+	- Setting dates
+	- Dynamic html
 
 - Basics of Javascript
 	- What is the DOM?
 	- jQuery
 	- Form/jQuery Form Validation
 	
-- Basics of PHP
-	- Includes
-	
-- Basics of Version Control
+- Javascript+Flash for Custom Fonts
+	- Cufon (http://www.cameronmoll.com/articles/cufon/)
 
+- Basics of XML
+	- Structured elements like HTML, but tags you define
+	- How XML is used:
+		- RSS Feeds
+		- Sitemaps
 
-- Basics of XML Sitemaps
-- Basics of RSS
-
-- Basics of CMS (Wordpress)
-
-- Quality Assurance
+- Quality Assurance / Testing / Debugging
+	- Firefox extensions (formsaver, dust-me, )
+	- Basics of Version Control
+	- Always validate
+	- Automated testing
+		- Selenium IDE http://seleniumhq.org/
 	
 - Where next?
 	- Why/Why Not Javascript
 	- Why/Why Not PHP
+	- CMS Software (Wordpress)
 	- Freelancer Education Program
 	
-	
 - Book Recommendations?
+	- Mobile Web Design http://www.amazon.com/o/ASIN/0615185916?tag=betteraddons-20
+	- CSS Mastery http://www.amazon.com/o/ASIN/1430223979?tag=betteraddons-20
+	- Designing with Web Standard http://www.amazon.com/o/ASIN/0321616952?tag=betteraddons-20
 	
-- Introduce StackOverflow
+- Introduce StackOverflow (http://stackoverflow.com/)
 
 - Final Questions
 
@@ -302,7 +313,10 @@ Topics - Class Six
 - Distribute certifications
 
 
-
+Reserve topics:
+- Cache
+- HTTP Headers
+- Looking at CSS3, HTML5
 
 
 Resources
@@ -342,30 +356,3 @@ https://addons.mozilla.org/en-US/firefox/collections/view/3df574e1-a4a3-7c48-965
 
 Me
 http://www.botsko.net
-
-
-
-Tools
-========================================
-
-Windows
-
-Notepad++
-PSPad
-Dreamweaver
-
-FileZilla
-FireFTP
-
-Firefox
-Chrome
-Safari
-
-
-Mac
-
-Coda
-TextMate
-BBEdit
-
-Transmit
