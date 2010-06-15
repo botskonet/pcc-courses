@@ -1,44 +1,151 @@
 
-CEU9359 Web Site Development 102  - 06:00 PM-09:00 PM  	MW  	05-Apr-2010 thru 14-Apr-2010
-A follow-on to Web Dev 101, this course provides the big- picture overview of the programming languages, skills, tools and processes necessary to create dynamic interactive, Web 2.0 websites, and prepares you to delve further in any or all of these areas. Helpful experience: Basic working knowledge of Web Design, including HTML/CSS.
+Learn Wordpress to quickly and easily build a professional website for yourself, no prior experience necessary! Start with WP's famous 5 minute installation, then learn to set up , customize and administer a blog or website for your small business or for your personal use. Helpful experience: Comfortable with computer office applications and the internet. 
 
 admin
 hxk(BSS@AXgK
 
-
-- download http://wordpress.org/download/
-- unzipping
-- uploading to a server
+admin
+j*BPdt*S&NBr
 
 
-- install
-- creating a database
-- walking through the config file creation
-- creating a config, uploading it
-- setting permissions for wp-content
+Hour One
+==============================
+
+- Hand out text books
+- Take attendance, your goals for class, experience with websites?
+
+- Who am I?
+
+- Static websites versus content management
+
+- Finding a web host, preparing the server
+	- What is a web host?
+	- Requirements: PHP 4.3+, MySQL 4.1.2+
+	- Recommended to run on Linux-based apache web server
+	
+- Connecting to PCC FTP SITE:
+	- Creating a new connection in FireFTP (or other software)
+	- ftp: {see url in attached}
+
+- Download: http://wordpress.org/download/
+- Unzip
+
+- Creating the empty database
+- Finding your mysql credentials
+	- Enter mysql username, password, hostname
+
+- Determining where to upload the files
+- Upload!
+
+- Visit wordpress to begin install
+- Creating a wp-config file
+- All possible configs at: http://codex.wordpress.org/Editing_wp-config.php
+
+- Creating a wp-content/uploads folder
+- Setting permissions for wp-content
+
+- Create a blog title, enter your email
 
 
-- creating a blog title, filling in an email
-
+Hour Two - Four
+==============================
+	
+- Basics of Blogging
+	- Trackbacks
+	- Pingbacks
+	- RSS
+	- Comments
 
 - discussing the dashboard
-	- right now
-	- quickpress
-	- recent comments
-	- recent drafts
-	- wordpress blog
-	- incoming links
-	- plugins
-	- other news
-	- changing what shows on the board
 	
 - navigation overview
-	- posts
-		- add new
-		- edit
+	- Posts, adding, editing
+	- media
+	- links
+		- managing links
+		- managing link categories
+	- pages
+		- managing static pages
+	- comments
+		- manage comments
+	
+	- appearance
+		- themes
+			- how to find, upload
+			- how to install
+		- widgets (recent feature)
+			- 
+		- editor - editing current theme files
+	- plugins
+		- what are they, how do they work
+		- examples
+		- how to upload
+		- how to install
+		- activate/deactivate
+		- editing plugin code
+	- users
+		- manage user accounts
+		- your profile
+	- tools
+		- turbo (what is google gears, how this benefits you)
+		- press this: bookmarklet that allows you to grab web items to blog
+		- import - import old blog data from another blogging service
+		- export
+		- upgrade - upgrade the codebase for wordpress iteself
+	- settings
+		- general
+		- writing (remote publishing: what is it? what is atom and xml-rpc)
+		- reading 
+		- discussion (comment guidelines, avatars)
+		- media (image sizes, embeds)
+		- privacy (disallows spiders)
+		- permalinks (permanent address for accessing the information, why that's important)
+		- misc (uploading)
 		
 		
-		
+Hour Five
+==============================
 
-		
+- Themes
+	- Finding a theme
+	- Installing (automatic versus ftp)
+	- 
 
+- Basics of editing themes
+	- PHP files
+	
+	
+	
+- Where to find help?
+
+
+
+
+FTP:
+	pdxclimb.org
+	user: pdxclimber
+	pass: Climb2Success
+	/28113
+
+Databases:
+	wpclimber1 - 10
+	Pass: Climb2Success
+	host: wpclimber1.db.5684519.hostedresource.com
+
+	iwpclimber1 / 2
+	Teach4Success
+
+
+http://www.pdxclimb.org/spring_2010/28113
+
+
+
+
+- try:
+
+- uploading photos
+- image editor
+- image gallery
+- convert categories to tags
+- find theme that supports widgets
+- creating widgets?

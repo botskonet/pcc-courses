@@ -1,0 +1,51 @@
+
+CEU9359 Web Site Development 101  - 06:00 PM-09:00 PM  	MW  	21-Jun-2010 thru 12-Jul-2010  (8 Courses, 3 Hours)
+Want to build your very first web site, but not sure where to start? Considering a career involving web design? Then take this class! Learn to use HTML and CSS to build a professional web site that is easy to update and works perfectly across all browsers. Get started doing it right the first time and avoid the bad habits that you will have to "unlearn" later. Helpful experience: Basic working knowledge of Windows and the Internet. 
+
+
+========================================
+Topics - Class One
+
+- Who am I?
+
+- How the internet works:
+    - Traffic is routed through the networks
+	- HTTP / DNS / IP Address
+	- Register a domain with a registrar
+	- Client/Server
+	
+- What is a web browser?
+	- There are many browser packages, both for computers and cell phones
+	- The primary browsers are IE, Firefox, Safari, and Chrome
+	- What is a rendering engine? (Gecko, Webkit, Trident)
+	- There are variations in how engines display pages
+	
+- What is HTML, and where does it fit?
+	- HTML describes a document structure
+	- It's a markup language and isn't intended to do anything else
+	- CSS is used to describe how the elements look
+	- Javascript is used to make them more interactive
+
+- How to get help/learn
+	- Google
+	- Power of view source
+	
+- How to create an html document
+	- Create a new plain text file, called "index.html"
+	- Why index? Why ".html"?
+	- What is plain text versus rich text editors?
+	
+- The Foundation of an HTML Document
+	- Doctype
+	- html, head, title, body elements
+	- Brief overview of differences of html versions
+	- Don't use old elements: font, b, i, etc
+	
+- Creating your first document
+	- html, head, title, body
+	- p, img, strong, em, a, h1, ul/ol/li
+	
+- Basics of CSS
+	- element selector
+	- classes
+	- IDs
