@@ -63,13 +63,6 @@ Topics - Class One
 ========================================
 Topics - Class Two
 
-- My thoughts on the book
-	- Very similar to how I've been going
-	- Recommends using outdated tags that while they still work, is not the best idea to use often
-	- Chap. 6 mentions imagemaps, which are never used anymore
-	- Uses tables for layout as an example
-	- Center element hasn't been valid for a long time
-
 - Review an example of good style vs structure (disable css)
 http://pullmanregional.org/
 	
