@@ -54,14 +54,10 @@ Topics - Class One
 ========================================
 Topics - Class Two
 
-- Include external css file
+- Include external css file [p. 78]
 	<link rel="stylesheet" type="text/css" href="class.css" />
 	<style type="text/css">@import url(style.css);</style>
-	
 	- Discuss relative URLs
-	- Discuss media-specific style sheets
-	
-- CSS and HTML comments
 	
 - Doctype [ch 2]
 	
@@ -70,16 +66,15 @@ Topics - Class Two
 	- Often used for "wrapping"
 	- More power than tables and not forced into a structure like table cells
 	
-- Box Model:
+- Box Model: [ch 4/p. 146]
 	- width, height (problems with calcs among browsers)
 	- padding, border, margin
 	- top, left, right, bottom
 	- position
 	- min-width, max-width (no IE6)
+	- block-level and inline [p. 118]
 	
-- Firebug
-	
-- DIV Experiments
+- Basics of inspecting with Firebug
 	
 - Article Example 1
 
@@ -101,19 +96,6 @@ Topics - Class Two
 
 ========================================
 Topics - Class Three
-
-
-- Tables
-	- table
-	- tr, th, td
-	- thead, tbody, tfoot
-	- caption
-	- colspan, rowspan
-	- Data versus layout
-	- discuss semantics of tables (data!)
-	- Show an example of a site built with tables:
-	http://nobeltec.com/products/prod_sounder.asp
-
 
 - Restaurant Basic Page Example
 
@@ -146,7 +128,16 @@ Topics - Class Three
 ========================================
 Topics - Class Four
 
-- Forms
+- Tables [ch 6 p. 223]
+	- table
+	- tr, th, td
+	- thead, tbody, tfoot
+	- caption
+	- colspan, rowspan
+	- Data versus layout
+	- discuss semantics of tables (data!)
+
+- Forms [ch 7 p. 249]
 	- form, action method
 	- fieldset, legend
 	- input
@@ -170,7 +161,7 @@ Topics - Class Four
 ========================================
 Topics - Class Five
 
-Javascript
+Javascript [p. 419]
 
 
 - Intro to placement, basic syntax
@@ -179,11 +170,7 @@ Javascript
 
 - Basic js examples:  date, click event
 
-========================================
-Topics - Class Six
-
-
-- Finding Web Hosting
+- Finding Web Hosting [ch 8 p. 309]
 	- What is a server, really?
 	- What is FTP?
 	- Url is mapped to specific folder on server (www, htdocs, public_html)
