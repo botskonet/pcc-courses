@@ -97,7 +97,7 @@ Topics - Class Two
 ========================================
 Topics - Class Three
 
-- Restaurant Basic Page Example
+- Basic Restaurant Site Lab
 
 	- How to plan a page layout with mockups, drawings
 	- Create a core structure of divs: container, h1, main, ul, content, footer
@@ -109,20 +109,6 @@ Topics - Class Three
 	- Style navigation, discuss nested elements
 	- Style content h2, p tag (explain why h2, not h1)
 	- Style footer
-	
-- All CSS Selector Types
-	- elements (previously seen)
-	- classes, ids (previously seen)
-	- comma-separated (previously seen)
-	- child selectors
-	- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
-	- attribute/value selectors
-	- sibling selectors
-
-	 http://www.quirksmode.org/css/contents.html
-
-
-- Min/max width/height
 
 
 ========================================
@@ -167,8 +153,9 @@ Javascript [p. 419]
 - Intro to placement, basic syntax
 - DOM
 - Events
-
 - Basic js examples:  date, click event
+
+
 
 - Finding Web Hosting [ch 8 p. 309]
 	- What is a server, really?
@@ -178,10 +165,6 @@ Javascript [p. 419]
 	- "index.html" file is always the default
 
 - Purchasing a domain name
-	- Costs
-	- What is SSL
-	- What are nameservers?
-	- Expiration watchers
 	
 - Looking at an FTP Client
 	- Hostname (domain name)
@@ -193,5 +176,20 @@ Javascript [p. 419]
 	
 	
 Additional?
+
+
+- All CSS Selector Types
+	- elements (previously seen)
+	- classes, ids (previously seen)
+	- comma-separated (previously seen)
+	- child selectors
+	- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
+	- attribute/value selectors
+	- sibling selectors
+
+	 http://www.quirksmode.org/css/contents.html
+
+
+- Min/max width/height
 
 CSS Frameworks
