@@ -1,0 +1,11 @@
+@import '../reset.css';
+
+body { font-family: Consolas, "Lucida Console", sans-serif; }
+.keep-my-contents-away-from-screen-edges-please { margin: 100px 0 0 100px; }
+
+thead th { background-color: #CCFF66; }
+th, td, caption { padding: 10px; }
+td { border: 1px dotted #ccc; }
+th { border: 1px solid #97BF47; }
+
+.vert { vertical-align: middle; }
