@@ -7,5 +7,3 @@ thead th { background-color: #CCFF66; }
 th, td, caption { padding: 10px; }
 td { border: 1px dotted #ccc; }
 th { border: 1px solid #97BF47; }
-
-table { border: 1px dashed red; }
