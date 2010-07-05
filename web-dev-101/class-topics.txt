@@ -137,6 +137,7 @@ Topics - Class Four
 	- labels
 	- buttons/submit/reset
 	- tab order
+	- selected/checked
 
 - Processing Form Data
 	- GET versus POST
@@ -147,14 +148,25 @@ Topics - Class Four
 ========================================
 Topics - Class Five
 
-Javascript [p. 419]
 
+- Introduction to Javascript (Core)
+	- Placement of script tag, external file
+	- Variables
+	- Basic operations: math, string concatenation, alert(), confirm()
+	- Firebug Console
+	- Conditions
+	- Code comments
+	- Basics of functions
+	- What is the DOM?
+	- Events
 
-- Intro to placement, basic syntax
-- DOM
-- Events
-- Basic js examples:  date, click event
-
+- Introduction to jQuery
+	- Downloading jquery
+	- Including
+	- Using document.ready
+	- The $ variable
+	- Using CSS selectors
+	- Anonymous functions
 
 
 - Finding Web Hosting [ch 8 p. 309]
@@ -175,7 +187,15 @@ Javascript [p. 419]
 	
 	
 	
-Additional?
+	
+Additional / Time Fillers
+------------------------------	
+Acid Tests
+http://acid3.acidtests.org/
+http://www.webstandards.org/files/acid2/test.html#top
+
+
+CSS Frameworks
 
 
 - All CSS Selector Types

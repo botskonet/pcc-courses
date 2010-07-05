@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Core JavaScript</title>
+	
+	<style type="text/css">@import url('screen.css');</style>
+	<script type="text/javascript" src="../jquery-1.4.2.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$('a').click(function(){
+			
+			// step one
+			// $(this).next('div').slideToggle();
+			
+			// step two
+			// $('div').slideUp();
+			// $(this).next('div').slideToggle();
+			
+			// step three
+			$(this).next('div').addClass('no-close');
+			$('div:not(.no-close)').slideUp();
+			$(this).next('div').slideToggle().removeClass('no-close');
+		});
+		
+	})
+	</script>
+	
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="#">Expand DIV #1</a>
+			<div>
+				<p>
+				This is a typical <code>div</code> which contains some content. In raw javascript, the amount
+				of code necessary for sliding this div open and closed when the above link
+				is clicked will be quite lengthy - the animation process, detecting the browser,
+				adding any browser-specific compatibility code, is all just really painful. Luckily,
+				we're doing this with one of the popular libraries - jQuery.
+				</p>
+			</div>
+		</li>
+		<li>
+			<a href="#">Expand DIV #2</a>
+			<div>
+				<p>
+				This is a typical <code>div</code> which contains some content. In raw javascript, the amount
+				of code necessary for sliding this div open and closed when the above link
+				is clicked will be quite lengthy - the animation process, detecting the browser,
+				adding any browser-specific compatibility code, is all just really painful. Luckily,
+				we're doing this with one of the popular libraries - jQuery.
+				</p>
+			</div>
+		</li>
+		<li>
+			<a href="#">Expand DIV #3</a>
+			<div>
+				<p>
+				This is a typical <code>div</code> which contains some content. In raw javascript, the amount
+				of code necessary for sliding this div open and closed when the above link
+				is clicked will be quite lengthy - the animation process, detecting the browser,
+				adding any browser-specific compatibility code, is all just really painful. Luckily,
+				we're doing this with one of the popular libraries - jQuery.
+				</p>
+			</div>
+		</li>
+	</ul>
+</body>
+</html>

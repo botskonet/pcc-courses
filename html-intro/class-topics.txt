@@ -221,6 +221,7 @@ Topics - Class Five
 	- labels
 	- buttons/submit/reset
 	- tab order
+	- selected/checked
 
 - Processing Form Data
 	- GET versus POST
