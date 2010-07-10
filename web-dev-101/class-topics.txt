@@ -177,6 +177,21 @@ Topics - Class Five
 	- Using CSS selectors
 	- Anonymous functions
 	- "this"
+	
+CSS Frameworks
+	- Blueprint http://www.blueprintcss.org/
+	- 960 http://960.gs/
+	
+Introduction to HTML5
+	- Article, header, nav, section, footer, section
+	
+	
+	
+========================================
+Topics - Class Six
+
+LAB:
+- Building the typical header/content/footer with two columns layout
 
 - Finding Web Hosting [ch 8 p. 309]
 	- What is a server, really?
@@ -198,18 +213,9 @@ Topics - Class Five
 
 Additional
 ------------------------------
-	
-Acid Tests
-	- http://acid3.acidtests.org/
-	- http://www.webstandards.org/files/acid2/test.html#top
-
-CSS Frameworks
-	- Blueprint http://www.blueprintcss.org/
-	- 960 http://960.gs/
 
 Box Model Calculation Issues
 	- Width, padding, margins, and borders
 	- Min/Max/Width/Height and < IE7
-	
-HTML5
+
 	

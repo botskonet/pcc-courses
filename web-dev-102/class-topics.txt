@@ -1,6 +1,39 @@
 
 CEU9359 Web Site Development 102  - 06:00 PM-09:00 PM  	MW  	16-Aug-2010 thru 25-Aug-2010
-A follow-on to Web Dev 101, this course provides the big- picture overview of the programming languages, skills, tools and processes necessary to create dynamic interactive, Web 2.0 websites, and prepares you to delve further in any or all of these areas. Helpful experience: Basic working knowledge of Web Design, including HTML/CSS.
+A follow-on to Web Dev 101, this course provides the big-picture overview of the programming languages, skills, tools and processes necessary to create dynamic interactive, Web 2.0 websites, and prepares you to delve further in any or all of these areas. Helpful experience: Basic working knowledge of Web Design, including HTML/CSS.
 
-Price in printed brochure/schedule is not correct. $195 is the correct price.
 
+
+========================================
+Topics - Class One
+
+========================================
+Topics - Class Two
+
+========================================
+Topics - Class Three
+
+========================================
+Topics - Class Four
+
+========================================
+Topics - Additional
+
+
+css positioning
+drop-down menus
+most common css bugs (IE)
+diving deeper in doctypes: xhtml vs html vs html5
+diving deeper into css2 vs css3
+css browser prefixes
+ajax with jquery
+fixed versus fluid layouts
+conditional comments
+sprites
+
+form validation
+
+
+
+
+basics of php?
