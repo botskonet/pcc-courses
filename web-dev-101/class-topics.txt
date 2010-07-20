@@ -77,7 +77,6 @@ Topics - Class Two
 - Basics of inspecting with Firebug
 	
 - Article Example 1
-
 	- Start with core html and p tag content
 	- Include an image into the first paragraph
 	- Assign font-family to body, background color of #eee
@@ -97,7 +96,6 @@ Topics - Class Two
 Topics - Class Three
 
 - Basic Restaurant Site Lab
-
 	- How to plan a page layout with mockups, drawings
 	- Create a core structure of divs: container, h1, main, ul, content, footer
 	- How to start with some debug styling (grid, bg colors, min heights)
@@ -153,10 +151,8 @@ Topics - Class Four
 	- What is PHP/PERL/RUBY
 
 
-
 ========================================
 Topics - Class Five
-
 
 - Introduction to Javascript (Core)
 	- Placement of script tag, external file
@@ -186,12 +182,16 @@ Introduction to HTML5
 	- Article, header, nav, section, footer, section
 	
 	
-	
 ========================================
 Topics - Class Six
 
 LAB:
 - Building the typical header/content/footer with two columns layout
+- Finding the issue with the paragraph hover.
+
+Box Model Calculation Issues
+	- Width, padding, margins, and borders
+	- Min/Max/Width/Height and < IE7
 
 - Finding Web Hosting [ch 8 p. 309]
 	- What is a server, really?
@@ -209,13 +209,10 @@ LAB:
 	- Navigating remote/local folders
 	- Uploading/downloading
 	
-	
+- Student examples?
 
-Additional
-------------------------------
+- Advice on next steps/courses
+- Evaluations!
 
-Box Model Calculation Issues
-	- Width, padding, margins, and borders
-	- Min/Max/Width/Height and < IE7
 
 	

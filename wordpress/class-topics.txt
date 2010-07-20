@@ -1,20 +1,11 @@
 
-Learn Wordpress to quickly and easily build a professional website for yourself, no prior experience necessary! Start with WP's famous 5 minute installation, then learn to set up , customize and administer a blog or website for your small business or for your personal use. Helpful experience: Comfortable with computer office applications and the internet. 
-
-admin
-hxk(BSS@AXgK
-
-admin
-j*BPdt*S&NBr
+Learn Wordpress to quickly and easily build a professional website for yourself, no prior experience necessary! Start with WP's famous 5 minute installation, then learn to set up , customize and administer a blog or website for your small business or for your personal use. Helpful experience: Comfortable with computer office applications and the internet.   
 
 
-Hour One
+Course One - Topics
 ==============================
 
-- Hand out text books
-- Take attendance, your goals for class, experience with websites?
-
-- Who am I?
+- Course Intro
 
 - Static websites versus content management
 
@@ -25,7 +16,15 @@ Hour One
 	
 - Connecting to PCC FTP SITE:
 	- Creating a new connection in FireFTP (or other software)
-	- ftp: {see url in attached}
+	- ftp:
+		pdxclimb.org
+		user: pdxclimber
+
+	Databases:
+		wpclimber1 - 10 (users)
+		iwpclimber1 / 2 (teacher)
+		host: wpclimber1.db.5684519.hostedresource.com
+	http://www.pdxclimb.org/spring_2010/
 
 - Download: http://wordpress.org/download/
 - Unzip
@@ -39,22 +38,25 @@ Hour One
 
 - Visit wordpress to begin install
 - Creating a wp-config file
-- All possible configs at: http://codex.wordpress.org/Editing_wp-config.php
 
 - Creating a wp-content/uploads folder
 - Setting permissions for wp-content
 
 - Create a blog title, enter your email
 
+- Basics
+	- Posts
+	- Drafts/Private/Published
+	- Pages
 
-Hour Two - Four
+
+Course Two - Topics
 ==============================
-	
-- Basics of Blogging
-	- Trackbacks
-	- Pingbacks
-	- RSS
-	- Comments
+
+- Trackbacks
+- Pingbacks
+- RSS
+- Comments
 
 - discussing the dashboard
 	
@@ -117,28 +119,6 @@ Hour Five
 	
 	
 - Where to find help?
-
-
-
-
-FTP:
-	pdxclimb.org
-	user: pdxclimber
-	pass: Climb2Success
-	/28113
-
-Databases:
-	wpclimber1 - 10
-	Pass: Climb2Success
-	host: wpclimber1.db.5684519.hostedresource.com
-
-	iwpclimber1 / 2
-	Teach4Success
-
-
-http://www.pdxclimb.org/spring_2010/28113
-
-
 
 
 - try:
