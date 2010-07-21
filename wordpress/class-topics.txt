@@ -16,15 +16,6 @@ Course One - Topics
 	
 - Connecting to PCC FTP SITE:
 	- Creating a new connection in FireFTP (or other software)
-	- ftp:
-		pdxclimb.org
-		user: pdxclimber
-
-	Databases:
-		wpclimber1 - 10 (users)
-		iwpclimber1 / 2 (teacher)
-		host: wpclimber1.db.5684519.hostedresource.com
-	http://www.pdxclimb.org/spring_2010/
 
 - Download: http://wordpress.org/download/
 - Unzip
@@ -44,88 +35,85 @@ Course One - Topics
 
 - Create a blog title, enter your email
 
-- Basics
-	- Posts
-	- Drafts/Private/Published
-	- Pages
+- Dashboard overview
 
+- Posting Basics
+	- Posts
+	- Overview of add/edit post page
+	- Drafts/Private/Published
+
+- Settings
+	- general
+	- writing (remote publishing: what is it? what is atom and xml-rpc)
+	- reading 
+	- discussion (comment guidelines, avatars)
+	- media (image sizes, embeds)
+	- privacy (disallows spiders)
+	- permalinks (permanent address for accessing the information, why that's important)
+	- misc (uploading)
+	
 
 Course Two - Topics
 ==============================
 
-- Trackbacks
-- Pingbacks
-- RSS
-- Comments
+- Posts list overview
+- Post toolbar overview
+- Categories, adding, filtering by
+- Tags
 
-- discussing the dashboard
+- Upload images and media
+	- Creating folder with proper permissions
+	- Uploading images
+		- Understanding widths
+		- Setting thumbnail and link options
+		- Inserting into posts
+
+- Links
+- Pages
+	- Differences from posts
+	- Setting a page as your homepage
+- Comments list overview
+
+- Appearance
+	- Themes
+		- How to install themes within wordpress
+		- How to upload themes yourself
+	- Widgets
+	- Menus
+	- Background
+	- Header
+	- Editor
+
+- Plugins
+	Ex: Google Sitemaps
+	- Installing from within wordpress
+	- Uploading your own
+	- Activating/deactivating
+	- Editor
 	
-- navigation overview
-	- Posts, adding, editing
-	- media
-	- links
-		- managing links
-		- managing link categories
-	- pages
-		- managing static pages
-	- comments
-		- manage comments
 	
-	- appearance
-		- themes
-			- how to find, upload
-			- how to install
-		- widgets (recent feature)
-			- 
-		- editor - editing current theme files
-	- plugins
-		- what are they, how do they work
-		- examples
-		- how to upload
-		- how to install
-		- activate/deactivate
-		- editing plugin code
-	- users
-		- manage user accounts
-		- your profile
-	- tools
-		- turbo (what is google gears, how this benefits you)
-		- press this: bookmarklet that allows you to grab web items to blog
-		- import - import old blog data from another blogging service
-		- export
-		- upgrade - upgrade the codebase for wordpress iteself
-	- settings
-		- general
-		- writing (remote publishing: what is it? what is atom and xml-rpc)
-		- reading 
-		- discussion (comment guidelines, avatars)
-		- media (image sizes, embeds)
-		- privacy (disallows spiders)
-		- permalinks (permanent address for accessing the information, why that's important)
-		- misc (uploading)
+	
+Course Three - Topics
+==============================	
+		
+- Managing Users
+
+- Tools
+	- turbo (what is google gears, how this benefits you)
+	- press this: bookmarklet that allows you to grab web items to blog
+	- import - import old blog data from another blogging service
+	- export
+	- upgrade - upgrade the codebase for wordpress iteself
+	
+	
+- Website content example?
 		
 		
-Hour Five
+
+Course Four - Topics
 ==============================
 
-- Themes
-	- Finding a theme
-	- Installing (automatic versus ftp)
-	- 
 
-- Basics of editing themes
-	- PHP files
-	
-	
-	
+- Basics of editing theme files
 - Where to find help?
 
-
-- try:
-
-- uploading photos
-- image editor
-- image gallery
-- convert categories to tags
-- find theme that supports widgets
-- creating widgets?
