@@ -4,19 +4,36 @@
 PHP is a language in demand by many companies because it is oriented toward web development and creating dynamic web pages. It is also used to connect to a database in a web application. Covers how to write simple PHP applications, control sessions, debugging and making scripts secure, and how to use PHP together with a database. Helpful experience: [X]HTML, HTML forms.
 
 
+- Sessions
+- Debugging
+- Security
+- Databases
+
+
 Course 1 - Topics
 ==========================
 
 - Course Intro
 
+[slides]
 - History of PHP
-- Overview of the state of the web and what PHP is, and where it fits
+- Where php fits with other web tech
 - Discussion of Apache and what servers are
 - HTTP Roundtrip Process - Request, Process, Response, Render of HTML/JS/CSS
 - Server-side versus Client-side
 
-- Demo how to create, edit php files
-- Where to put the files (description of document root)
+- How to edit php files
+- Uploading to your server with FTP
+
+- Connect to FTP
+
+- Open/Close tags syntax
+- phpinfo();
+
+
+
+
+
 
 - Mention opening/closing tags, file extensions
 - Demo: phpinfo();  (example 1-1)
@@ -29,6 +46,23 @@ Course 1 - Topics
 - Demo: basic Array (ex: 2-4)
 - Demo: Alt way to create/add to array (ex: 2-5)
 - Demo: Nested arrays (2-6)
+
+
+
+Course 2 - Topics
+==========================
+
+Course 3 - Topics
+==========================
+
+Course 4 - Topics
+==========================
+
+Course 5 - Topics
+==========================
+
+Course 6 - Topics
+==========================
 
 
 
@@ -91,60 +125,3 @@ All Outlined Topics in Keynote Pres
 - validating data
 - regex
 - best practices
-
-
-
-
-Additional Coverage For:
-
-
-
-
-
-
-
-
-
-++++++)))))))
-
-
-
-
-Course Topics
-
-
-
-
-Course 2 (3 Hrs)
-==========================
-10/8/2009
-
-
-Course 3 (3 Hrs)
-==========================
-10/13/2009
-
-
-Course 4 (3 Hrs)
-==========================
-10/15/2009
-
-
-Course 5 (3 Hrs)
-==========================
-10/20/2009
-
-
-Course 6 (3 Hrs)
-==========================
-10/22/2009
-
-
-Course 7 (3 Hrs)
-==========================
-10/27/2009
-
-
-Course 8 (3 Hrs)
-==========================
-10/29/2009
