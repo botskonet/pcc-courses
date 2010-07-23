@@ -22,30 +22,24 @@ Course 1 - Topics
 - HTTP Roundtrip Process - Request, Process, Response, Render of HTML/JS/CSS
 - Server-side versus Client-side
 
-- How to edit php files
-- Uploading to your server with FTP
+- FTP
+	- How to edit php files
+	- Uploading to your server with FTP
+	- Connect to FTP
 
-- Connect to FTP
-
-- Open/Close tags syntax
-- phpinfo();
-
-
-
-
-
-
-- Mention opening/closing tags, file extensions
-- Demo: phpinfo();  (example 1-1)
-- Demo: PHP inside html, intro to print statement (ex: 1-2)
-- Demo: Variables - what they are (ex: 2-1)
-- Demo: Constants - what they are (ex 2-1)
-- Demo: Types of variables (strings ex: 2-2)
-(types: strings, int, float, boolean, null, array, object)
-- Demo: int/float and basic math (example: 2-3)
-- Demo: basic Array (ex: 2-4)
-- Demo: Alt way to create/add to array (ex: 2-5)
-- Demo: Nested arrays (2-6)
+PHP Basics
+	- Open/Close tags syntax
+	- phpinfo();
+	- Variables, constants
+	- Arrays
+	- Data types, working with strings & numbers (types: strings, int, float, boolean, null, array, object)
+	- Embedded php vs echoing html
+	- [LAB]: Set page title using php
+	
+	- Conditions
+		- If, else, elseif, switch
+		[LAB]: Change page content based on title
+		- Comparison operators
 
 
 
@@ -69,24 +63,16 @@ Course 6 - Topics
 
 ((((((======
 
-All Outlined Topics in Keynote Pres
-
-- Intro to php history
-- Running phpinfo();
-- print
-- echo
-- variables
-- strings
-- integers, floats
-- arrays, variations on creating
 - multi-dimensional arrays
-- note on data persistence
-- if / else conditional
-- elseif
-- switch
-- ternary
-- evaluations (bool, false, strict operator, etc)
-- true distinction
+
+// Multi-dimensions array
+$staff = array();
+$staff[] = array('name' => 'Mike', 'job' => 'PHP');
+$staff[] = array('name' => 'Jay', 'job' => 'CSS');
+print_r($staff);
+
+
+
 - loops, while
 - for
 - foreach
