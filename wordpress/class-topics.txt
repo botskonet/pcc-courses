@@ -78,11 +78,18 @@ Course Two - Topics
 	- Themes
 		- How to install themes within wordpress
 		- How to upload themes yourself
-	- Widgets
-	- Menus
 	- Background
 	- Header
 	- Editor
+	
+	
+	
+Course Three - Topics
+==============================
+
+- Appearance
+	- Widgets
+	- Menus
 
 - Plugins
 	Ex: Google Sitemaps
@@ -90,23 +97,29 @@ Course Two - Topics
 	- Uploading your own
 	- Activating/deactivating
 	- Editor
-	
-	
-	
-Course Three - Topics
-==============================	
 		
 - Managing Users
+	* Administrator - Somebody who has access to all the administration features
+	* Editor - Somebody who can publish and manage posts and pages as well as manage other users' posts, etc.
+	* Author - Somebody who can publish and manage their own posts
+	* Contributor - Somebody who can write and manage their posts but not publish them
+	* Subscriber - Somebody who can only manage their profile
 
 - Tools
-	- turbo (what is google gears, how this benefits you)
 	- press this: bookmarklet that allows you to grab web items to blog
+	- category/tags converter
 	- import - import old blog data from another blogging service
 	- export
 	- upgrade - upgrade the codebase for wordpress iteself
 	
 	
-- Website content example?
+- [LAB]: "ACME Inc."
+	- Choose a new theme
+	- Customize the available widgets
+	- Add two pages - ex: "About Us" and "Our History"
+	- Add two more posts
+	
+- I will comment on your posts before last class. You will need to approve them, and reply.
 		
 		
 
@@ -114,6 +127,7 @@ Course Four - Topics
 ==============================
 
 
+- Permalinks and htaccess/mod_rewrite
 - Basics of editing theme files
 - Where to find help?
 
