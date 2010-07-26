@@ -6,12 +6,6 @@
 $myvariable = 'Hello World';
 print $myvariable;
 
-/**
- * Constants
- */
-define('MYCONSTANT', 'Trellis');
-print MYCONSTANT;
-
 
 /**
  * Data Types
@@ -20,8 +14,7 @@ print MYCONSTANT;
 // Strings
 $string = 'Hi';
 $string = "Hi";
-$string = "Hi \"Class\"";
-$string = "Hi " . 'Class';
+$string = "Hi" . ' Class';
 print $string;
 
 // Ints/Floats
@@ -39,14 +32,5 @@ $bool = false; // zero, false, and null are considered false
 
 // Null - no value at all
 $null = null;
-
-/**
- * Arrays
- */
-$myArray = array('name' => 'Mike', 'gender' => 'Male');
-print_r($myArray);
-
-$myArray = array();
-$myArray['name'] = 'Mike';
 
 ?>

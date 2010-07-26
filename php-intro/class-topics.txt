@@ -30,17 +30,22 @@ Course 1 - Topics
 PHP Basics
 	- Open/Close tags syntax
 	- phpinfo();
-	- Variables, constants
-	- Arrays
-	- Data types, working with strings & numbers (types: strings, int, float, boolean, null, array, object)
+	- Variables
+	- Data types, working with strings & numbers (types: strings, int, float, boolean, null)
+	- Conditions
+		- If, else, elseif
+		- [LAB]: ???
+		- Comparison operators
 	- Embedded php vs echoing html
 	- [LAB]: Set page title using php
-	
-	- Conditions
-		- If, else, elseif, switch
-		[LAB]: Change page content based on title
-		- Comparison operators
-
+	- [LAB]: Change page content based on title
+		
+	[Additional]
+	- Constants
+	- Switch
+	- Arrays
+	- Loops
+	- include/require
 
 
 Course 2 - Topics
@@ -71,6 +76,12 @@ $staff[] = array('name' => 'Mike', 'job' => 'PHP');
 $staff[] = array('name' => 'Jay', 'job' => 'CSS');
 print_r($staff);
 
+
+/**
+ * Constants
+ */
+define('MYCONSTANT', 'Trellis');
+print MYCONSTANT;
 
 
 - loops, while
