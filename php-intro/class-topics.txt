@@ -34,22 +34,25 @@ PHP Basics
 	- Data types, working with strings & numbers (types: strings, int, float, boolean, null)
 	- Conditions
 		- If, else, elseif
-		- [LAB]: ???
+		- [LAB]: rand function if/else
 		- Comparison operators
 	- Embedded php vs echoing html
 	- [LAB]: Set page title using php
 	- [LAB]: Change page content based on title
 		
 	[Additional]
+	- include/require
 	- Constants
-	- Switch
 	- Arrays
 	- Loops
-	- include/require
+	- is_string, is_int, etc
 
 
 Course 2 - Topics
 ==========================
+
+- loops, functions
+- debugging
 
 Course 3 - Topics
 ==========================
@@ -83,11 +86,10 @@ print_r($staff);
 define('MYCONSTANT', 'Trellis');
 print MYCONSTANT;
 
-
+- Switch
 - loops, while
 - for
 - foreach
-- include / require
 - functions
 - variable scope
 - function scope
@@ -122,3 +124,11 @@ print MYCONSTANT;
 - validating data
 - regex
 - best practices
+
+
+web dev:
+- including other files
+- processing forms
+- saving to a database
+- sending an email
+- being secure
