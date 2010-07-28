@@ -39,20 +39,26 @@ PHP Basics
 	- Embedded php vs echoing html
 	- [LAB]: Set page title using php
 	- [LAB]: Change page content based on title
-		
-	[Additional]
-	- include/require
-	- Constants
-	- Arrays
-	- Loops
-	- is_string, is_int, etc
+	
+	- Include/Require
+	- [LAB]: Including a header file
+	
+	- Using the php.net manual and google
+	
 
 
 Course 2 - Topics
 ==========================
 
-- loops, functions
+- ternary
+- constants?
+- arrays
+- superglobals
+- loops
+- functions
 - debugging
+
+
 
 Course 3 - Topics
 ==========================
