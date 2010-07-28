@@ -50,6 +50,13 @@ PHP Basics
 Course 2 - Topics
 ==========================
 
+- running file check before include
+if(file_exists('anotherfile.php')){
+	include('anotherfile.php');
+} else {
+	print 'File not found!';
+}
+
 - ternary
 - constants?
 - arrays
