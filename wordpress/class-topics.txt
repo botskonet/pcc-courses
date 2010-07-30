@@ -119,6 +119,8 @@ Course Three - Topics
 	- Add two pages - ex: "About Us" and "Our History"
 	- Add two more posts
 	
+	- Permalinks and htaccess/mod_rewrite
+	
 - I will comment on your posts before last class. You will need to approve them, and reply.
 		
 		
@@ -126,8 +128,18 @@ Course Three - Topics
 Course Four - Topics
 ==============================
 
+- RSS
+- Site Statistics
+- Backing Up Data
+	- wp-db-backup
 
-- Permalinks and htaccess/mod_rewrite
-- Basics of editing theme files
-- Where to find help?
+- Wordpress Documentation
+	- http://codex.wordpress.org/Main_Page
+
+- Editing Themes
+	- Where to find the files
+	- Understanding the files
+	- Basic intro to wordpress functions
+	
+- Course Evaluations
 

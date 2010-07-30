@@ -50,37 +50,75 @@ PHP Basics
 Course 2 - Topics
 ==========================
 
-- running file check before include
-if(file_exists('anotherfile.php')){
-	include('anotherfile.php');
-} else {
-	print 'File not found!';
-}
+- ftp sheets?
 
-- ternary
-- constants?
-- arrays
-- superglobals
-- loops
-- functions
-- debugging
+- Using NetBeans IDE
+	- Create project
+	- Setup ftp settings/upload on save
+
+- Array Basics
+	- array('Mike','Bob');
+	- What are keys (=>)
+- print_r() / var_dump()
+- Loops
+	- Foreach
+	- For
+	- While
+
+- Array alternatives
+
+- Important Array Functions (http://www.php.net/manual/en/ref.array.php)
+	- is_array
+	- isset/array_key_exists
+	- count/sizeof/empty
+	- array_merge
+	- array_push
+	- sort
+	
+- SuperGlobal Arrays
+	- SERVER
+	- ENV
+	- POST (explored later)
+	- GET (explored later)
+	- SESSION (explored later)
+	- COOKIE (explored later)
+	
+- Processing Form Data (POST)
+	- Accessing form data through POST array
+	- Checking for form submission (isset/array_key_exists)
+
+
+(Additional:)
+	- Multi-dimensional arrays
+	- implode/explode
+	- functions
 
 
 
 Course 3 - Topics
 ==========================
 
+- Functions
+- Objects
+
 Course 4 - Topics
 ==========================
+
+- Databases
 
 Course 5 - Topics
 ==========================
 
+- Input filtering with Peregrine
+
 Course 6 - Topics
 ==========================
 
+- Sending emails?
 
 
+- functions
+- debugging
 
 ((((((======
 
@@ -92,6 +130,13 @@ $staff[] = array('name' => 'Mike', 'job' => 'PHP');
 $staff[] = array('name' => 'Jay', 'job' => 'CSS');
 print_r($staff);
 
+- running file check before include
+if(file_exists('anotherfile.php')){
+	include('anotherfile.php');
+} else {
+	print 'File not found!';
+}
+
 
 /**
  * Constants
@@ -99,10 +144,7 @@ print_r($staff);
 define('MYCONSTANT', 'Trellis');
 print MYCONSTANT;
 
-- Switch
-- loops, while
-- for
-- foreach
+
 - functions
 - variable scope
 - function scope
@@ -128,8 +170,6 @@ print MYCONSTANT;
 - is_*
 - string functions: strpos, strlen, str_replace, substr, strtolower
 - dates: time, date, strtotime
-- arrays: in_array, array_key_exists, array_push, array_merge, array_pop, sort, count, implode, explode
-- code comments
 - errors reporting
 - How to debug: print_r, var_dump, xdebug
 - security: 
