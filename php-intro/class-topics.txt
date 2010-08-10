@@ -94,14 +94,44 @@ Course 2 - Topics
 Course 3 - Topics
 ==========================
 
-- Lab, single-page form field validation with error UL
-
 - Functions
+	- Introduction to functions
+	- return
+	- variable scope
+	- arguments
+	- [LAB]: Create a function to multiply two arguments together
+
+- [LAB], single-page form field validation with error UL
+	- Checking if POST fields exist
+	- Checking ctype_alpha for first name field
+	- Creating an array of errors
+	- Appending error message if first name not valid
+	- Building a UL output if errors is not emoty
+	- Foreach loop over errors array, printing an li
+	- Printing out the value of the post to the form field
+	- Solving security/encoding problems (strip tags, htmlentities)
+	- Redirecting the user on success
+
 - Objects
+	- Introduction [classes/objects are containers of code]
+	- Basic method
+	- Creating an instance [instances allow containers to be passed around using variables]
+	- Calling the method
+	- Constructor
+	- Member variables
+	- this
+	- public, protected, private
+	- [LAB]:
+		- Create method that prints prefix/suffix only
+
+- Additional:
+	- Finding classes on the internet phpclasses.org
+
 
 Course 4 - Topics
 ==========================
 
+- Using classes
 - Databases
 
 Course 5 - Topics
@@ -115,7 +145,6 @@ Course 6 - Topics
 - Sending emails?
 
 
-- functions
 - debugging
 
 ((((((======
@@ -149,29 +178,13 @@ for($i = 1; $i <= 10; $i++){
 }
 
 
-- functions
-- variable scope
-- function scope
-- classes
-- methods
-- creating class instances / calling methods
-- member variables
-- php5 access rights to class methods
-- constructors
-- arguments
 - class extensions
 - final (no children)
 - parent::
-- sessions
-- session_start, saving data
-- superglobals
-- session, cookie, server, post, get, env
 
-- built-in functions
-- isset
+
+
 - defined
-- empty
-- is_*
 - string functions: strpos, strlen, str_replace, substr, strtolower
 - dates: time, date, strtotime
 - errors reporting
@@ -184,7 +197,7 @@ for($i = 1; $i <= 10; $i++){
 
 
 web dev:
-- including other files
+- including other files [check]
 - processing forms
 - saving to a database
 - sending an email

@@ -10,7 +10,6 @@ if(array_key_exists('first_name', $_POST)){
 	}
 }
 
-
 function getFieldValue($key){
 	
 	if(isset($_POST[$key])){
@@ -19,7 +18,6 @@ function getFieldValue($key){
 		return htmlentities(strip_tags($_POST[$key])); // pretty safe!
 	}
 }
-
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
@@ -39,17 +37,6 @@ function getFieldValue($key){
 		<?php } ?>
 	</ul>
 	<?php } ?>
-	
-	<?php
-	/*
-	if(!empty($errors)){ 
-		print '<ul class="error">'; 
-		foreach($errors as $error){
-			print '<li>'.$error.'</li>';
-		}
-		print '</ul>';
-	}
-	*/ ?>
 	
 	<form action="index.php" method="post">
 		<fieldset>
