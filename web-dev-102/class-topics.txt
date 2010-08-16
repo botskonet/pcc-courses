@@ -12,9 +12,11 @@ Topics - Class One
 
 "A Deeper Dive into CSS"
 
+- Basics of Absolute positioning
+
 - Creating a drop-down menu
 	- Absolute/relative positioning
-	- Using top/left (or right/bottom)
+	- Using top/left
 	- Absolute elements inside relative elements
 	- Using display: inline-block
 	- Using :hover pseudo class on li
@@ -23,6 +25,8 @@ Topics - Class One
 	- @font-face
 	- Licensing issues
 	- Browser/format support (http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)
+	- Google font directory
+	- Typekit
 	
 - Z-Index (http://reference.sitepoint.com/css/z-index)
 	- Positions
@@ -35,6 +39,9 @@ Topics - Class One
 	
 - Inner-CSS @media
 	- screen, print
+	
+- Additional: 
+	- How to make this IE6 compatible
 
 
 ========================================
@@ -56,7 +63,10 @@ diving deeper into css2 vs css3
 ajax with jquery
 sprites
 
-form validation
+- combo select boxes
+- form validation
+- form placeholders
+- lightboxes
 
 - Conditional comments
 - CSS Media Queries

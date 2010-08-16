@@ -16,8 +16,8 @@ li:hover, li ul { background-color: #6A9395;}
 a { font-family: 'Neuton', arial, serif; color: #FEEBE0; text-decoration: none; }
 
 /* z-index */
-#main p { position: relative; z-index: 500; }
-#nav ul { z-index: 1; }
+/*#main p { position: relative; z-index: 500; }
+#nav ul { z-index: 1; }*/
 
 /* border radius */
 #nav { -moz-border-radius: 10px; border-radius: 10px; }
