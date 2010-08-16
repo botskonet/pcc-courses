@@ -3,9 +3,39 @@ CEU9359 Web Site Development 102  - 06:00 PM-09:00 PM  	MW  	16-Aug-2010 thru 25
 A follow-on to Web Dev 101, this course provides the big-picture overview of the programming languages, skills, tools and processes necessary to create dynamic interactive, Web 2.0 websites, and prepares you to delve further in any or all of these areas. Helpful experience: Basic working knowledge of Web Design, including HTML/CSS.
 
 
+dynamic, interactive, languages, skills, tools
+
+
 
 ========================================
 Topics - Class One
+
+"A Deeper Dive into CSS"
+
+- Creating a drop-down menu
+	- Absolute/relative positioning
+	- Using top/left (or right/bottom)
+	- Absolute elements inside relative elements
+	- Using display: inline-block
+	- Using :hover pseudo class on li
+	
+- Fonts
+	- @font-face
+	- Licensing issues
+	- Browser/format support (http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)
+	
+- Z-Index (http://reference.sitepoint.com/css/z-index)
+	- Positions
+	- IE Issues (select boxes, frames, hasLayout)
+	
+- Border Radius in CSS3
+	(http://www.css3.info/preview/rounded-border/)
+	(http://www.quirksmode.org/css/contents.html#t46)
+	- Browser prefixes (-moz, -webkit)
+	
+- Inner-CSS @media
+	- screen, print
+
 
 ========================================
 Topics - Class Two
@@ -20,20 +50,16 @@ Topics - Class Four
 Topics - Additional
 
 
-css positioning
-drop-down menus
 most common css bugs (IE)
 diving deeper in doctypes: xhtml vs html vs html5
 diving deeper into css2 vs css3
-css browser prefixes
 ajax with jquery
-fixed versus fluid layouts
-conditional comments
 sprites
 
 form validation
 
+- Conditional comments
+- CSS Media Queries
 
-
-
+- source control
 basics of php?
