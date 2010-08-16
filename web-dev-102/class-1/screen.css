@@ -1,19 +1,20 @@
 ul,li,h1{margin:0;padding:0;}
 
 /* content containers */
-body { background-color: #E2D98F; }
+body { background-color: #F5EFD9; }
 #article { margin: 0 auto; width: 960px; }
 #header { margin-bottom: 20px; }
 h1 { font-family: 'Lobster', arial, serif; font-size: 4em; }
 p { font-family: 'Neuton', arial, serif; }
 
 /* sidebar */
-ul { background-color: #58787A; }
+ul { background-color: #2B393C; }
 li { display: inline-block; position: relative; list-style: none; padding: 5px 10px;  }
 li ul {display: none; position: absolute; top: 37px; left: 0px;}
 li:hover ul { display: block; }
-li:hover, li ul { background-color: #6A9395;}
+li:hover, li ul { background-color: #4A626F;}
 a { font-family: 'Neuton', arial, serif; color: #FEEBE0; text-decoration: none; }
+a:hover { color: #E5E29A;}
 
 /* z-index */
 /*#main p { position: relative; z-index: 500; }
