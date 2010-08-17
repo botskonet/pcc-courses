@@ -131,21 +131,70 @@ Course 3 - Topics
 Course 4 - Topics
 ==========================
 
-- Using classes
-- Databases
+- Using Classes
+	- Where to find classes
+		- Google
+		- PHPClasses.org
+		- Peregrine (http://github.com/botskonet/Peregrine)
+		
+- Using Peregrine
+	- Where to put class files
+	- Including a class
+	- Creating a new instance
+	- Look through class to understand what it does
+	
+- Introduction to MySQL
+	- What is a database?
+	- How does it work?
+	
+- Introduction to phpMyAdmin (http://www.phpmyadmin.net/home_page/index.php)
+	- Downloading, installing description
+	- Creating a database
+
+- Creating your first table
+	- Introduction to field types
+	- Primary Keys
+	- Planning your table structure
+
+- Connecting to MySQL from php
+	- mysql_connect/mysql_query
+	- Preparing an insert statement
+	- Inserting data into the database
+	
+- Header location redirect
+	
+- Browsing table data with pma
+	- Trying select queries
+	- Where
+	- Limit
+	- Order By
+
+- Building a select
+	- Looping over data from the select
+	
+- Additional:
+	- 
+	
 
 Course 5 - Topics
 ==========================
 
-- Input filtering with Peregrine
+- Sending email
+- Working with dates
+- Error reporting, handling errors
+
+
 
 Course 6 - Topics
 ==========================
 
-- Sending emails?
 
 
-- debugging
+
+
+
+
+- advanced debugging
 
 ((((((======
 
@@ -183,22 +232,9 @@ for($i = 1; $i <= 10; $i++){
 - parent::
 
 
-
-- defined
-- string functions: strpos, strlen, str_replace, substr, strtolower
-- dates: time, date, strtotime
-- errors reporting
-- How to debug: print_r, var_dump, xdebug
-- security: 
-- including files with variables
-- validating data
-- regex
-- best practices
-
-
 web dev:
 - including other files [check]
-- processing forms
+- processing forms [check]
 - saving to a database
 - sending an email
 - being secure
