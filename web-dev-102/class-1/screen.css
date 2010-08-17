@@ -25,6 +25,8 @@ a:hover { color: #E5E29A;}
 #nav li:first-child { -moz-border-radius: 10px 0 0 10px; border-radius: 10px; }
 
 /* at media */
-@media 'print' {
+@media print {
 	h1 { font-family: Arial, serif; }
+	li { display: block; }
+	a:after { content: " (" attr(href) ") "; }
 }

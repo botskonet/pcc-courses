@@ -12,6 +12,13 @@ Topics - Class One
 
 "A Deeper Dive into CSS"
 
+- Fonts
+	- @font-face
+	- Licensing issues
+	- Browser/format support (http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)
+	- Google font directory
+	- Typekit
+
 - Basics of Absolute positioning
 
 - Creating a drop-down menu
@@ -21,27 +28,17 @@ Topics - Class One
 	- Using display: inline-block
 	- Using :hover pseudo class on li
 	
-- Fonts
-	- @font-face
-	- Licensing issues
-	- Browser/format support (http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)
-	- Google font directory
-	- Typekit
-	
-- Z-Index (http://reference.sitepoint.com/css/z-index)
-	- Positions
-	- IE Issues (select boxes, frames, hasLayout)
-	
 - Border Radius in CSS3
 	(http://www.css3.info/preview/rounded-border/)
 	(http://www.quirksmode.org/css/contents.html#t46)
 	- Browser prefixes (-moz, -webkit)
 	
+- Z-Index (http://reference.sitepoint.com/css/z-index)
+	- Positions
+	- IE Issues (select boxes, frames, hasLayout)
+	
 - Inner-CSS @media
 	- screen, print
-	
-- Additional: 
-	- How to make this IE6 compatible
 
 
 ========================================
