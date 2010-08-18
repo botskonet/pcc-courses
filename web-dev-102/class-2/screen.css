@@ -1,0 +1,27 @@
+ul,li,h1{margin:0;padding:0}
+
+/* content containers */
+body {background-color: #F5EFD9}
+#article{margin:0 auto;width:960px}
+#header{margin-bottom:20px}
+h1,h2{font-family:'Lobster',arial,serif;font-size:4em}
+h2{font-size:2em;margin:18px 0}
+p{font-family:'Neuton',arial,serif}
+
+/* sidebar */
+ul{background-color:#2B393C}
+li{display:inline-block;position:relative;list-style:none;padding:5px 10px}
+li ul{display:none;position:absolute;top:37px;left:0}
+li:hover ul{display:block}
+li:hover,li ul{background-color:#4A626F}
+a{font-family:'Neuton',arial,serif;color:#FEEBE0;text-decoration:none}
+a:hover{color:#E5E29A}
+#nav{-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+#nav li:first-child{-moz-border-radius:10px 0 0 10px;-webkit-border-radius:10px 0 0 10px;border-radius:10px}
+
+/* print styles */
+@media print {
+h1{font-family:Arial,serif;}
+li{display: block;}
+a:after content:" (" attr(href) ") "}
+}

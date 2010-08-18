@@ -179,12 +179,12 @@ Course 4 - Topics
 - Building a select
 	- Looping over data from the select
 	
-- Additional:
-	- 
-	
 
 Course 5 - Topics
 ==========================
+
+- Lab of displaying data from a select query
+
 
 - Sending email
 - Working with dates

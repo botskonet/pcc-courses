@@ -44,18 +44,42 @@ Topics - Class One
 ========================================
 Topics - Class Two
 
+- Introduction to javascript
+	- Script elements, src
+	- No cross browser support, common actions difficult
+
+- Introduction to jQuery (http://jquery.com/)
+	- Downloading jquery
+	- Including
+	- Using document.ready
+	- The $ variable
+	- Using CSS selectors
+	- Anonymous functions
+	- "this"
+
+- Correcting li:hover issues using jquery
+
+- ajax
+
+- making html5 work in ie
+
+
 ========================================
 Topics - Class Three
 
+- Basics of PHP, making pages dynamic
+
 ========================================
 Topics - Class Four
+
+
+- Source control
+
 
 ========================================
 Topics - Additional
 
 
-most common css bugs (IE)
-diving deeper in doctypes: xhtml vs html vs html5
 diving deeper into css2 vs css3
 ajax with jquery
 sprites
@@ -67,6 +91,3 @@ sprites
 
 - Conditional comments
 - CSS Media Queries
-
-- source control
-basics of php?
