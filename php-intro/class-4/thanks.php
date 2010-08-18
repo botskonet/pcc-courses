@@ -15,7 +15,7 @@
 	
 	$db = mysql_connect('localhost', 'root', '');
 	mysql_select_db('pcc_php',$db);
-	$result = mysql_query('SELECT * FROM forms');
+	$result = mysql_query('SELECT * FROM entries');
 	
 	?>
 	
@@ -35,8 +35,10 @@
 		</tr>
 	<?php
 		}
-	}
+	} else {
 	?>
+	<tr><td colspan="3">There were no results returned!</td></tr>
+	<?php } ?>
 	</table>
 	
 </body>

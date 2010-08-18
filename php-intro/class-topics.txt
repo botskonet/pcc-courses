@@ -155,6 +155,13 @@ Course 4 - Topics
 	- Introduction to field types
 	- Primary Keys
 	- Planning your table structure
+	
+- Inserting data into the table
+	- Query basics:
+	- SELECT
+	- INSERT
+	- UPDATE
+	- DELETE
 
 - Connecting to MySQL from php
 	- mysql_connect/mysql_query

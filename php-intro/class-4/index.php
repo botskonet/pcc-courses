@@ -17,10 +17,9 @@ if($clean->post->keyExists('first_name')){
 		$errors[] = 'You must enter a valid email address.';
 	}
 	
-	
 	if(empty($errors)){
 		
-		$sql = sprintf('INSERT INTO forms (first_name, email) VALUES ("%s","%s")', 
+		$sql = sprintf('INSERT INTO entries (first_name, email) VALUES ("%s","%s")', 
 					$clean->post->getName('first_name'), 
 					$clean->post->getEmail('email'));
 		
@@ -30,6 +29,7 @@ if($clean->post->keyExists('first_name')){
 		$result = mysql_query($sql);
 		
 		header("Location: thanks.php");
+		exit;
 		
 	}
 }
