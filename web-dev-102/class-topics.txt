@@ -59,13 +59,27 @@ Topics - Class Two
 
 - Correcting li:hover issues using jquery
 
-- ajax
+- Contact Form Demo
+	- Adding a right-aligned link for a contact form
+	- Looking at the html for the contact form
+	- Using jquery to set background color of contact form link
+	- Using jquery to determine if contact form is visible
+	- Using jquery to slideDown/Up contact form on click
 
-- making html5 work in ie
+- Understanding the css of the new contact form
+
+- Resolving the issue of navigation menus conflicting with contact form coloring
+	- Using jquery to set the opacity of the contact form
+	- Using jquery to revert the opacity to 1 when hover ends
+	- Resolving potetial z-index issues
 
 
 ========================================
 Topics - Class Three
+
+- ajax
+
+- making html5 work in ie
 
 - Basics of PHP, making pages dynamic
 

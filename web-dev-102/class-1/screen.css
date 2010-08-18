@@ -22,7 +22,7 @@ a:hover { color: #E5E29A;}
 
 /* border radius */
 #nav { -moz-border-radius: 10px; border-radius: 10px; }
-#nav li:first-child { -moz-border-radius: 10px 0 0 10px; border-radius: 10px; }
+#nav li:first-child { -moz-border-radius: 10px 0 0 10px; border-radius: 10px 0 0 10px; }
 
 /* at media */
 @media print {

@@ -1,7 +1,12 @@
-ul,li,h1{margin:0;padding:0}
+/* resets/shared classes */
+ul,ol,li,h1{margin:0;padding:0}
+li{list-style:none}
+a,a:link{outline:none;}
+.left{float:left;}
+.right{float:right}
 
 /* content containers */
-body {background-color: #F5EFD9}
+body {background-color: #F5EFD9;}
 #article{margin:0 auto;width:960px}
 #header{margin-bottom:20px}
 h1,h2{font-family:'Lobster',arial,serif;font-size:4em}
@@ -9,15 +14,26 @@ h2{font-size:2em;margin:18px 0}
 p{font-family:'Neuton',arial,serif}
 
 /* sidebar */
-ul{background-color:#2B393C}
-li{display:inline-block;position:relative;list-style:none;padding:5px 10px}
-li ul{display:none;position:absolute;top:37px;left:0}
-li:hover ul{display:block}
-li:hover,li ul{background-color:#4A626F}
-a{font-family:'Neuton',arial,serif;color:#FEEBE0;text-decoration:none}
-a:hover{color:#E5E29A}
+#nav{background-color:#2B393C}
+#nav li{display:inline-block;position:relative;padding:5px 10px}
+#nav li ul{display:none;position:absolute;top:37px;left:0;z-index:200;}
+#nav li:hover ul{display:block}
+#nav li:hover,li ul{background-color:#4A626F}
+#nav a{font-family:'Neuton',arial,serif;color:#FEEBE0;text-decoration:none}
+#nav a:hover{color:#E5E29A}
 #nav{-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
-#nav li:first-child{-moz-border-radius:10px 0 0 10px;-webkit-border-radius:10px 0 0 10px;border-radius:10px}
+#nav li:first-child{-moz-border-radius:10px 0 0 10px;-webkit-border-radius:10px 0 0 10px;border-radius:10px 0 0 10px}
+#nav li:last-child{-moz-border-radius:0 10px 10px 0;-webkit-border-radius:0 10px 10px 0;border-radius:0 10px 10px 0}
+
+/* form layout */
+#contact-us{position:relative;z-index:1;display:none;background-color:#4A626F;color:#FEEBE0;font-family:'Neuton',arial,serif;width:940px;margin:0 auto;overflow:hidden;font-size:.8em}
+#contact-us{-moz-border-radius:0 0 10px 10px;-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px}
+#contact-us ol{padding:10px 20px;border-left:1px dashed #708E9B;height:150px}
+#contact-us div{width:160px;padding:10px 20px}
+#contact-us li{margin-bottom:10px}
+#contact-us p{margin:0}
+#contact-us label{display:block}
+#contact-us textarea{width:500px;height:80px}
 
 /* print styles */
 @media print {

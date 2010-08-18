@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="jquery-1.4.2.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
+		// handle li:hover for IE, which is really only for IE<=6
 		if($.browser.msie){
 			$('#nav>li').hover(
 				function(){
@@ -20,10 +21,26 @@
 				}
 			);
 		}
+		// Display the contact form when the link is clicked
+		$('a#contact').click(function(){
+			if($('#contact-us').is(':visible')){
+				$('#contact-us').slideUp();
+				$(this).parent().css('background-color','#2B393C');
+			} else {
+				$('#contact-us').slideDown();
+				$(this).parent().css('background-color','#4A626F');
+			}
+			return false;
+		});
+		// Gray-out the contact form when the navigation items are hovered
+		$('#nav a:not(a#contact)').hover(function(){
+			$('#contact-us').css('opacity','0.5');
+		},	function(){
+			$('#contact-us').css('opacity','1');
+		});
 	})
 	</script>
 </head>
-
 <body>
 	<div id="article">
 		<div id="header">
@@ -45,8 +62,34 @@
 					<li><a href="#">Sue</a></li>
 				</ul>
 			</li>
+			<li class="right"><a href="#" id="contact">Contact Us</a></li>
 		</ul>
-		
+		<div id="contact-us">
+			<form action="#" method="post">
+				<div class="left">
+					<p>Please provide your name, email, and a message and we'll contact you within the next day or two.</p>
+				</div>
+				<ol class="left">
+					<li>
+						<label for="your_name">Your Name</label>
+						<input type="text" name="your_name" id="your_name">
+					</li>
+					<li>
+						<label for="email">Your E-mail</label>
+						<input type="text" name="email" id="email">
+					</li>
+				</ol>
+				<ol class="right">
+					<li>
+						<label for="your_message">Message</label>
+						<textarea name="your_message" id="your_message" cols="30" rows="5"></textarea>
+					</li>
+					<li>
+						<input type="submit" name="submit" id="submit" value="Send!">
+					</li>
+				</ol>
+			</form>
+		</div>
 		<div id="main">
 			<h2>Section 1</h2>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
