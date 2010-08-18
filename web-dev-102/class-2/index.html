@@ -33,7 +33,7 @@
 			return false;
 		});
 		// Gray-out the contact form when the navigation items are hovered
-		$('#nav a:not(a#contact)').hover(function(){
+		$('#nav li:not(li.right)').hover(function(){
 			$('#contact-us').css('opacity','0.5');
 		},	function(){
 			$('#contact-us').css('opacity','1');
