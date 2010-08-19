@@ -3,6 +3,7 @@ ul,ol,li,h1,h2{margin:0;padding:0}
 li{list-style:none}
 a,a:link{outline:none;}
 .left{float:left}
+.right{float:right;}
 
 /* content containers */
 body {background-color: #F5EFD9;}
@@ -13,7 +14,7 @@ h2{font-size:2em;padding-top:18px}
 p{font-family:'Neuton',arial,serif}
 
 /* sidebar */
-#nav{background-color:#2B393C;float:left;width:100%;}
+#nav{background-color:#2B393C;float:left;width:100%;position:relative;}
 #nav li{float:left;display:inline-block;position:relative;padding:5px 10px}
 #nav li ul{display:none;position:absolute;top:37px;left:0;z-index:200;}
 #nav li:hover ul{display:block}
