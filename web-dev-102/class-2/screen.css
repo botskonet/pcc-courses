@@ -1,21 +1,20 @@
 /* resets/shared classes */
-ul,ol,li,h1{margin:0;padding:0}
+ul,ol,li,h1,h2{margin:0;padding:0}
 li{list-style:none}
 a,a:link{outline:none;}
-.left{float:left;}
-.right{float:right}
+.left{float:left}
 
 /* content containers */
 body {background-color: #F5EFD9;}
 #article{margin:0 auto;width:960px}
 #header{margin-bottom:20px}
 h1,h2{font-family:'Lobster',arial,serif;font-size:4em}
-h2{font-size:2em;margin:18px 0}
+h2{font-size:2em;padding-top:18px}
 p{font-family:'Neuton',arial,serif}
 
 /* sidebar */
-#nav{background-color:#2B393C}
-#nav li{display:inline-block;position:relative;padding:5px 10px}
+#nav{background-color:#2B393C;float:left;width:100%;}
+#nav li{float:left;display:inline-block;position:relative;padding:5px 10px}
 #nav li ul{display:none;position:absolute;top:37px;left:0;z-index:200;}
 #nav li:hover ul{display:block}
 #nav li:hover,li ul{background-color:#4A626F}
@@ -24,6 +23,7 @@ p{font-family:'Neuton',arial,serif}
 #nav{-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
 #nav li:first-child{-moz-border-radius:10px 0 0 10px;-webkit-border-radius:10px 0 0 10px;border-radius:10px 0 0 10px}
 #nav li:last-child{-moz-border-radius:0 10px 10px 0;-webkit-border-radius:0 10px 10px 0;border-radius:0 10px 10px 0}
+#nav #contact{float:right}
 
 /* form layout */
 #contact-us{position:relative;z-index:1;display:none;background-color:#4A626F;color:#FEEBE0;font-family:'Neuton',arial,serif;width:940px;margin:0 auto;overflow:hidden;font-size:.8em}
@@ -34,6 +34,8 @@ p{font-family:'Neuton',arial,serif}
 #contact-us p{margin:0}
 #contact-us label{display:block}
 #contact-us textarea{width:500px;height:80px}
+
+#main{clear:both}
 
 /* print styles */
 @media print {

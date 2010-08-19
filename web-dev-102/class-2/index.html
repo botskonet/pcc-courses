@@ -7,9 +7,33 @@
 	<link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<style type="text/css">@import url('screen.css');</style>
+	
+	<!--[if IE]>
+		<style type="text/css">
+			#nav li ul{top:36px}
+			#contact-us ol{padding:10px 15px;}
+		</style>
+	<![endif]-->
+	
 	<script type="text/javascript" src="jquery-1.4.2.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
+		// Display the contact form when the link is clicked
+		$('#contact a').click(function(){
+			if($('#contact-us').is(':visible')){
+				$(this).parent().css('background-color','#2B393C');
+			} else {
+				$(this).parent().css('background-color','#4A626F');
+			}
+			$('#contact-us').slideToggle();
+			return false;
+		});
+		// Gray-out the contact form when the navigation items are hovered
+		$('#nav li:not(li#contact)').hover(function(){
+			$('#contact-us').css('opacity','0.5');
+		},	function(){
+			$('#contact-us').css('opacity','1');
+		});
 		// handle li:hover for IE, which is really only for IE<=6
 		if($.browser.msie){
 			$('#nav>li').hover(
@@ -21,23 +45,6 @@
 				}
 			);
 		}
-		// Display the contact form when the link is clicked
-		$('a#contact').click(function(){
-			if($('#contact-us').is(':visible')){
-				$('#contact-us').slideUp();
-				$(this).parent().css('background-color','#2B393C');
-			} else {
-				$('#contact-us').slideDown();
-				$(this).parent().css('background-color','#4A626F');
-			}
-			return false;
-		});
-		// Gray-out the contact form when the navigation items are hovered
-		$('#nav li:not(li.right)').hover(function(){
-			$('#contact-us').css('opacity','0.5');
-		},	function(){
-			$('#contact-us').css('opacity','1');
-		});
 	})
 	</script>
 </head>
@@ -62,7 +69,7 @@
 					<li><a href="#">Sue</a></li>
 				</ul>
 			</li>
-			<li class="right"><a href="#" id="contact">Contact Us</a></li>
+			<li id="contact"><a href="#">Contact Us</a></li>
 		</ul>
 		<div id="contact-us">
 			<form action="#" method="post">

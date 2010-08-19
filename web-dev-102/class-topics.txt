@@ -56,8 +56,10 @@ Topics - Class Two
 	- Using CSS selectors
 	- Anonymous functions
 	- "this"
-
-- Correcting li:hover issues using jquery
+	
+- Basics jquery examples:
+	- Changing bgcolor of various elements
+	- Playing with css selectors
 
 - Contact Form Demo
 	- Adding a right-aligned link for a contact form
@@ -72,6 +74,10 @@ Topics - Class Two
 	- Using jquery to set the opacity of the contact form
 	- Using jquery to revert the opacity to 1 when hover ends
 	- Resolving potetial z-index issues
+	
+- Fixing IE Bugs
+	- Correcting li:hover issues using jquery
+	- Using conditional comments to fix ie css issues
 
 
 ========================================
