@@ -3,10 +3,6 @@ CEU9359 Web Site Development 102  - 06:00 PM-09:00 PM  	MW  	16-Aug-2010 thru 25
 A follow-on to Web Dev 101, this course provides the big-picture overview of the programming languages, skills, tools and processes necessary to create dynamic interactive, Web 2.0 websites, and prepares you to delve further in any or all of these areas. Helpful experience: Basic working knowledge of Web Design, including HTML/CSS.
 
 
-dynamic, interactive, languages, skills, tools
-
-
-
 ========================================
 Topics - Class One
 
@@ -83,31 +79,45 @@ Topics - Class Two
 ========================================
 Topics - Class Three
 
-- ajax
+- Exploring the DOM with jQuery and console.log
+	- Trying different css selectors
+	- Using .each to explore the results with console.log
+	- Selectors:
+		-
+	- [LAB]
+		- Using .after/.before to add an element after each selected element
+		- Adding/removing class names
+		- Using next/prev/siblings/parents/children to see what's selected
+		
+- Ajax
+	- Standard process versus XmlHTTPRequest
+	- Looking at an example of a response: text, xml, json
+	- The basics of the .ajax jQuery method
+		- .ajax
+		- url
+		- data
+		- success method
+	- Sending the ajax request
+	- Using firebug to watch outgoing XHR requests
+	- Handling the response
+		- Inserting the response into the document
 
-- making html5 work in ie
-
-- Basics of PHP, making pages dynamic
 
 ========================================
 Topics - Class Four
 
+Nicknamed css techniques
+- sprites
+- sliding doors
 
+- mobile devices
+- media queries
+
+- PNG IE6
+- Basics of PHP, making pages dynamic
 - Source control
 
 
 ========================================
 Topics - Additional
 
-
-diving deeper into css2 vs css3
-ajax with jquery
-sprites
-
-- combo select boxes
-- form validation
-- form placeholders
-- lightboxes
-
-- Conditional comments
-- CSS Media Queries

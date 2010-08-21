@@ -1,14 +1,6 @@
-
 34375  	 Willow Creek Center / WCC / 213  	05:30 PM-09:30 PM  	Tu  	27-Jul-2010 thru 31-Aug-2010
 
 PHP is a language in demand by many companies because it is oriented toward web development and creating dynamic web pages. It is also used to connect to a database in a web application. Covers how to write simple PHP applications, control sessions, debugging and making scripts secure, and how to use PHP together with a database. Helpful experience: [X]HTML, HTML forms.
-
-
-- Sessions
-- Debugging
-- Security
-- Databases
-
 
 Course 1 - Topics
 ==========================
@@ -185,63 +177,46 @@ Course 5 - Topics
 
 - Lab of displaying data from a select query
 
+- Using ADOdb as your DBA
+
+- Working with select queries
+	- find medium sized database of data
+	- Build a simple select query
+	- Loop over the results and print them to a table
+	- Try a where condition
+	- Look at order by
+	- Look at limit
+	- [LAB]
+	
+		- Adding new custom where condition
+
 
 - Sending email
+
 - Working with dates
+	- Looking at the raw time functions
+	- Using the date function
+	- Using strtotime to convert string to time int
+	- Storing dates in a database
+	- Checking for empty dates
+
+
 - Error reporting, handling errors
+
+
+- Debugging
 
 
 
 Course 6 - Topics
 ==========================
 
-
-
-
-
-
+- Source control
 
 - advanced debugging
-
-((((((======
-
-- running file check before include
-if(file_exists('anotherfile.php')){
-	include('anotherfile.php');
-} else {
-	print 'File not found!';
-}
-
 
 /**
  * Constants
  */
 define('MYCONSTANT', 'Trellis');
 print MYCONSTANT;
-
-
-- Loops
-	- For
-	- While
-// Other loops
-$i = 1;
-while($i <= 10){
-	print $i;
-	$i++;
-}
-for($i = 1; $i <= 10; $i++){
-	print $i;
-}
-
-
-- class extensions
-- final (no children)
-- parent::
-
-
-web dev:
-- including other files [check]
-- processing forms [check]
-- saving to a database
-- sending an email
-- being secure
