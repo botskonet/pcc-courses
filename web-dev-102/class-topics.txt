@@ -80,28 +80,40 @@ Topics - Class Two
 Topics - Class Three
 
 - Exploring the DOM with jQuery and console.log
-	- Trying different css selectors
-	- Using .each to explore the results with console.log
-	- Selectors:
-		-
+	- 1 - Trying different css selectors
+ 	- Using .each to explore the results with console.log
+	- 2 - Using .html to change an elements contents
+	- 3 - Adding a classname to an element
 	- [LAB]
-		- Using .after/.before to add an element after each selected element
-		- Adding/removing class names
-		- Using next/prev/siblings/parents/children to see what's selected
+		- 4 - Using .after to place a link to the top after every paragraph
+		- .append
+	- 5 - Using next/prev/siblings/parents/children to see what's selected
+	- jQuery documentations
 		
 - Ajax
 	- Standard process versus XmlHTTPRequest
-	- Looking at an example of a response: text, xml, json
+	- Looking at an example of a response
+		- Text
+		- JSON
+		- XML
 	- The basics of the .ajax jQuery method
 		- .ajax
 		- url
 		- data
 		- success method
 	- Sending the ajax request
+	- Same-domain security policy
 	- Using firebug to watch outgoing XHR requests
 	- Handling the response
 		- Inserting the response into the document
 
+- Additional:
+	- Graceful Degradation
+	- jQuery plugins
+	- jQuery in use
+	- interest in jquery class?
+	- Hover on mobile devices
+	- 
 
 ========================================
 Topics - Class Four
