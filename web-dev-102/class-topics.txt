@@ -113,10 +113,29 @@ Topics - Class Three
 	- jQuery in use
 	- interest in jquery class?
 	- Hover on mobile devices
-	- 
 
 ========================================
 Topics - Class Four
+
+- Intro to PHP
+	- Where php fits with other web tech
+	- Discussion of Apache and what servers are
+
+	PHP Basics
+		- Open/Close tags syntax
+		- phpinfo();
+		- Variables
+		- Conditions
+			- If, else, elseif
+			- [LAB]: rand function if/else
+			- Comparison operators
+		- Embedded php vs echoing html
+		- [LAB]: Set page title using php
+		- [LAB]: Change page content based on title
+		- Include/Require
+		- [LAB]: Including a header file
+		- Using the php.net manual and google
+
 
 Nicknamed css techniques
 - sprites
@@ -126,10 +145,4 @@ Nicknamed css techniques
 - media queries
 
 - PNG IE6
-- Basics of PHP, making pages dynamic
 - Source control
-
-
-========================================
-Topics - Additional
-
