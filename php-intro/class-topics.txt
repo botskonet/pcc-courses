@@ -187,34 +187,50 @@ Course 5 - Topics
 	- Look at order by
 	- Look at limit
 	- [LAB]
-	
-		- Adding new custom where condition
-
-
-- Sending email
+		- Adding new custom where condition (where country is Bolivia)
+		
+- Error Reporting
+	- Constants http://www.php.net/manual/en/errorfunc.constants.php
+	- What is the ini file?
+	- error_reporting()
+	- ini_set('display_errors', true);
+	- set_error_handler
+	- debug_print_backtrace
+	- trigger_error
+	- Xdebug
 
 - Working with dates
+	- You'll soon get used to 24 hour clock dates
+	- Discuss how dates are kept:
+		- What is GMT/UTC?
+		- Timezones
+		- 24 hour clocks
+		- Daylight savings
+		
 	- Looking at the raw time functions
 	- Using the date function
-	- Using strtotime to convert string to time int
+	- Using strtotime to convert date string to time int
 	- Storing dates in a database
 	- Checking for empty dates
+	- date_default_timezone_set (http://us2.php.net/manual/en/timezones.php)
+	- Date/Time class (http://us2.php.net/manual/en/book.datetime.php) 5.2+ only
 
 
-- Error reporting, handling errors
-
-
-- Debugging
+- Additional: Sending email
 
 
 
 Course 6 - Topics
 ==========================
 
+- Frameworks
+	- CakePHP
+	- CodeIgnitor
+	
 - Source control
 
 - advanced debugging
-
+print str_replace('Michael', 'Mike', $myval); // Mike Botsko
 /**
  * Constants
  */
