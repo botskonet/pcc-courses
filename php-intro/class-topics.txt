@@ -216,8 +216,13 @@ Course 5 - Topics
 	- Date/Time class (http://us2.php.net/manual/en/book.datetime.php) 5.2+ only
 
 
-- Additional: Sending email
-
+- Additional: 
+	- Sending email
+	- Constants
+	- Frameworks
+		- CakePHP
+		- CodeIgnitor
+	- Source control
 
 
 Course 6 - Topics
@@ -226,13 +231,7 @@ Course 6 - Topics
 - Frameworks
 	- CakePHP
 	- CodeIgnitor
-	
 - Source control
 
 - advanced debugging
 print str_replace('Michael', 'Mike', $myval); // Mike Botsko
-/**
- * Constants
- */
-define('MYCONSTANT', 'Trellis');
-print MYCONSTANT;

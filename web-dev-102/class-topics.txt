@@ -107,12 +107,11 @@ Topics - Class Three
 	- Handling the response
 		- Inserting the response into the document
 
-- Additional:
-	- Graceful Degradation
-	- jQuery plugins
-	- jQuery in use
-	- interest in jquery class?
-	- Hover on mobile devices
+- jQuery plugins
+- jQuery in use		
+- Graceful Degradation
+- Hover on mobile devices
+
 
 ========================================
 Topics - Class Four
