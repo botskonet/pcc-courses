@@ -116,6 +116,15 @@ Topics - Class Three
 ========================================
 Topics - Class Four
 
+- Looking at the ajax combined with the form submission
+	- The .submit method
+	- Running .ajax
+	- We're sending POST data to form.php
+	- Expecting json data in return
+	- On success we have some sliding methods
+	- Ensure you return false, otherwise form will submit
+	- Watching the ajax post in firebug
+
 - Intro to PHP
 	- Where php fits with other web tech
 	- Discussion of Apache and what servers are
@@ -127,21 +136,11 @@ Topics - Class Four
 		- Conditions
 			- If, else, elseif
 			- [LAB]: rand function if/else
-			- Comparison operators
-		- Embedded php vs echoing html
-		- [LAB]: Set page title using php
-		- [LAB]: Change page content based on title
 		- Include/Require
 		- [LAB]: Including a header file
-		- Using the php.net manual and google
-
-
-Nicknamed css techniques
-- sprites
-- sliding doors
-
-- mobile devices
-- media queries
-
-- PNG IE6
-- Source control
+		
+- Using media queries to specify mobile screen sizes
+	- http://www.alistapart.com/articles/return-of-the-mobile-stylesheet
+	- http://cartoonized.net/cellphone-screen-resolution.php
+	
+- Evaluations
