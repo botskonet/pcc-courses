@@ -231,13 +231,13 @@ Course 6 - Topics
 	- Run select query
 	- Print out results in html table
 	
+- Sending an email
+
+- Writing and reading files
+	- fopen
+	- fwrite
+	- File permission on unix/linux systems
+	- fread
+	- file_get_contents
+	
 - Evaluations
-
-- Additional:
-	- Sending mail
-	- Writing to files (permissions)
-	- 
-
-
-- Additional
-- sending email
