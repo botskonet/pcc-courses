@@ -1,5 +1,7 @@
 
-CEU9359 Web Site Development 101  - 06:00 PM-09:00 PM  	MW  	21-Jun-2010 thru 12-Jul-2010  (8 Courses, 3 Hours)
+CEU9359 Web Site Development 101  - 06:00 PM-09:00 PM  	MW  	21-Jun-2010 thru 12-Jul-2010
+48161  	 Willow Creek Center / WCC / 214  	06:00 PM-09:00 PM  	MW  	04-Oct-2010 thru 20-Oct-2010 (6 Courses, 3 Hours)
+
 Want to build your very first web site, but not sure where to start? Considering a career involving web design? Then take this class! Learn to use HTML and CSS to build a professional web site that is easy to update and works perfectly across all browsers. Get started doing it right the first time and avoid the bad habits that you will have to "unlearn" later. Helpful experience: Basic working knowledge of Windows and the Internet. 
 
 
@@ -31,25 +33,36 @@ Topics - Class One
 	- Power of view source
 	
 - How to create an html document
-	- Create a new plain text file, called "index.html"
+	- Open editor (Notepad++)
+	- Save as plain text file called "index.html"
 	- Why index? Why ".html"?
-	- What is plain text versus rich text editors?
+	- What is plain text versus rich text?
 	
 - The Foundation of an HTML Document
 	- Doctype
 	- html, head, title, body elements
-	- Brief overview of differences of html versions
+	- State of html versions
 	- Don't use old elements: font, b, i, etc
 	
 - Creating your first document
 	- html, head, title, body
-	- p, img, strong, em, a, h1, ul/ol/li
+	- h1, p, strong, em
+	- [LAB]:
+		- add an image using the google homepage logo (http://www.google.com/intl/en_ALL/images/logo.gif)
+	- anchors
+	- ul/ol/li
 	
 - Basics of CSS
 	- element selector
 	- classes
 	- IDs
 	
+	
+- Additional:
+	- LAB: making the h1 and anchor
+	- Using firebug
+	- Using the web developer toolbar
+	- Validating a page
 	
 ========================================
 Topics - Class Two
