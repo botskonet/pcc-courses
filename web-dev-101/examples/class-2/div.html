@@ -2,21 +2,22 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-	<title>Class Three - DIV Experiments</title>
+	<title>Class Two - DIV Experiments</title>
 	
 	<style type="text/css">
+	/* don't change */
+	body{margin:0;padding:0}
+	#ref{width:150px;height:150px;border:1px solid green}
+		
 	
-	body { margin: 0; padding: 0; }
-		
-		div { border: 1px solid red; }
-		
-		div { width: 350px; height: 350px; }
-		
-		div { background: #fff url('walle.jpg') top left no-repeat; }
-		
-		div { top: 100px; left: 300px; }
-		
-		div { position: absolute;}
+		#play { border: 1px solid red; }
+		#play { width: 350px; height: 350px; }
+	
+		/*#play { top: 100px; left: 300px; }
+		#play { position: absolute;}*/
+				
+		/* playing with floats. comment this if playing with absolute positiong above */
+		div{float:left}
 		
 	</style>
 	
@@ -24,7 +25,8 @@
 
 <body>
 	
-	<div></div>
+	<div id="ref"></div>
+	<div id="play"></div>
 
 </body>
 </html>

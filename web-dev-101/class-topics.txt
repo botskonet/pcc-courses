@@ -6,7 +6,7 @@ Want to build your very first web site, but not sure where to start? Considering
 
 
 ========================================
-Topics - Class One
+Topics - Class One (Chapters 1, 2, part of 3)
 
 - Who am I?
 
@@ -39,7 +39,7 @@ Topics - Class One
 	- What is plain text versus rich text?
 	
 - The Foundation of an HTML Document
-	- Doctype
+	- Doctype [Basics]
 	- html, head, title, body elements
 	- State of html versions
 	- Don't use old elements: font, b, i, etc
@@ -50,29 +50,25 @@ Topics - Class One
 	- [LAB]:
 		- add an image using the google homepage logo (http://www.google.com/intl/en_ALL/images/logo.gif)
 	- anchors
-	- ul/ol/li
 	
 - Basics of CSS
 	- element selector
 	- classes
 	- IDs
-	
-	
-- Additional:
-	- LAB: making the h1 and anchor
-	- Using firebug
-	- Using the web developer toolbar
-	- Validating a page
+	- Colors [http://www.colorpicker.com/]
 	
 ========================================
 Topics - Class Two
+
+
+- [LAB]
+	- Building a basic page using elements from last class
+	- Uses: h1, p, span, also try: a
 
 - Include external css file [p. 78]
 	<link rel="stylesheet" type="text/css" href="class.css" />
 	<style type="text/css">@import url(style.css);</style>
 	- Discuss relative URLs
-	
-- Doctype [ch 2]
 	
 - DIVs [p. 54]
 	- The empty element for all purposes
@@ -84,42 +80,60 @@ Topics - Class Two
 	- padding, border, margin
 	- top, left, right, bottom
 	- position
-	- min-width, max-width (no IE6)
 	- block-level and inline [p. 118]
 	
 - Basics of inspecting with Firebug
+
+- [Lab]:
+	- Play with floating the box, positioning the box.
 	
 - Article Example 1
 	- Start with core html and p tag content
-	- Include an image into the first paragraph
+	- Look at image in first p, discuss alignment
 	- Assign font-family to body, background color of #eee
-	- Playing with line-height
 	- Use wrapping div to center text, create narrow page
-	- Explain text-align and margin for centering
-	- Byline and H1 styling
+	- Explain margin for centering
+	- H1 styling
 	- Float image left, give it padding, border, margin
-	- Adding a blockquote
-	- Styling blockquote with font-style, text-align, font-size
+	- Playing with line-height
 	- Discuss EM measurement, makes sizes relative
+	(More: http://jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css)
 	
-- Clearing floats
-
+- Validating pages with web developer toolbar
 
 ========================================
-Topics - Class Three
+Topics - Class Three (Chapter 4, Floats pg 168)
+
+- [LAB]
+	- Floating two DIVs within a parent container
 
 - Basic Restaurant Site Lab
 	- How to plan a page layout with mockups, drawings
 	- Create a core structure of divs: container, h1, main, ul, content, footer
+	- CSS Reset
 	- How to start with some debug styling (grid, bg colors, min heights)
 	- Background image into h1, text-indent
 	- Background image repeating, positioning
-	- Set widths and floats for main content
+	- Set widths and floats nav, content
+	- [LAB]
+		- Playing with floats.
+		- Adding a new div for footer
 	- Solve float collapse problem with a clear float
+	
+
+========================================
+Topics - Class Four
+
+
+- Basic Restaurant Site Lab
 	- Style navigation, discuss nested elements
 	- Style content h2, p tag (explain why h2, not h1)
 	- Style footer
-	
+
+
+
+
+
 - All CSS Selector Types
 	- elements (previously seen)
 	- classes, ids (previously seen)
@@ -129,10 +143,6 @@ Topics - Class Three
 	- attribute/value selectors
 	- sibling selectors
 	- http://www.quirksmode.org/css/contents.html
-
-
-========================================
-Topics - Class Four
 
 - Tables [ch 6 p. 223]
 	- table
