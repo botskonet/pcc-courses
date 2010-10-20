@@ -124,55 +124,40 @@ Topics - Class Three (Chapter 4, Floats pg 168)
 ========================================
 Topics - Class Four
 
+- [LAB]
+	- Name/recall the elements we used to build our structure
 
-- Basic Restaurant Site Lab
-	- Style navigation, discuss nested elements
-	- Style content h2, p tag (explain why h2, not h1)
-	- Style footer
+- [LAB]
+	- Spacing the content div, and the footer div
+	- Sizing and positioning the footer text
 
+- Style navigation, discuss nested elements
+	- Introduce :hover psuedo-class
+- Add in some content
+	- Use Lorem Ipsum http://html-ipsum.com/
+- Style content h2, p tag (explain why h2, not h1)
 
-
-
-
-- All CSS Selector Types
-	- elements (previously seen)
-	- classes, ids (previously seen)
-	- comma-separated (previously seen)
-	- child selectors
-	- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
-	- attribute/value selectors
-	- sibling selectors
-	- http://www.quirksmode.org/css/contents.html
+- [LAB]
+	- Determine which DIVs contain which elements, colors
+	
+- Correct all background images/colors
 
 - Tables [ch 6 p. 223]
 	- table
 	- tr, th, td
 	- thead, tbody, tfoot
 	- caption
-	- colspan, rowspan
 	- Data versus layout
 	- discuss semantics of tables (data!)
-
-- Forms [ch 7 p. 249]
-	- form, action method
-	- fieldset, legend
-	- input
-		- text
-		- radio
-		- checkbox
-		- password
-		- hidden
-	- select/option/optgroup
-	- textarea
-	- labels
-	- buttons/submit/reset
-	- tab order
-	- selected/checked
-
-- Processing Form Data
-	- GET versus POST
-	- What is PHP/PERL/RUBY
-
+	- Explain border-collapse
+	
+	- [LAB]
+		- colspan, rowspan
+		
+- DL/DT/DD
+	- [LAB]
+		- Floating the table and dl
+	
 
 ========================================
 Topics - Class Five
@@ -180,28 +165,50 @@ Topics - Class Five
 - Introduction to Javascript (Core)
 	- Placement of script tag, external file
 	- Variables
-	- Basic operations: math, string concatenation, alert(), confirm()
+	- Basic operations: math, string concatenation, alert()
 	- Firebug Console
 	- Conditions
 	- Code comments
-	- Basics of functions
+	- [LAB]
+		- Create two variables which container integers
+		- Add them together, use console.log to print the result
+	
+- Introduction to DOM
 	- What is the DOM?
-	- Events
+	- "document" object
+	- Accessing elements / getElementById
+	- [LAB]
+		- Add a new div
+		- Set it's width, height, and background color
 
 - Introduction to jQuery
 	- Downloading jquery
-	- Including
+	- Including the file
 	- Using document.ready
 	- The $ variable
 	- Using CSS selectors
+	- Events
 	- Anonymous functions
 	- "this"
 	
-CSS Frameworks
-	- Blueprint http://www.blueprintcss.org/
-	- 960 http://960.gs/
+	- Practice: setting css for a, div and p
+	- Using hover event to fix old browsers
+	- [LAB]
+		- Hiding the DIVs
+		
+	- Creating expandable items
+	- Write function to run when any anchor is clicked
+	- Step 1: SlideToggle the DIV immediately following the anchor
+	- [LAB]
+		- Step 2: Close all open DIVs (before slidetoggle runs)
+	- Step 3: Fix the weirdness when you click again on a link
 	
-Introduction to HTML5
+
+- Advice on next steps/courses
+- Evaluations! (48161)
+
+- Additional:	
+- Introduction to HTML5
 	- Article, header, nav, section, footer, section
 	
 	
@@ -238,4 +245,39 @@ Box Model Calculation Issues
 - Evaluations!
 
 
+
+
+
+
+
+- Forms [ch 7 p. 249]
+	- form, action method
+	- fieldset, legend
+	- input
+		- text
+		- radio
+		- checkbox
+		- password
+		- hidden
+	- select/option/optgroup
+	- textarea
+	- labels
+	- buttons/submit/reset
+	- tab order
+	- selected/checked
+
+- Processing Form Data
+	- GET versus POST
+	- What is PHP/PERL/RUBY
+	
+	
+	- All CSS Selector Types
+		- elements (previously seen)
+		- classes, ids (previously seen)
+		- comma-separated (previously seen)
+		- child selectors
+		- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
+		- attribute/value selectors
+		- sibling selectors
+		- http://www.quirksmode.org/css/contents.html
 	
