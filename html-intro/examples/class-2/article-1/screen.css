@@ -1,0 +1,23 @@
+body {
+	font-size: 15px;
+	font-family: Georgia, serif;
+	background-color: #eee;
+}
+#content { 
+	margin: 0 auto; 
+	width: 780px; 
+	text-align: left;
+}
+h1 { text-decoration: underline;}
+.img-left { 
+	float: left; 
+	margin: 5px 10px 5px 0;
+	border: 1px solid #ccc; 
+	padding: 10px; 
+	background-color: #fff;
+}
+.img-left img { float: left; } /* fixing the double padding that appears if the img isn't floated */
+p { 
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}

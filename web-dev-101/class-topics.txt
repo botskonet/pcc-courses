@@ -8,8 +8,6 @@ Want to build your very first web site, but not sure where to start? Considering
 ========================================
 Topics - Class One (Chapters 1, 2, part of 3)
 
-- Who am I?
-
 - How the internet works:
     - Traffic is routed through the networks
 	- HTTP / DNS / IP Address
@@ -39,7 +37,6 @@ Topics - Class One (Chapters 1, 2, part of 3)
 	- What is plain text versus rich text?
 	
 - The Foundation of an HTML Document
-	- Doctype [Basics]
 	- html, head, title, body elements
 	- State of html versions
 	- Don't use old elements: font, b, i, etc
@@ -60,15 +57,11 @@ Topics - Class One (Chapters 1, 2, part of 3)
 ========================================
 Topics - Class Two
 
-
 - [LAB]
 	- Building a basic page using elements from last class
 	- Uses: h1, p, span, also try: a
-
-- Include external css file [p. 78]
-	<link rel="stylesheet" type="text/css" href="class.css" />
-	<style type="text/css">@import url(style.css);</style>
-	- Discuss relative URLs
+	
+- Doctype Basics
 	
 - DIVs [p. 54]
 	- The empty element for all purposes
@@ -86,6 +79,11 @@ Topics - Class Two
 
 - [Lab]:
 	- Play with floating the box, positioning the box.
+	
+- Include external css file [p. 78]
+	<link rel="stylesheet" type="text/css" href="class.css" />
+	<style type="text/css">@import url(style.css);</style>
+	- Discuss relative URLs
 	
 - Article Example 1
 	- Start with core html and p tag content
@@ -187,14 +185,15 @@ Topics - Class Five
 	- Using document.ready
 	- The $ variable
 	- Using CSS selectors
-	- Events
-	- Anonymous functions
-	- "this"
 	
 	- Practice: setting css for a, div and p
 	- Using hover event to fix old browsers
 	- [LAB]
 		- Hiding the DIVs
+		
+	- Events
+	- Anonymous functions
+	- "this"
 		
 	- Creating expandable items
 	- Write function to run when any anchor is clicked
@@ -203,13 +202,8 @@ Topics - Class Five
 		- Step 2: Close all open DIVs (before slidetoggle runs)
 	- Step 3: Fix the weirdness when you click again on a link
 	
-
 - Advice on next steps/courses
-- Evaluations! (48161)
-
-- Additional:	
-- Introduction to HTML5
-	- Article, header, nav, section, footer, section
+- Evaluations!
 	
 	
 ========================================
@@ -247,7 +241,9 @@ Box Model Calculation Issues
 
 
 
-
+- Additional:	
+- Introduction to HTML5
+	- Article, header, nav, section, footer, section
 
 
 - Forms [ch 7 p. 249]

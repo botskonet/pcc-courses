@@ -1,0 +1,43 @@
+body { 
+	font-family: Georgia, serif; 
+	background-color: #eee;
+}
+#content {
+	margin: 0 auto; /* centers the container */
+	width:780px; 
+	text-align: left;
+}
+h1 { 
+	margin-bottom: 5px; 
+	text-decoration: underline;
+}
+.byline { font-size: .8em; }
+
+/* fixes the "clear float" bug we have when a float "collapses" it's parent container */
+.article { overflow: hidden; }
+
+.left-col, .right-col { 
+	width: 375px; 
+	float: left;
+}
+.right-col { float: right; }
+
+.img-left { 
+	float: left; 
+	margin: 5px 10px 5px 0; 
+	border: 1px solid #ccc; 
+	padding: 5px; 
+	background-color: #fff;
+}
+p { line-height: 1.5em; }
+blockquote { 
+	text-align: center;
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+/* separator */
+.left-col { 
+	border-right: 1px dashed #ccc; 
+	padding-right: 10px;
+}

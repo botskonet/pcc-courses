@@ -38,9 +38,16 @@ Course One - Topics
 - Dashboard overview
 
 - Posting Basics
+	- Posts list overview
 	- Posts
 	- Overview of add/edit post page
+	- Post toolbar overview
 	- Drafts/Private/Published
+	- Categories, adding, filtering by
+	- Tags
+	
+- Pages
+	- Differences from posts
 
 - Settings
 	- general
@@ -51,15 +58,14 @@ Course One - Topics
 	- privacy (disallows spiders)
 	- permalinks (permanent address for accessing the information, why that's important)
 	- misc (uploading)
+	- setting a page as the homepage
 	
 
 Course Two - Topics
 ==============================
 
-- Posts list overview
-- Post toolbar overview
-- Categories, adding, filtering by
-- Tags
+
+- Setting permissions on the wp-content folder
 
 - Upload images and media
 	- Creating folder with proper permissions
@@ -67,13 +73,19 @@ Course Two - Topics
 		- Understanding widths
 		- Setting thumbnail and link options
 		- Inserting into posts
+	- Finding images used previously
 
 - Links
-- Pages
-	- Differences from posts
-	- Setting a page as your homepage
-- Comments list overview
 
+- Comments Overview
+	- List
+	- Try commenting on someone elses blog
+	- Check your email for a notification about that comment
+	- Follow the link in your email to approve it
+	- Approving from within the comment list
+	- Replying
+	- Marking as spam or deleting
+	
 - Appearance
 	- Themes
 		- How to install themes within wordpress
@@ -82,14 +94,16 @@ Course Two - Topics
 	- Header
 	- Editor
 	
+- Widgets
+
+- Creating Menus
+	
+- Background/header changes
+	
 	
 	
 Course Three - Topics
 ==============================
-
-- Appearance
-	- Widgets
-	- Menus
 
 - Plugins
 	Ex: Google Sitemaps
@@ -110,8 +124,6 @@ Course Three - Topics
 	- category/tags converter
 	- import - import old blog data from another blogging service
 	- export
-	- upgrade - upgrade the codebase for wordpress iteself
-	
 	
 - [LAB]: "ACME Inc."
 	- Choose a new theme
@@ -121,25 +133,34 @@ Course Three - Topics
 	
 	- Permalinks and htaccess/mod_rewrite
 	
-- I will comment on your posts before last class. You will need to approve them, and reply.
-		
-		
-
-Course Four - Topics
-==============================
-
-- RSS
 - Site Statistics
 - Backing Up Data
 	- wp-db-backup
+	
+- I will comment on your posts before last class. You will need to approve them, and reply.
+		
+		
+Course Four - Topics
+==============================
 
-- Wordpress Documentation
-	- http://codex.wordpress.org/Main_Page
+- Advanced post editing
+	- The "kitchen sink" buttons
+	- Editing the post markup directly
+
+- Image Galleries
+	- Upload multiple images at once
+	- Set gallery settings
+	- Insert into post
+
+- What is RSS
 
 - Editing Themes
 	- Where to find the files
 	- Understanding the files
 	- Basic intro to wordpress functions
+	
+- Wordpress Documentation
+	- http://codex.wordpress.org/Main_Page
 	
 - Course Evaluations
 

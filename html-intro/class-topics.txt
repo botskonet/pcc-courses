@@ -13,9 +13,6 @@ Emphasis:
 ========================================
 Topics - Class One
 
-- Books
-- How to use the WIFI: MyPCC username, G# is password
-
 - How the internet works:
     - Traffic is routed through the networks
 	- HTTP / DNS / IP Address
@@ -39,32 +36,93 @@ Topics - Class One
 	- Power of view source
 	
 - How to create an html document
-	- Create a new plain text file, called "index.html"
+	- Open editor (Notepad++)
+	- Save as plain text file called "index.html"
 	- Why index? Why ".html"?
-	- What is plain text versus rich text editors?
+	- What is plain text versus rich text?
 	
 - The Foundation of an HTML Document
-	- Doctype
+	- Doctype [Basics]
 	- html, head, title, body elements
-	- Brief overview of differences of html versions
+	- State of html versions
 	- Don't use old elements: font, b, i, etc
 	
 - Creating your first document
 	- html, head, title, body
-	- p, img, strong, em, a, h1, ul/ol/li
+	- h1, p, strong, em
+	- [LAB]:
+		- add an image using the google homepage logo (http://www.google.com/intl/en_ALL/images/logo.gif)
+	- anchors
 	
 - Basics of CSS
 	- element selector
 	- classes
 	- IDs
+	- Colors [http://www.colorpicker.com/]
 	
 
 
 ========================================
 Topics - Class Two
 
-- Review an example of good style vs structure (disable css)
-http://pullmanregional.org/
+- [LAB]
+	- Building a basic page using elements from last class
+	- Uses: h1, p, span, also try: a
+
+- Doctypes
+	- Defining dictionary
+	- General ideas of differences between versions
+	- Transitional versus Strict
+	
+- DIVs
+	- The empty element for all purposes
+	- Often used for "wrapping"
+	- More power than tables and not forced into a structure like table cells
+	
+- Basics of inspecting with Firebug
+
+- Box Model:
+	- width, height (problems with calcs among browsers)
+	- padding, border, margin
+	- top, left, right, bottom
+	- position
+	- block-level and inline
+	
+- [Lab]:
+	- Play with floating the box, positioning the box.
+	- Add a third div and float all three
+
+- Include external css file
+	<link rel="stylesheet" type="text/css" href="class.css" />
+	<style type="text/css">@import url(style.css);</style>
+	- Discuss relative URLs
+
+- Article Example 1
+	- Start with core html and p tag content
+	- Look at image in first p, discuss alignment
+	- Assign font-family to body, background color of #eee
+	- Use wrapping div to center text, create narrow page
+	- Explain margin for centering
+	- H1 styling
+	- Float image left, give it padding, border, margin
+	- Playing with line-height
+	- Discuss EM measurement, makes sizes relative
+	(More: http://jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css)
+	- Adding a blockquote
+	
+- Article Examples 2
+	- Creating containers for left and right columns
+	- Sizing them properly, allowing room in the middle
+	- Floating the columns
+	- Discussing the float bug on parent containers
+	- Adding a clear float to a new div, which contains both floated columns
+	- Adding a basic footer
+	
+- Validating pages with web developer toolbar
+		
+		
+		
+		
 	
 - Tables
 	- table
@@ -76,16 +134,6 @@ http://pullmanregional.org/
 	- discuss semantics of tables (data!)
 	- Show an example of a site built with tables:
 	http://nobeltec.com/products/prod_sounder.asp
-	
-	
-- Include external css file
-	<link rel="stylesheet" type="text/css" href="class.css" />
-	<style type="text/css">@import url(style.css);</style>
-	
-	- Discuss relative URLs
-	- Discuss media-specific style sheets
-	
-- CSS and HTML comments
 	
 - Style table using css
 	- background colors
@@ -103,41 +151,62 @@ http://pullmanregional.org/
 		
 		Spider simulator
 		http://www.feedthebot.com/tools/spider/index.php
+		
+		
+========================================
+Topics - Class Three (Chapter 4, Floats pg 168)
+
+- [LAB]
+	- Floating two DIVs within a parent container
+	- Clearfloat
+
+- Planning your layout with wireframes
+- CSS Reset
+	- http://html5doctor.com/html-5-reset-stylesheet/
+	
+- Create your core div structure without content
+	- Header, floats and a container, footer
+	- Clearing your floats
+- Using a grid to ensure you have solid alignment
+- Using min-height for testing without content
+- Using rgba for great way to see boxes without impacting size
+
+- Adding content
+	- Adding title text to your title, h1
+	- Adding text to your p, and footer
+
+- Building navigation
+	- Creating an ol for a list of links
+	- Adding a sub list within a list item
+
+- [LAB]
+	- Swap navigation and content positions using floats
+
+- Filling in coloring and styling
+	- Background image into h1, text-indent to hide text
+	- Background image repeating, positioning
+	
+	- Styling navigation text
+	- Intro to the :hover pseudo class
+	
+- Special Characters
+	- different encoding sets
+	- how to specify one
+
+	- What is an entity?
+	- ISO 8859 (windows) and UTF-8 are widely supported
+
+	HTML4 and below: <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	HTML5: <meta charset="utf-8">
+	http://leftlogic.com/lounge/articles/entity-lookup/
 
 
 ========================================
 Topics - Class Three
 
-- Inner-page anchors
-	
-- DIVs
-	- The empty element for all purposes
-	- Often used for "wrapping"
-	- More power than tables and not forced into a structure like table cells
-	
-- Box Model:
-	- width, height (problems with calcs among browsers)
-	- padding, border, margin
-	- top, left, right, bottom
-	- position
-	- min-width, max-width (no IE6)
-	
-- DIV Experiments
-	
-- Article Example 1
+- Review an example of good style vs structure (disable css)
+http://pullmanregional.org/
 
-	- Start with core html and p tag content
-	- Include an image into the first paragraph
-	
-	- Assign font-family to body, background color of #eee
-	- Playing with line-height
-	- Use wrapping div to center text, create narrow page
-	- Explain text-align and margin for centering
-	- Byline and H1 styling
-	- Float image left, give it padding, border, margin
-	- Adding a blockquote
-	- Styling blockquote with font-style, text-align, font-size
-	- Discus EM measurement, makes sizes relative
 	
 - Special Characters
 	- different encoding sets
@@ -151,20 +220,7 @@ Topics - Class Three
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	http://leftlogic.com/lounge/articles/entity-lookup/
-	
-- Clearing floats
-	
-	
-	{Only complete if enough time available}
-- Article 2
 
-	- How to divide up your content into sections
-	- Header, content (left/right), footer
-	- How to float divs left, right
-	- Measurement issues
-	- How to use css to show DIV positioning
-	- Show what happens when two float left items are used
-	- Ask class how to add a 1px black separator between cols
 
 
 ========================================

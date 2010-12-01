@@ -1,0 +1,29 @@
+ftp:
+	pdxclimb.org
+	user: pdxclimber03
+	pass: Climb2Success
+
+Databases:
+	student_1 - 10 (users)
+	pass: Teach4Success
+	
+	instructor_1 (teacher)
+	pass: Teach4Success
+	
+	host: localhost
+	http://mbotsko.pccclimb.org/student_1/
+	
+	
+	http://pma.pccclimb.org/
+	72.47.194.97
+	
+	
+http://mbotsko.pccclimb.org/student_1/ = student_1
+http://mbotsko.pccclimb.org/student_2/ = student_2
+http://mbotsko.pccclimb.org/student_3/ = student_3
+http://mbotsko.pccclimb.org/student_4/ = student_4
+http://mbotsko.pccclimb.org/student_5/ = student_5
+http://mbotsko.pccclimb.org/student_6/ = student_6
+http://mbotsko.pccclimb.org/student_7/ = student_7
+http://mbotsko.pccclimb.org/student_8/ = student_8
+http://mbotsko.pccclimb.org/instructor_1/ = instructor_1
