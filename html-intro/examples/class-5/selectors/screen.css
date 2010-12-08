@@ -1,0 +1,56 @@
+
+/* All Elements */
+/* { outline: 1px solid red; }*/
+
+/* Element Name */
+/*section { outline: 1px solid red; }*/
+
+/* Class Name */
+/*.para { outline: 1px solid red; }*/
+
+/* ID */
+/*#para { outline: 1px solid red; }*/
+
+/* Element name / class name */
+/*p.reused-class { outline: 1px solid red; }*/
+
+/* Element name / class name */
+/*p#para { outline: 1px solid red; }*/
+
+/* Multiple must-have classes (no <= IE6) */
+/*.para.reused-class { outline: 1px solid red; }*/
+
+/* Comma-separated */
+/*span, abbr { outline: 1px solid red; }*/
+
+/* Nested, any level */
+/*section li { outline: 1px solid red; }*/
+
+/* Nested, first level level */
+/*li > ol { outline: 1px solid red; }*/
+
+/* Next element (no <= IE6) */
+/*li+li { outline: 1px solid red; }*/
+
+/* Attribute value selector (no <= IE6) */
+/*input[type="text"] { outline: 1px solid red; }*/
+
+/* Hover pseudo-class (no <= IE6 except for anchors) */
+/*p:hover { outline: 1px solid red; }*/
+
+/* First Child (problematic in <= IE9) */
+/*li:first-child { outline: 1px solid red; }*/
+
+/* empty elements */
+/*p:empty { outline: 1px solid red; min-height: 10px; }*/
+
+/* Last Child (no < IE9) */
+/*li:last-child { outline: 1px solid red; }*/
+
+/* elements that are not *x* (no < IE9) */
+/*p:not(.para) { outline: 1px solid red; }*/
+
+/* Place lab answers here */
+
+/*li li:first-child { outline: 1px solid red; }*/
+/*form * { outline: 1px solid red; }*/

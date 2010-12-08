@@ -1,5 +1,5 @@
 
-CEU977W HTML - 05:30 PM-09:30 PM  	TuTh  	09-Feb-2010 thru 25-Feb-2010
+HTML
 Learn to write and use HTML for producing effective web sites. Course covers web site design, navigation principles hyperlinks, tables, frames, forms and Cascading Style Sheets (CSS). An added emphasis of this course is the use of CSS for both formatting and for creating dynamic content. Other topics include in-depth CSS, Server Side Scripting and Client Side Scripting. Helpful Experience: comfortable working with Windows. 
 
 
@@ -59,7 +59,6 @@ Topics - Class One
 	- classes
 	- IDs
 	- Colors [http://www.colorpicker.com/]
-	
 
 
 ========================================
@@ -118,41 +117,15 @@ Topics - Class Two
 	- Adding a clear float to a new div, which contains both floated columns
 	- Adding a basic footer
 	
-- Validating pages with web developer toolbar
-		
-		
-		
-		
-	
-- Tables
-	- table
-	- tr, th, td
-	- thead, tbody, tfoot
-	- caption
-	- colspan, rowspan
-	- Data versus layout
-	- discuss semantics of tables (data!)
-	- Show an example of a site built with tables:
-	http://nobeltec.com/products/prod_sounder.asp
-	
 - Style table using css
 	- background colors
 	- borders
 	- spacing
 	- th vs td
-	
-- How Search Engines work
-	- What's an index/spider
-	- How does Google evaluate content?
-		- Importance to titles, URL, h1s, incoming link text
-		- Importance from how it appears on the page
-		- Reading your navigation properly
-		- Associating content together for better understanding
-		
-		Spider simulator
-		http://www.feedthebot.com/tools/spider/index.php
-		
-		
+
+- Validating pages with web developer toolbar
+
+
 ========================================
 Topics - Class Three
 
@@ -212,7 +185,8 @@ Topics - Class Four
 	- Data versus layout
 	- discuss semantics of tables (data!)
 	- Explain border-collapse
-
+	- Show an example of a site built with tables:
+	http://nobeltec.com/products/prod_sounder.asp
 	- [LAB]
 		- colspan, rowspan
 
@@ -232,7 +206,6 @@ Topics - Class Four
 	- sub / sup
 	- pre
 	
-- Additional:
 - Conditional comments http://www.quirksmode.org/css/condcom.html
 
 - How to learn about browser bugs
@@ -263,15 +236,51 @@ Topics - Class Five
 - Processing Form Data
 	- GET versus POST
 	- What is PHP/PERL/RUBY
-
-- Images and Design
-	- Software for image editing
-	- What is a JPG, GIF, PNG?
-	- AmberGlen Example (http://www.amberglen.com/)
-	- How to optimize for the web
-	- Basics of splicing out images
 	
-- What is Flash
+- [LAB]
+	- Creating a basic form with first name, last name, and email
+	
+- Exploring CSS Selectors
+	- Compatibility: http://www.quirksmode.org/css/contents.html
+	
+	- Safe Selectors:
+	 	- *
+		- element name
+		- classes
+		- id
+		- element.class
+		- element#id
+		- shared classes
+		- comma-separated
+		- nested, any level
+		- immediate child only (>)
+		- next element (+)
+		- attributes
+		- hover
+		
+	- Mostly Safe:
+		- first-child
+		
+	- Safe CSS3 Selectors
+		- empty
+		- last-child
+		- not
+		
+- [LAB]
+	- Select only the first li, which is nested
+	- Select all form elements
+	
+- Additional:	
+- How Search Engines work
+	- What's an index/spider
+	- How does Google evaluate content?
+		- Importance to titles, URL, h1s, incoming link text
+		- Importance from how it appears on the page
+		- Reading your navigation properly
+		- Associating content together for better understanding
+
+		Spider simulator
+		http://www.feedthebot.com/tools/spider/index.php
 
 
 ========================================
@@ -348,6 +357,26 @@ Reserve topics:
 - Cache
 - HTTP Headers
 - Looking at CSS3, HTML5
+
+- How Search Engines work
+	- What's an index/spider
+	- How does Google evaluate content?
+		- Importance to titles, URL, h1s, incoming link text
+		- Importance from how it appears on the page
+		- Reading your navigation properly
+		- Associating content together for better understanding
+		
+		Spider simulator
+		http://www.feedthebot.com/tools/spider/index.php
+		
+		- Images and Design
+			- Software for image editing
+			- What is a JPG, GIF, PNG?
+			- AmberGlen Example (http://www.amberglen.com/)
+			- How to optimize for the web
+			- Basics of splicing out images
+
+		- What is Flash
 
 
 Resources

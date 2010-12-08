@@ -1,0 +1,31 @@
+@import '../reset.css';
+form {
+	margin: 30px 0 0 50px; 
+	width: 450px;
+}
+legend { 
+	font-family: Georgia;
+	font-style: italic;
+	padding: 5px;
+	background-color: #FEFFBF;
+}
+li { 
+	list-style: none;
+	margin: 5px 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 5px;
+}
+label {
+	padding-top: 3px;
+	width: 120px;
+	text-align: right;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+ol {
+	margin-top: 10px; 
+	-webkit-margin-collapse: separate; /* https://bugs.webkit.org/show_bug.cgi?id=35981 */
+}
