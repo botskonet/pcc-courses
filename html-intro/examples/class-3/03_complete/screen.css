@@ -12,10 +12,13 @@ body {
 	border: 1px solid #888;
 }
 
-h1 { 
+#header { 
 	height: 200px;
 	margin-bottom: 20px;
 	background: transparent url('../img/restaurant_sm.jpg'); 
+}
+
+h1 {
 	text-indent: -9999px;
 }
 
@@ -57,9 +60,10 @@ h1 {
 
 #section h2 {
 	font-size: 1.3em;
+	margin-bottom: 1em;
 }
 #section p {
-	margin-top: 1.2em;
+	margin-bottom: 1.2em;
 	line-height: 1.4em;
 }
 

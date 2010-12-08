@@ -12,7 +12,7 @@
 	margin: 0 auto; /* centers our page */
 }
 
-h1 { 
+#header { 
 	height: 200px;
 	margin-bottom: 20px;
 }

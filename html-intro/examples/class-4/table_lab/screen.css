@@ -1,0 +1,17 @@
+@import '../reset.css';
+
+/* some default styling */
+th, td { font-family: Consolas, "Lucida Console", sans-serif; }
+.keep-my-contents-away-from-screen-edges-please { margin: 50px auto 0 auto; width: 760px; }
+thead th { background-color: #CCFF66; }
+th, td, caption { padding: 10px; }
+td { border: 1px dotted #ccc; }
+th { border: 1px solid #97BF47; }
+.vert { vertical-align: middle; }
+
+/* in-class styling */
+div { text-align: justify; }
+table { float: right; margin: 5px 0 10px 20px; }
+p { margin-bottom: 1.5em; line-height: 1.3em; }
+
+/*tr:nth-child(even) { background-color: #eee; }*/
