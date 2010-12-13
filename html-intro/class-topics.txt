@@ -269,8 +269,27 @@ Topics - Class Five
 - [LAB]
 	- Select only the first li, which is nested
 	- Select all form elements
-	
-- Additional:	
+
+
+========================================
+Topics - Class Six
+
+
+LAB:
+- Building the typical header/content/footer with two columns layout
+- Finding the issue with the paragraph hover.
+
+- Intro to HTML5
+	- article
+	- section
+	- header
+	- footer
+	- aside
+	- nav
+	- You must explicitly set them all to display: block (until HTML5 is final)
+	- Which browsers support it
+	- IE HTML5Shim (http://code.google.com/p/html5shim/)
+
 - How Search Engines work
 	- What's an index/spider
 	- How does Google evaluate content?
@@ -282,9 +301,9 @@ Topics - Class Five
 		Spider simulator
 		http://www.feedthebot.com/tools/spider/index.php
 
-
-========================================
-Topics - Class Six
+- CSS Frameworks
+	- Blueprint (ttp://www.blueprintcss.org/)
+	- 960 http://960.gs/
 
 - Finding Web Hosting
 	- What is a server, really?
@@ -305,50 +324,23 @@ Topics - Class Six
 	- Navigating remote/local folders
 	- Uploading/downloading
 	
-- Basics of PHP
-	- Includes
-	- Setting dates
-	- Dynamic html
-
-- Basics of Javascript
-	- What is the DOM?
-	- jQuery
-	- Form/jQuery Form Validation
-	
-- Javascript+Flash for Custom Fonts
-	- Cufon (http://www.cameronmoll.com/articles/cufon/)
-
-- Basics of XML
-	- Structured elements like HTML, but tags you define
-	- How XML is used:
-		- RSS Feeds
-		- Sitemaps
-
-- Quality Assurance / Testing / Debugging
-	- Firefox extensions (formsaver, dust-me, )
-	- Basics of Version Control
-	- Always validate
-	- Automated testing
-		- Selenium IDE http://seleniumhq.org/
-	
 - Where next?
 	- Why/Why Not Javascript
 	- Why/Why Not PHP
 	- CMS Software (Wordpress)
-	- Freelancer Education Program
 	
 - Book Recommendations?
-	- Mobile Web Design http://www.amazon.com/o/ASIN/0615185916?tag=betteraddons-20
+	- HTML5 for Web Designers / CSS3 for Web Designers (http://books.alistapart.com/)
 	- CSS Mastery http://www.amazon.com/o/ASIN/1430223979?tag=betteraddons-20
-	- Designing with Web Standard http://www.amazon.com/o/ASIN/0321616952?tag=betteraddons-20
+	- Designing with Web Standards http://www.amazon.com/o/ASIN/0321616952?tag=betteraddons-20
 	
-- Introduce StackOverflow (http://stackoverflow.com/)
+- Where to find help?
+ 	- http://www.htmlforums.com/
+	- StackOverflow (http://stackoverflow.com/)
 
 - Final Questions
 
-- Evaluations. THESE MUST BE COMPLETED
-
-- Distribute all class materials
+- Evaluations. THESE MUST BE COMPLETED (temporarily at: http://10.70.140.16/entry.php)
 
 - Distribute certifications
 
@@ -356,27 +348,7 @@ Topics - Class Six
 Reserve topics:
 - Cache
 - HTTP Headers
-- Looking at CSS3, HTML5
 
-- How Search Engines work
-	- What's an index/spider
-	- How does Google evaluate content?
-		- Importance to titles, URL, h1s, incoming link text
-		- Importance from how it appears on the page
-		- Reading your navigation properly
-		- Associating content together for better understanding
-		
-		Spider simulator
-		http://www.feedthebot.com/tools/spider/index.php
-		
-		- Images and Design
-			- Software for image editing
-			- What is a JPG, GIF, PNG?
-			- AmberGlen Example (http://www.amberglen.com/)
-			- How to optimize for the web
-			- Basics of splicing out images
-
-		- What is Flash
 
 
 Resources
@@ -386,17 +358,11 @@ http://www.alvit.de/handbook/index.php
 	
 
 CSS Resources / Reading
-http://meyerweb.com/eric/tools/css/reset/
 http://www.456bereastreet.com/
 http://www.smashingmagazine.com/2007/01/19/53-css-techniques-you-couldnt-live-without/
 http://www.campaignmonitor.com/css/
 http://css-discuss.incutio.com/?page=FrontPage
 http://www.css3.info/
-
-
-CSS Frameworks:
-http://www.blueprintcss.org/
-http://960.gs/
 
 
 Tools:
