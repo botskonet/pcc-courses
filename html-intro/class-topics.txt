@@ -274,12 +274,19 @@ Topics - Class Five
 ========================================
 Topics - Class Six
 
+- Review the methods to debug a website.
+	- Firebug
+	- Validate!
+	- Use search engines to look for solutions
+	- Use forums when you can't find a solution, or the problem
+	- [LAB]
+		- Finding the issue with the paragraph hover.
 
-LAB:
-- Building the typical header/content/footer with two columns layout
-- Finding the issue with the paragraph hover.
+- Reviewing the basics of div use, layout, and floats
+	- [LAB]
+		- Building the typical header/content/footer with two columns layout
 
-- Intro to HTML5
+- The Basics of HTML5
 	- article
 	- section
 	- header
@@ -300,7 +307,10 @@ LAB:
 
 		Spider simulator
 		http://www.feedthebot.com/tools/spider/index.php
-
+	- Sitemap XML Files
+		- Basics of
+		- Generating for a static site (http://www.xml-sitemaps.com/ - limited to 500 pages)
+		
 - CSS Frameworks
 	- Blueprint (ttp://www.blueprintcss.org/)
 	- 960 http://960.gs/
@@ -340,14 +350,10 @@ LAB:
 
 - Final Questions
 
-- Evaluations. THESE MUST BE COMPLETED (temporarily at: http://10.70.140.16/entry.php)
+- Evaluations. THESE MUST BE COMPLETED
 
-- Distribute certifications
+- Distribute certificates
 
-
-Reserve topics:
-- Cache
-- HTTP Headers
 
 
 
@@ -371,10 +377,6 @@ https://www.google.com/analytics
 https://browserlab.adobe.com/index.html
 http://analyze.websiteoptimization.com
 http://www.feedthebot.com/tools/spider/index.php
-
-
-http://stackoverflow.com
-
 
 Recommended Firefox Extensions
 https://addons.mozilla.org/en-US/firefox/collections/view/3df574e1-a4a3-7c48-965b-0625fc25c01b
