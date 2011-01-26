@@ -5,8 +5,6 @@ Learn Wordpress to quickly and easily build a professional website for yourself,
 Course One - Topics
 ==============================
 
-- Course Intro
-
 - Static websites versus content management
 
 - Finding a web host, preparing the server
@@ -42,28 +40,19 @@ Course One - Topics
 	- Posts
 	- Overview of add/edit post page
 	- Post toolbar overview
+	- Advanced post editing
+		- The "kitchen sink" buttons
+		- Editing the post markup directly
 	- Drafts/Private/Published
 	- Categories, adding, filtering by
 	- Tags
 	
 - Pages
 	- Differences from posts
-
-- Settings
-	- general
-	- writing (remote publishing: what is it? what is atom and xml-rpc)
-	- reading 
-	- discussion (comment guidelines, avatars)
-	- media (image sizes, embeds)
-	- privacy (disallows spiders)
-	- permalinks (permanent address for accessing the information, why that's important)
-	- misc (uploading)
-	- setting a page as the homepage
 	
 
 Course Two - Topics
 ==============================
-
 
 - Setting permissions on the wp-content folder
 
@@ -99,6 +88,17 @@ Course Two - Topics
 - Creating Menus
 	
 - Background/header changes
+
+- Settings
+	- general
+	- writing (remote publishing: what is it? what is atom and xml-rpc)
+	- reading 
+	- discussion (comment guidelines, avatars)
+	- media (image sizes, embeds)
+	- privacy (disallows spiders)
+	- permalinks (permanent address for accessing the information, why that's important)
+	- misc (uploading)
+	- setting a page as the homepage
 	
 	
 	
@@ -143,9 +143,6 @@ Course Three - Topics
 Course Four - Topics
 ==============================
 
-- Advanced post editing
-	- The "kitchen sink" buttons
-	- Editing the post markup directly
 
 - Image Galleries
 	- Upload multiple images at once

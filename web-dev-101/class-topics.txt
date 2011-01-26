@@ -44,14 +44,14 @@ Topics - Class One (Chapters 1, 2, part of 3)
 - Creating your first document
 	- html, head, title, body
 	- h1, p, strong, em
-	- [LAB]:
-		- add an image using the google homepage logo (http://www.google.com/intl/en_ALL/images/logo.gif)
+	- add an image using the google homepage logo (http://www.google.com/intl/en_ALL/images/logo.gif)
 	- anchors
 	
 - Basics of CSS
 	- element selector
 	- classes
 	- IDs
+	- Using spans
 	- Colors [http://www.colorpicker.com/]
 	
 ========================================
@@ -74,15 +74,14 @@ Topics - Class Two
 	- top, left, right, bottom
 	- position
 	- block-level and inline [p. 118]
-	
-- Basics of inspecting with Firebug
+	- floats http://css-tricks.com/all-about-floats/
 
 - [Lab]:
 	- Play with floating the box, positioning the box.
 	
 - Include external css file [p. 78]
 	<link rel="stylesheet" type="text/css" href="class.css" />
-	<style type="text/css">@import url(style.css);</style>
+	<style>@import url(style.css);</style>
 	- Discuss relative URLs
 	
 - Article Example 1
@@ -96,6 +95,10 @@ Topics - Class Two
 	- Playing with line-height
 	- Discuss EM measurement, makes sizes relative
 	(More: http://jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css)
+	- [LAB]:
+		- Center text in the H1
+	
+- CSS Comments
 	
 - Validating pages with web developer toolbar
 
@@ -104,19 +107,23 @@ Topics - Class Three (Chapter 4, Floats pg 168)
 
 - [LAB]
 	- Floating two DIVs within a parent container
+	
+- Basics of inspecting with Firebug
 
 - Basic Restaurant Site Lab
 	- How to plan a page layout with mockups, drawings
-	- Create a core structure of divs: container, h1, main, ul, content, footer
+	- Create a core structure of divs: article, h1, float-wrapper, nav/ol, content, footer
 	- CSS Reset
 	- How to start with some debug styling (grid, bg colors, min heights)
 	- Background image into h1, text-indent
 	- Background image repeating, positioning
-	- Set widths and floats nav, content
+	- Set widths and floats for nav, content
+	- Add in some content
+		- Use Lorem Ipsum http://html-ipsum.com/
 	- [LAB]
-		- Playing with floats.
+		- Playing with floats (add a third as a right-sidebar)
 		- Adding a new div for footer
-	- Solve float collapse problem with a clear float
+	- Solve float collapse problem with a clearfix
 	
 
 ========================================
@@ -131,9 +138,7 @@ Topics - Class Four
 
 - Style navigation, discuss nested elements
 	- Introduce :hover psuedo-class
-- Add in some content
-	- Use Lorem Ipsum http://html-ipsum.com/
-- Style content h2, p tag (explain why h2, not h1)
+- Style content h2, p tag
 
 - [LAB]
 	- Determine which DIVs contain which elements, colors

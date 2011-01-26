@@ -1,7 +1,13 @@
 
 
 body { font-family: Georgia, serif; background-color: #eee; }
-#content { margin: 0 auto; width: 736px; text-align: left; }
-h1 { border-bottom: 1px solid #ccc;}
+#article { margin: 0 auto; width: 760px; }
+h1 { /* border-bottom: 1px solid #ccc; */ text-decoration: underline; }
 .img-left { float: left; margin: 5px 10px 5px 0; border: 1px solid #ccc; padding: 5px; background-color: #fff; }
 p { line-height: 1.8em; margin-bottom: 2em; }
+
+/* fix image padding bug: https://developer.mozilla.org/en/Images,_Tables,_and_Mysterious_Gaps (setting a float works too) */
+img { display: block; }
+
+/* lab answer */
+h1 { text-align: center; }

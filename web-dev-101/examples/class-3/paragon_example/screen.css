@@ -1,26 +1,31 @@
 @import 'reset.css';
 
 body { background-color: #fff; font-family: Palatino, "Book Antiqua", serif;}
-#container { width: 760px; margin: 0 auto; background-color: #fff; border: 1px solid #000; }
+#article { width: 750px; padding: 0 5px; margin: 0 auto; background-color: #fff; border: 1px solid #000; }
 
 /* header */
 h1 { height: 200px; background: transparent url('img/restaurant_sm.jpg'); text-indent: -9999px; margin-bottom: 20px; }
 
 /* nav/content container */
-#main { overflow: hidden; }
+#float-wrapper { overflow: hidden; }
 
 /* navigation */
-#nav { width: 150px; float: left; margin-left: 5px; }
+#nav { width: 150px; float: left; }
 #nav li { line-height: 1.5em; margin-left: 20px; }
 
 /* page content */
 #content { float: right; width: 590px; }
 
+/* footer */
+#footer { padding: 10px; }
+
+/* right-hand side bar - uncomment these styles to see it */
+/*
+#right-col { float: right; width: 150px; }
+#content { float: left; width: 430px; margin-left: 10px; }
+*/
+
 
 /* DEBUG ONLY */
-#container { background: transparent url('img/grid.gif'); top left no-repeat; }
+#article { background: transparent url('img/grid.gif'); top left no-repeat; }
 #content, #nav { min-height: 300px; }
-#footer { min-height: 100px; }
-
-/* debug, to see all divs */
-/*div { border: 1px solid red; }*/
