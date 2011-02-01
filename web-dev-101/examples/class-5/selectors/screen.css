@@ -1,0 +1,71 @@
+/* CSS SELECTOR PLAYGROUND */
+
+
+/* All Elements */
+/* { outline: 1px solid red; }*/
+
+/* Element Name */
+/*section { outline: 1px solid red; }*/
+
+/* Class Name */
+/*.para { outline: 1px solid red; }*/
+
+/* ID */
+/*#para { outline: 1px solid red; }*/
+
+/* Element name / class name */
+/*p.reused-class { outline: 1px solid red; }*/
+
+/* Element name / ID */
+/*p#para { outline: 1px solid red; }*/
+
+/* Multiple must-have classes (no <= IE6) */
+/*.para.reused-class { outline: 1px solid red; }*/
+
+/* Comma-separated */
+/*span, abbr { outline: 1px solid red; }*/
+
+/* Nested, any level */
+/*section li { outline: 1px solid red; }*/
+
+/* Nested, first level level (no <= IE6) */
+/*li > ol { outline: 1px solid red; }*/
+
+/* Next element (no <= IE6, problematic in < IE9) */
+/*li+li { outline: 1px solid red; }*/
+
+/* Attribute value selector (no <= IE6) */
+/*input[type="text"] { outline: 1px solid red; }*/
+
+/* Hover pseudo-class (no <= IE6 except for anchors) */
+/*p:hover { outline: 1px solid red; }*/
+
+/* First Child (no <= IE6, problematic in < IE9)) */
+/*li:first-child { outline: 1px solid red; }*/
+
+/* empty elements (no < IE9) */
+/*p:empty { outline: 1px solid red; min-height: 10px; }*/
+
+/* Last Child (no < IE9) */
+/*li:last-child { outline: 1px solid red; }*/
+
+/* elements that are not *x* (no < IE9) */
+/*p:not(.para) { outline: 1px solid red; }*/
+
+/* Labs: */
+
+/* Highlight all anchors */
+/*a { outline: 1px solid red; }*/
+
+/* Highlight all list items of a UL */
+/*ul li { outline: 1px solid red; }*/
+
+/* Highlight the middle list items */
+
+/* Solution #1, mixed support in <= IE9
+li { outline: 1px solid red; }
+li:first-child,li:last-child { outline: 0; }*/
+
+/* Solution #2, mixed support in <= IE9
+li+li { outline: 1px solid red; }
+li:last-child { outline: 0; }*/

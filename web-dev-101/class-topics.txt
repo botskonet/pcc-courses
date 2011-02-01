@@ -1,9 +1,5 @@
 
-CEU9359 Web Site Development 101  - 06:00 PM-09:00 PM  	MW  	21-Jun-2010 thru 12-Jul-2010
-48161  	 Willow Creek Center / WCC / 214  	06:00 PM-09:00 PM  	MW  	04-Oct-2010 thru 20-Oct-2010 (6 Courses, 3 Hours)
-
-Want to build your very first web site, but not sure where to start? Considering a career involving web design? Then take this class! Learn to use HTML and CSS to build a professional web site that is easy to update and works perfectly across all browsers. Get started doing it right the first time and avoid the bad habits that you will have to "unlearn" later. Helpful experience: Basic working knowledge of Windows and the Internet. 
-
+Want to build your very first web site, but not sure where to start? Considering a career involving web design? Then take this class! Learn to use HTML and CSS to build a professional web site that is easy to update and works perfectly across all browsers. Get started doing it right the first time and avoid the bad habits that you will have to "unlearn" later. Helpful experience: Basic working knowledge of Windows and the Internet.
 
 ========================================
 Topics - Class One (Chapters 1, 2, part of 3)
@@ -129,22 +125,18 @@ Topics - Class Three (Chapter 4, Floats pg 168)
 ========================================
 Topics - Class Four
 
-- [LAB]
-	- Name/recall the elements we used to build our structure
-
-- [LAB]
-	- Spacing the content div, and the footer div
-	- Sizing and positioning the footer text
-
-- Style navigation, discuss nested elements
-	- Introduce :hover psuedo-class
-- Style content h2, p tag
-
-- [LAB]
-	- Determine which DIVs contain which elements, colors
+- Review the process of building the existing structure:
+	- Initial layout of the elements
+	- Layout of content
 	
-- Correct all background images/colors
-
+- Continue with web page example
+	- Style navigation links
+	- Make nested items smaller
+	- Introduce :hover psuedo-class
+	- Style content h2, p tag
+	- Style the footer
+	- Add background colors
+	
 - Tables [ch 6 p. 223]
 	- table
 	- tr, th, td
@@ -157,13 +149,61 @@ Topics - Class Four
 	- [LAB]
 		- colspan, rowspan
 		
-- DL/DT/DD
+- DL/DT/DD (*Depending on time)
 	- [LAB]
 		- Floating the table and dl
 	
 
 ========================================
 Topics - Class Five
+
+
+- [Mixed/LAB]: Safe, Unsafe CSS Selector Types
+	- elements (previously seen)
+	- classes, ids (previously seen)
+	- comma-separated (previously seen)
+	- child selectors
+	- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
+	- attribute/value selectors
+	- sibling selectors
+	- http://www.quirksmode.org/css/contents.html
+	
+	- [LAB]: Experiment with selectors
+	
+- The tools of debugging
+	- Firebug/developer tools
+		- Inspecting
+		- CSS Hierarchy, style manipulation
+		- Box model calculations
+	- Validation
+		- Understand validation errors
+	
+- [Debugging Labs]:
+	- #1) Fixing a broken paragraph hover (Error: "" - means DOCTYPE is missing)
+	- #2) Fixing broken paragraph (Error: "No p element in scope but a p end tag seen." - means DIV breaking P, replace with span)
+	- #3) Fixing broken DIV structure (Error: "Unclosed element div." - there's a DIV missing a closing tag)
+	- #4) Fixing nesting error (Error: "End tag strong violates nesting rules." Strong opened before span, move closing to after)
+	- #5) Ampersand encoding error (Error: "& did not start a character reference. (& probably should have been escaped as &amp;.)")
+	
+- What is XHTML?
+	- Origins
+	- Differences between XHTML and HTML
+	- Future
+	
+- CSS vendor prefixes
+
+- Browser Personalities (Important bugs or support in browsers)
+	- IE (everything, really):
+		- http://www.positioniseverything.net/explorer.html
+		
+- Intro to HTML5
+	- Article, section, nav, header, footer, aside
+	- Set to display: block (or use reset) for non-IE browsers
+	- Use HTML5 Shiv javascript for IE http://code.google.com/p/html5shiv/
+
+
+========================================
+Topics - Class Six
 
 - Introduction to Javascript (Core)
 	- Placement of script tag, external file
@@ -209,76 +249,3 @@ Topics - Class Five
 	
 - Advice on next steps/courses
 - Evaluations!
-	
-	
-========================================
-Topics - Class Six
-
-LAB:
-- Building the typical header/content/footer with two columns layout
-- Finding the issue with the paragraph hover.
-
-Box Model Calculation Issues
-	- Width, padding, margins, and borders
-	- Min/Max/Width/Height and < IE7
-
-- Finding Web Hosting [ch 8 p. 309]
-	- What is a server, really?
-	- What is FTP?
-	- Url is mapped to specific folder on server (www, htdocs, public_html)
-	- Uploading your files
-	- "index.html" file is always the default
-
-- Purchasing a domain name
-	- Recommend namecheap.com
-	
-- Looking at an FTP Client
-	- Hostname (domain name)
-	- User/password
-	- Navigating remote/local folders
-	- Uploading/downloading
-	
-- Student examples?
-
-- Advice on next steps/courses
-- Evaluations!
-
-
-
-
-- Additional:	
-- Introduction to HTML5
-	- Article, header, nav, section, footer, section
-
-
-- Forms [ch 7 p. 249]
-	- form, action method
-	- fieldset, legend
-	- input
-		- text
-		- radio
-		- checkbox
-		- password
-		- hidden
-	- select/option/optgroup
-	- textarea
-	- labels
-	- buttons/submit/reset
-	- tab order
-	- selected/checked
-
-- Processing Form Data
-	- GET versus POST
-	- What is PHP/PERL/RUBY
-	
-	
-	- All CSS Selector Types
-		- elements (previously seen)
-		- classes, ids (previously seen)
-		- comma-separated (previously seen)
-		- child selectors
-		- pseudo selectors  (before, after, hover, active, first-child, last-child, focus)
-		- attribute/value selectors
-		- sibling selectors
-		- http://www.quirksmode.org/css/contents.html
-	

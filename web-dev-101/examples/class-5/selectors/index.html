@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Selectors Playground Example</title>
+	<style type="text/css">@import url('screen.css');</style>
+</head>
+<body>
+	<article>
+		<section class="text reused-class">
+			<p class="para reused-class">This is a paragraph, with class of "para"</p>
+			<p id="para" class="reused-class">This is a paragraph, with id of "para"</p>
+			<p>This is <a href="#">an anchor</a></p>
+			<p>This is <em>emphasized</em></p>
+			<p>This is <strong>strong</strong></p>
+			<p>This is <b>bold</b></p>
+			<p>This is <i>italicized</i></p>
+			<p>This is a <span>span</span></p>
+			<p>This is a line <br>break</p>
+			<p>This is abbreviated: <abbr title="Assistant">Asst.</abbr></p>
+			<p>This is an acronym: <acronym title="Cascading Style Sheets">CSS</acronym></p>
+			<p>This text is <small>small</small></p>
+			<p>This text is <big>big</big></p>
+			<p>Read the <cite>W3C HTML 4.01 Specifications</cite> for cite</p>
+			<p>This text is <sup>super-script</sup></p>
+			<p>This text is <sub>sub-script</sub></p>
+			<pre>Use pre to maintain plain-text formatting</pre>
+			<p></p> <!-- needs to remain empty -->
+		</section>
+		<section class="lists reused-class">
+			<ol>
+				<li>First OL Item</li>
+				<li>Second OL Item</li>
+				<li>Third OL Item</li>
+				<li>Fourth OL Item
+					<ol>
+						<li>First SUB OL Item</li>
+						<li>Second SUB OL Item</li>
+					</ol>
+				</li>
+			</ol>
+			<ul>
+				<li>First UL Item</li>
+				<li>Second UL Item</li>
+				<li>Third UL Item</li>
+				<li>Fourth UL Item
+					<ol>
+						<li>First SUB-UL, OL Item</li>
+						<li>Second SUB-UL, OL Item</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+		<section class="divs reused-class">
+			<div></div>
+		</section>
+		<section class="forms reused-class">
+			<form action="http://experiments.botsko.net/tests/post.php" method="post">
+				<fieldset>
+					<legend>Example Form</legend>
+					<input type="hidden" id="field0" name="field0" value="im-hiding">
+					<ol>
+						<li>
+							<label for="field1">"Text" Input</label>
+							<input type="text" id="field1" name="field1" value="">
+						</li>
+						<li>
+							<label for="field2-yes">"Checkbox" Input</label>
+							<input type="checkbox" id="field2-yes" name="field2" value="Yes" checked="checked">
+							<input type="checkbox" id="field2-no" name="field2" value="No">
+						</li>
+						<li>
+							<label for="field3-yes">"Radio" Input</label>
+							<input type="radio" id="field3-yes" name="field3" value="Yes" checked="checked">
+							<input type="radio" id="field3-no" name="field3" value="No">
+						</li>
+						<li>
+							<label for="field4">"Password" Input</label>
+							<input type="password" id="field4" name="field4" value="">
+						</li>
+						<li>
+							<label for="field5">Select Box</label>
+							<select id="field5" name="field5">
+								<option value="1" selected="selected">One</option>
+								<option value="2">Two</option>
+								<option value="3">Three</option>
+							</select>
+						</li>
+						<li>
+							<label for="field6">Textarea</label>
+							<textarea id="field6" name="field6" cols="30" rows="10">Value goes here</textarea>
+						</li>
+						<li>
+							<button>A Button</button>
+						</li>
+						<li>
+							<input type="submit" name="submit" value="Submit">
+							<input type="reset" name="reset" value="Reset">
+						</li>
+					</ol>
+				</fieldset>
+			</form>
+		</section>
+	</article>
+</body>
+</html>
