@@ -100,18 +100,6 @@ Course Two - Topics
 	- misc (uploading)
 	- setting a page as the homepage
 	
-	
-	
-Course Three - Topics
-==============================
-
-- Plugins
-	Ex: Google Sitemaps
-	- Installing from within wordpress
-	- Uploading your own
-	- Activating/deactivating
-	- Editor
-		
 - Managing Users
 	* Administrator - Somebody who has access to all the administration features
 	* Editor - Somebody who can publish and manage posts and pages as well as manage other users' posts, etc.
@@ -125,17 +113,35 @@ Course Three - Topics
 	- import - import old blog data from another blogging service
 	- export
 	
+	
+	
+Course Three - Topics
+==============================
+
+- Plugins
+	Ex: Google Sitemaps
+	- Installing from within wordpress
+	- Uploading your own
+	- Activating/deactivating
+	- Editor
+	
+- Backing Up Data
+	- WP-DB-Backup
+	
+- Using Akismet for spam
+
+- Plugins containing widgets
+	- Like-Button-Plugin-For-Wordpress
+	
+- Google Analytics
+
+- Understanding Site Statistics
+	
 - [LAB]: "ACME Inc."
 	- Choose a new theme
 	- Customize the available widgets
 	- Add two pages - ex: "About Us" and "Our History"
 	- Add two more posts
-	
-	- Permalinks and htaccess/mod_rewrite
-	
-- Site Statistics
-- Backing Up Data
-	- wp-db-backup
 	
 - I will comment on your posts before last class. You will need to approve them, and reply.
 		

@@ -1,21 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Core JavaScript</title>
-	
-	<style type="text/css">@import url('screen.css');</style>
-	<script type="text/javascript" src="../jquery-1.4.2.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function(){
+	<meta charset="utf-8">
+	<title>jQuery</title>
+	<style>@import url('screen.css');</style>
+	<script src="../jquery.js"></script>
+	<script>
+	$(function(){
 		
 		// practice
 		$('a').css('color', 'orange');
 		
-		$('a, p').css('color', 'purple');
+		// $('a, p').css('color', 'purple');
 		
-		//$('div').css('border','1px solid red');	
+		// $('div').css('border','1px solid red');
 		
 		// lab
 		$('div').hide();
@@ -23,20 +21,20 @@
 		// real demo
 		$('a').click(function(){
 			
-			// step one
-			//$(this).next().slideToggle();
+			// solution one (works, but not perfectly)
+			// $(this).next().slideToggle(); // Find the DIV after the anchor clicked, and either open or close it
 			
-			// step two
-			//$('div').slideUp();
-			//$(this).next().slideToggle();
+			// solution two (works better, but not perfectly)
+			// $('div').slideUp(); // Close all DIVs which may be open
+			// $(this).next().slideToggle(); // Find the DIV after the anchor clicked, and open it
 			
-			// step three
-			$('div').not( $(this).next() ).slideUp();
-			$(this).next().slideToggle();
+			// step three (works perfectly, the bug-free solution)
+			var my_div = $(this).next(); // Figure out which DIV comes after the clicked anchor
+			$('div').not( my_div ).slideUp(); // slideUp all DIVs which do not belong to the clicked anchor
+			my_div.slideToggle(); // Either open (if it's currently closed) or close (if it's currently open) the chosen div.
 			
 		});
-		
-	})
+	});
 	</script>
 	
 </head>

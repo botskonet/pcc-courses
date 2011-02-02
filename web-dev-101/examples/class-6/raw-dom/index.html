@@ -1,23 +1,21 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta charset="utf-8">
 	<title>DOM JavaScript</title>
 </head>
-
 <body>
-	
 	<p id="example-text">This is some example text</p>
-	
 	<div id="lab">hello</div>
-
 </body>
-<script type="text/javascript">
+<script>
 
 	document.bgColor = 'gray';
+	// console.log(document);
 	
 	var p = document.getElementById('example-text');
+	p.style.padding = '10px';
+	p.style.fontSize = '16pt';
 	p.style.backgroundColor = 'white';
 	
 	// lab solution

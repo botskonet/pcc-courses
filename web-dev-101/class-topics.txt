@@ -206,10 +206,11 @@ Topics - Class Five
 Topics - Class Six
 
 - Introduction to Javascript (Core)
-	- Placement of script tag, external file
+	- Placement of script tag
 	- Variables
+	- Differences between integers, strings
 	- Basic operations: math, string concatenation, alert()
-	- Firebug Console
+	- Logging to the Firebug Console
 	- Conditions
 	- Code comments
 	- [LAB]
@@ -219,7 +220,8 @@ Topics - Class Six
 - Introduction to DOM
 	- What is the DOM?
 	- "document" object
-	- Accessing elements / getElementById
+	- Accessing elements using getElementById
+	- Inspecting properties of a DOM element in Firebug
 	- [LAB]
 		- Add a new div
 		- Set it's width, height, and background color
@@ -227,25 +229,24 @@ Topics - Class Six
 - Introduction to jQuery
 	- Downloading jquery
 	- Including the file
-	- Using document.ready
+	- Using document ready
 	- The $ variable
 	- Using CSS selectors
 	
 	- Practice: setting css for a, div and p
-	- Using hover event to fix old browsers
 	- [LAB]
-		- Hiding the DIVs
+		- Hiding all DIVs
 		
 	- Events
 	- Anonymous functions
 	- "this"
 		
-	- Creating expandable items
-	- Write function to run when any anchor is clicked
+	- Adding a click event to all anchors
 	- Step 1: SlideToggle the DIV immediately following the anchor
 	- [LAB]
 		- Step 2: Close all open DIVs (before slidetoggle runs)
 	- Step 3: Fix the weirdness when you click again on a link
 	
-- Advice on next steps/courses
+- Where to go from here.
+
 - Evaluations!
