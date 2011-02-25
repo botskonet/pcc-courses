@@ -50,6 +50,8 @@ Course One - Topics
 - Pages
 	- Differences from posts
 	
+- What is RSS
+	
 
 Course Two - Topics
 ==============================
@@ -114,7 +116,7 @@ Course Two - Topics
 	- export
 	
 	
-	
+
 Course Three - Topics
 ==============================
 
@@ -144,26 +146,50 @@ Course Three - Topics
 	- Add two more posts
 	
 - I will comment on your posts before last class. You will need to approve them, and reply.
+
+- Purchasing commercial themes
+	- Mojo Themes, Theme Forest
+	
+- Embedding video from Vimeo, Youtube
+
+- What is Wordpress Multisite?
 		
 		
 Course Four - Topics
 ==============================
 
+- Approving comments from previous class
+
+- Customizing theme HTML and PHP
+	- Where to find the files
+	- How to properly create a new theme, name it via styles.css
+	- Overview of the most important files
+		- Header/footer
+		- Index
+		- Loop
+		- Sidebar
+	- Overview of template tags http://codex.wordpress.org/Template_Tags
+	- Template tag example:
+		- Adding link to posts by author, 
+		- customizing the date and time
+	- Looking through the functions file
+	- Overview of remaining template files
+	
+- Advanced Wordpress Documentation
+	- http://codex.wordpress.org/Main_Page
 
 - Image Galleries
 	- Upload multiple images at once
 	- Set gallery settings
 	- Insert into post
-
-- What is RSS
-
-- Editing Themes
-	- Where to find the files
-	- Understanding the files
-	- Basic intro to wordpress functions
 	
-- Wordpress Documentation
-	- http://codex.wordpress.org/Main_Page
+- Real Wordpress websites:
+	- http://irrationalgames.com/
+	- http://www.itsallthought.com/
+	- http://www.benchmark.com/
+	
+- Best Reference Websites
+	- http://www.wpbeginner.com/
+	- http://www.wp-tutorials.org/
 	
 - Course Evaluations
-

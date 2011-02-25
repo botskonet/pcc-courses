@@ -1,0 +1,25 @@
+@import 'base.css';
+
+.row{ width:940px; }
+.col-700{ width:700px; float:left; margin-right:20px; }
+.col-220{ width:220px; float:left; margin-right:20px; }
+.last{ margin-right:0px; }
+
+#wrap{ width:940px; padding: 30px 30px 0 30px; margin:0 auto; background-color:#ffffff; border-top:10px solid #333; border-bottom:10px solid #333; }
+
+/* menu */
+a#logo{ display:block; float:left; }
+
+ul#dropdown-menu{ float:right; list-style:none; }
+ul#dropdown-menu li{ float: left; }
+ul#dropdown-menu li a{ display: block; padding:12px 0 5px 33px; font-size:13px; text-transform:uppercase; color:#252525; }
+
+/* search */
+#search fieldset{ position:relative; border:none; margin:0; margin-top:7px; padding:0; }
+#search input[type=text]{ width:208px; padding:5px; margin:0;  font-size:12px; border:1px solid #e1e1e1; color:#cccccc; }
+#search input[type=text]:focus{ border:1px solid #cccccc; color:#666666; }
+#search input[type=submit]{ position:absolute; top:5px; right:5px; height:17px; width:20px; outline:none; background:url(../img/bg-search.png) no-repeat top left; cursor:pointer; border:none; }
+
+/* sidebar */
+.side{ list-style-type:none; list-style-position:outside; border-top:1px solid #efefef; width:200px; }
+.side li{ border-bottom:1px solid #efefef; display:block; padding:5px 0 5px 25px; background:#ffffff url(../img/bg-sidenav.gif) no-repeat 10px 12px; }

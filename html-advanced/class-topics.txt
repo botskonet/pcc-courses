@@ -1,0 +1,87 @@
+
+Wizard's-Level HTML
+Explore the next level of HTML and CSS. Course provides a look at methods used on the web today including advanced CSS styling and positioning, understanding doctype differences, html5, css3, and best practices for web and mobile devices. Prerequisite: comfortable with html and css basics.  
+
+========================================
+Topics - Class One
+
+- The State of the Web
+- What is html5
+- What is css3?
+- Where are the browsers at?
+
+- Beginning HTML5 (http://www.alistapart.com/articles/previewofhtml5)
+	- Introducing the new elements for page structure
+	- Setting display:block for Safari, Chrome, Firefox < 4
+	
+- Updating an existing webpage to HTML5, while reducing clutter
+
+	- Ways to reduce clutter
+		- HTML5 moves us away from "div-itis"
+		- Using smarter selectors in CSS avoids "class-itis"
+
+	- Article
+		- Convert #wrap to an article
+	
+	- Header
+		- Convert #header to a header element
+		- Move banner to outside header
+		- Merge div.row with header
+	
+	- Nav
+		- Convert navigation parent div to nav
+		- Remove #logo, replace with nav>a
+		- Remove ul class, change selector to header ul
+		
+	- Aside
+		- Convert sidebar div to an aside
+		- Conver .side to aside ul
+		- Convert divs with .col-220 to asides
+		 Remove aside holding form - merge form/aside css
+	
+	- Section
+		- Convert #content to an section
+		- Merge extra content container div with section
+		
+	- Footer
+		- Convert #footer to footer
+		- Merge footer div.row with footer
+		
+	- Other Cleanup
+		- Remove .row entirely
+		
+	- Checking work in IE8
+	- Using IE shiv
+	
+
+		
+========================================
+Topics - Class Two	
+		
+		
+CSS2 Techniques in Use Today
+	- Sprites
+	- Sliding Doors
+	- Static Positioning
+		
+
+
+
+
+
+fonts (font-face and typekit libraries)
+
+
+CSS3 stuff:
+	- border radius, shadow, gradients, etc
+
+CSS Techniques
+
+
+version control
+
+mobile devices
+- css for mobile w/media queries
+
+mobile javascript libs
+
