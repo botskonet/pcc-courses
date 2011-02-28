@@ -20,30 +20,30 @@ Topics - Class One
 		- HTML5 moves us away from "div-itis"
 		- Using smarter selectors in CSS avoids "class-itis"
 
-	- Article
+	- Article (The article element represents an independent section of a document, page or site. It is suitable for content like news or blog articles, forum posts or individual comments.)
 		- Convert #wrap to an article
 	
-	- Header
+	- Header (The header element represents the header of a section.)
 		- Convert #header to a header element
 		- Move banner to outside header
 		- Merge div.row with header
 	
-	- Nav
+	- Nav (The nav element represents a section of navigation links.)
 		- Convert navigation parent div to nav
 		- Remove #logo, replace with nav>a
 		- Remove ul class, change selector to header ul
 		
-	- Aside
+	- Aside (The aside element is for content that is tangentially related to the content around it.)
 		- Convert sidebar div to an aside
 		- Conver .side to aside ul
 		- Convert divs with .col-220 to asides
 		 Remove aside holding form - merge form/aside css
 	
-	- Section
+	- Section (The section element represents a generic section of a document or application, such as a chapter, for example.)
 		- Convert #content to an section
 		- Merge extra content container div with section
 		
-	- Footer
+	- Footer (The footer element represents the footer for the section it applies to.)
 		- Convert #footer to footer
 		- Merge footer div.row with footer
 		
@@ -60,28 +60,42 @@ Topics - Class Two
 		
 		
 CSS2 Techniques in Use Today
+	- Positioning relative/absolute
+	- z-index
 	- Sprites
 	- Sliding Doors
 	- Static Positioning
-		
 
 
+========================================
+Topics - Class Three
+
+CSS3 Techniques
+	- Border Radius
+	- Box Shadow
+	- Gradients
+	- 
 
 
+========================================
+Topics - Class Four
 
-fonts (font-face and typekit libraries)
+Fonts
 
 
-CSS3 stuff:
-	- border radius, shadow, gradients, etc
+========================================
+Topics - Class Five
 
-CSS Techniques
+Mobile Devices
+	- media queries
+	- mobile js libs
+
+
+========================================
+Topics - Class Six
 
 
 version control
 
-mobile devices
-- css for mobile w/media queries
 
-mobile javascript libs
 
