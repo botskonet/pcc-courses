@@ -59,11 +59,27 @@ Topics - Class One
 		
 ========================================
 Topics - Class Two	
-		
-		
+			
 CSS2 Techniques in Use Today
-	- Positioning relative/absolute
-	- z-index
+	- Creating a hover menu system using css
+		- Creating nested lists and understanding semantic hierarchy
+		- Hiding the nested ul by default
+		- Use the :hover pseudo element to show the submenu
+		
+		(Understanding positions: http://www.quirksmode.org/css/position.html)
+		
+		- Set parent li to position:relative
+		- Set sub ul to position:absolute
+		
+		(Understanding z-index: https://developer.mozilla.org/en/understanding_css_z-index)
+		
+		- Fix the z-index problems with banner and sub-uls
+		- Set background color of the sub ul so it's no transparent
+		- Correct margins/padding
+		
+
+
+
 	- Sprites
 	- Sliding Doors
 	- Static Positioning

@@ -1,0 +1,43 @@
+/* ----- Reset ----- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}/* tables still need 'cellspacing="0"' in the markup */caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:""""}
+article,header,nav,section,aside,footer{display:block;}
+
+/* ----- Containers ----- */
+.col-700{ width:700px; float:left; margin-right:20px; }
+aside,form{ width:220px; float:left; margin-right:20px; }
+.last{ margin-right:0px; }
+body>article{ width:940px; padding: 30px 30px 0 30px; margin:0 auto; background-color:#ffffff; border-top:10px solid #333; border-bottom:10px solid #333; }
+
+/* ----- Common Elements ----- */
+body{ background:#4d4d4d url(images/bg-body.png) repeat top left; font:12px Arial, sans-serif; line-height:20px; color:#666666; padding:50px 0; }
+h1,h2,h3,h4,h5,h6{ font-weight: bold; color:#252525; }
+h1{ font-size:28px; line-height:30px; margin-bottom:12px; }
+h2{ font-size:24px; line-height:26px; margin-bottom:12px; }
+h3{ font-size:18px; line-height:20px; margin-bottom:8px; }
+h4{ font-size:14px; line-height:15px; margin-bottom:8px; }
+h5{ font-size:13px; line-height:15px; margin-bottom:8px; }
+h6{ font-size:13px; line-height:15px; margin-bottom:8px; }
+a{ text-decoration:none; color:#346699; }
+a:hover{ text-decoration:underline; }
+a.current{ color:#346699; }
+a img{ border:none; }
+strong{ font-weight: bold; color:#252525; }
+em{ font-style: italic; }
+p, ul, ol, pre, code{ margin-bottom:20px; }
+ul{ list-style-type:circle; list-style-position:inside; }
+ol{ list-style-type:decimal; list-style-position:inside; }
+
+/* search */
+#search { position:relative; margin-top: 7px; }
+#search input[type=text]{ width:208px; padding:5px; margin:0;  font-size:12px; border:1px solid #e1e1e1; color:#cccccc; }
+#search input[type=text]:focus{ border:1px solid #cccccc; color:#666666; }
+#search input[type=submit]{ position:absolute; top:5px; right:5px; height:17px; width:20px; outline:none; background:url(../img/bg-search.png) no-repeat top left; cursor:pointer; border:none; }
+
+/* banner */
+.banner{ position:relative; margin: 20px -30px 30px 0; background-color:#212121; height:65px; padding:25px; overflow:hidden; }
+.banner h2{ width:195px; float:left; color:#ffffff; }
+.banner p{ margin-bottom:0; margin-left:20px; float:left; width:460px; color:#999999; }
+
+/* sidebar */
+aside ul{ list-style-type:none; list-style-position:outside; border-top:1px solid #efefef; width:200px; }
+aside li{ border-bottom:1px solid #efefef; display:block; padding:5px 0 5px 25px; background:#ffffff url(../img/bg-sidenav.gif) no-repeat 10px 12px; }
