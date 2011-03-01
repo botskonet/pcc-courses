@@ -33,6 +33,8 @@ Topics - Class One
 		- Remove #logo, replace with nav>a
 		- Remove ul class, change selector to header ul
 		
+	- Convert #content to an article
+		
 	- Aside (The aside element is for content that is tangentially related to the content around it.)
 		- Convert sidebar div to an aside
 		- Conver .side to aside ul
@@ -40,7 +42,7 @@ Topics - Class One
 		 Remove aside holding form - merge form/aside css
 	
 	- Section (The section element represents a generic section of a document or application, such as a chapter, for example.)
-		- Convert #content to an section
+		- Convert div.col-700 to a section
 		- Merge extra content container div with section
 		
 	- Footer (The footer element represents the footer for the section it applies to.)
@@ -51,7 +53,7 @@ Topics - Class One
 		- Remove .row entirely
 		
 	- Checking work in IE8
-	- Using IE shiv
+	- Using IE shiv (http://code.google.com/p/html5shiv/)
 	
 
 		
