@@ -61,28 +61,37 @@ Topics - Class One
 Topics - Class Two	
 			
 CSS2 Techniques in Use Today
-	- Creating a hover menu system using css
-		- Creating nested lists and understanding semantic hierarchy
-		- Hiding the nested ul by default
-		- Use the :hover pseudo element to show the submenu
-		
-		(Understanding positions: http://www.quirksmode.org/css/position.html)
-		
-		- Set parent li to position:relative
-		- Set sub ul to position:absolute
-		
-		(Understanding z-index: https://developer.mozilla.org/en/understanding_css_z-index)
-		
-		- Fix the z-index problems with banner and sub-uls
-		- Set background color of the sub ul so it's no transparent
-		- Correct margins/padding
-		
 
+- Creating a hover menu system using css
+	- Creating nested lists and understanding semantic hierarchy
+	- Hiding the nested ul by default
+	- Use the :hover pseudo element to show the submenu
+	
+	(Understanding positions: http://www.quirksmode.org/css/position.html)
+	- Set parent li to position:relative
+	- Set sub ul to position:absolute
+	
+	(Understanding z-index: https://developer.mozilla.org/en/understanding_css_z-index)
+	- Fix the z-index problems with banner and sub-uls
+	- Set background color of the sub ul so it's no transparent
+	- Correct margins/padding
+	
+- Playing with position: fixed
+	- Create a new div
+	- Set basic width, height, and background-color
+	- Set position:fixed, set bottom/right
+		
+- Using Sprites
+	- Setting up some base box styling
+		- Color, background/border colors
+	- Combining images into one
+	- Setting the initial background image and position
+	- Using background-position to alter the positioning
 
-
-	- Sprites
-	- Sliding Doors
-	- Static Positioning
+- "Sliding Doors" (http://www.alistapart.com/articles/slidingdoors/)
+	- http://www.jankoatwarpspeed.com/post/2008/04/30/make-fancy-buttons-using-css-sliding-doors-technique.aspx
+	- Reviewing how sliding doors has been used to make flexible-width buttons
+	- Looking at basic elements which we're able to use css3 for.
 
 
 ========================================
