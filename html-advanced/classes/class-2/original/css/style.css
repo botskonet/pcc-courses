@@ -1,0 +1,16 @@
+@import 'base.css';
+
+/* menu */
+nav>a{ display:block; float:left; }
+header nav>ul{ float:right; }
+header ul{ list-style:none; }
+header li{ float: left; }
+header li li { float: none; }
+header li a{ display: block; padding:12px 0 5px 33px; font-size:13px; text-transform:uppercase; color:#252525; }
+
+/* Clear Fix Hack */
+.fixed{overflow:hidden;}
+/*
+.fixed:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+*/
+
