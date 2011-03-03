@@ -5,7 +5,7 @@ nav>a{ display:block; float:left; }
 header nav>ul{ float:right; }
 header ul{ list-style:none; }
 header li{ float: left; }
-header li li { float: none; }
+header li li { float: none; } /* Undo the submenu float so it's vertical */
 header li a{ display: block; padding:12px 0 5px 33px; font-size:13px; text-transform:uppercase; color:#252525; }
 
 /* Clear Fix Hack */
@@ -21,7 +21,7 @@ nav li:hover ul { display: block; }
 .banner { z-index: 1; }
 
 
-/* Fixed Positioning test goes here */
+/* Fixed Positioning */
 .static { width: 30px; height: 30px; background-color: #25ADE3; }
 .static { position: fixed; bottom: 10px; right: 10px; z-index: 100; }
 
@@ -30,11 +30,10 @@ nav li:hover ul { display: block; }
 .errormsg, .successmsg, .infomsg, .noticemsg{ 
 	padding:10px 10px 10px 40px; 
 	margin-bottom:10px; 
-	border:1px solid #dddddd; 
+	border:1px solid #fbc2c4; 
 	border-left-width:5px;
-	
-	border-color: #fbc2c4; color:#8a1f11;
+	color:#8a1f11;
 	background: #fbe3e4 url(../img/bg-msg.png) no-repeat 0 0;
 }
-.infomsg{ border-color: #92cae4; color:#205791; background-color: #d5edf8; background-position: 0 -72px; }
-.successmsg{ border-color: #c6d880; color:#264409; background-color: #e6efc2; background-position: 0 -220px; }
+.infomsg{ border-color: #92cae4; color: #205791; background-color: #d5edf8; background-position: 0 -72px; }
+.successmsg{ border-color: #c6d880; color: #264409; background-color: #e6efc2; background-position: 0 -220px; }

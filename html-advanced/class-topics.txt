@@ -92,6 +92,9 @@ CSS2 Techniques in Use Today
 	- http://www.jankoatwarpspeed.com/post/2008/04/30/make-fancy-buttons-using-css-sliding-doors-technique.aspx
 	- Reviewing how sliding doors has been used to make flexible-width buttons
 	- Looking at basic elements which we're able to use css3 for.
+	
+	
+{this course needs labs, additional experimentation with positioning, floating, display}
 
 
 ========================================
