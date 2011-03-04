@@ -100,9 +100,33 @@ CSS2 Techniques in Use Today
 ========================================
 Topics - Class Three
 
+Using CSS3
+
+- Understanding vendor prefixes
+
+- Border-Radius
+	- Methods to achieve this effect today
+	- What is border-radius
+	- Adjusting border-radius
+	- [LAB]:
+		- Use border radius to create leaf-shape
+		- Create the reverse leaf shaped
+		- Style a series of LIs as overlapping full circles
+		
+- Box Shadow
+	- Methods to achieve this effect today
+	- What is box-shadow
+	- Adjusting box-shadow
+	- [LAB]:
+		- Set the inset borders for all four sides
+		- Using positioning and box-shadow, create a "window"-style
+		div which covers another div with text in it.
+
+
+
+
+
 CSS3 Techniques
-	- Border Radius
-	- Box Shadow
 	- Gradients
 	- 
 
