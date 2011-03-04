@@ -104,7 +104,7 @@ Using CSS3
 
 - Understanding vendor prefixes
 
-- Border-Radius
+- Border-Radius (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
 	- Methods to achieve this effect today
 	- What is border-radius
 	- Adjusting border-radius
@@ -113,7 +113,7 @@ Using CSS3
 		- Create the reverse leaf shaped
 		- Style a series of LIs as overlapping full circles
 		
-- Box Shadow
+- Box Shadow (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
 	- Methods to achieve this effect today
 	- What is box-shadow
 	- Adjusting box-shadow
@@ -121,14 +121,21 @@ Using CSS3
 		- Set the inset borders for all four sides
 		- Using positioning and box-shadow, create a "window"-style
 		div which covers another div with text in it.
+			- Uses positioning, box-shadow
+
+- Text Shadow (& other effects) (Firefox 3.0+, Safari 4+, Chrome 4+)
+	- Methods to achieve this effect today
+	- What is text-shadow
+	- Adjusting text-shadow
+	- Looking at ways of mirroring text (vertical/horizontal)
+
+- Gradients (Firefox 3.6+, Safari 4+, Chrome 4+)
+	- http://www.colorzilla.com/gradient-editor/
+	- Basic Exploration of gradients
+	- Combining gradients, box-shadow, border-radius to create a pill button
+	- Using to :active class to offset during click
 
 
-
-
-
-CSS3 Techniques
-	- Gradients
-	- 
 
 
 ========================================
@@ -139,6 +146,9 @@ Fonts
 
 ========================================
 Topics - Class Five
+
+
+Print style sheets
 
 Mobile Devices
 	- media queries
