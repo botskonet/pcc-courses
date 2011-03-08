@@ -11,9 +11,11 @@ header li a{ display: block; padding:12px 0 5px 33px; font-size:13px; text-trans
 /* Clear Fix Hack */
 /*.fixed{overflow:hidden;}*/  /* We're unable to use overflow:hidden because the overflow of the submenu must be visible */
 .fixed:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-
+/* :after doesn't work for IE7, so by using zoom (ms only) we force hasLayout - ugh */
+.fixed { zoom: 1; }
 
 /* New menu course work goes below */
+nav { position: relative; z-index: 50; } /* fixing z-index error for IE, because the position absolute changes the stacking order */
 nav li { position: relative; }
 nav li ul { display: none; z-index: 50; position: absolute; background-color: #fff; border: 1px solid #444; }
 nav li li { padding-right: 33px; }

@@ -103,6 +103,8 @@ Topics - Class Three
 Using CSS3
 
 - Understanding vendor prefixes
+	- Remember to always define each vendor prefix, and then
+		the attribute itself without any prefix.
 
 - Border-Radius (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
 	- Methods to achieve this effect today
@@ -135,7 +137,11 @@ Using CSS3
 	- Combining gradients, box-shadow, border-radius to create a pill button
 	- Using to :active class to offset during click
 
-
+- Working with IE:
+	http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
+	
+	
+	{this course needs labs, additional experimentation because it's too short}
 
 
 ========================================
