@@ -23,7 +23,7 @@ a.current{ color:#346699; }
 a img{ border:none; }
 strong{ font-weight: bold; color:#252525; }
 em{ font-style: italic; }
-p, ul, ol, pre, code{ margin-bottom:20px; }
+p, ul, ol, code{ margin-bottom:20px; }
 ul{ list-style-type:circle; list-style-position:inside; }
 ol{ list-style-type:decimal; list-style-position:inside; }
 

@@ -5,8 +5,6 @@
 	<title>Understanding CSS Drop Down Menus</title>
 	<link href="css/style.css" rel="stylesheet" />
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script type="text/javascript" src="http://use.typekit.com/mpp4gal.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
 	<article>
@@ -42,17 +40,17 @@
 			<aside>
 				<h4>Sidebar Content</h4>
 				<ul>
-					<li>Vivamus elementum</li>
-					<li>Nulla et orci neque</li>
-					<li>Ut neque metus</li>
+					<li><a href="fakefile.pdf">Vivamus elementum</a></li>
+					<li><a href="mailto:bob@bob.com">Nulla et orci neque</a></li>
+					<li><a href="#" class="ext">Ut neque metus</a></li>
 				</ul>
 			</aside>
 			<section class="col-700 last">
 				<h2>The Importance of Clean, Semantic HTML</h2>
 				
-				<div class="errormsg">Error Message</div>
+				<!-- <div class="errormsg">Error Message</div>
 				<div class="successmsg">Success Message</div>
-				<div class="infomsg">Information Message</div>
+				<div class="infomsg">Information Message</div> -->
 
 				<p>Suspendisse potenti. Nullam in lectus nibh, in semper eros. Integer nec diam tellus. Quisque sit amet
 				 auctor purus. Sed vitae erat et tellus adipiscing lobortis vel in orci. Morbi semper, lacus ac rutrum
@@ -63,6 +61,23 @@
 				 placerat diam. Praesent eget nunc vel sem bibendum adipiscing. Aliquam faucibus diam non metus aliquet eu
 				 euismod lorem elementum. Rasid tempor orci. Aliquam erat volutpat. Etiam condimentum rhoncus tellus et sagittis.
 				 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				
+				<div class="bq-container">
+					<blockquote>
+						<p>Praesent nec aliquet elit. Nullam convallis placerat metus, sit amet ultrices nulla faucibus sit amet.
+						 Quisque dictum lorem sed sem pharetra luctus. Donec sed posuere nisl. Aliquam eu vestibulum mauris. 
+						 <br /><span><strong>John Doe</strong>, Some Business</span></p>
+					</blockquote>
+				</div>
+				
+				<h3>Code Preview</h3>
+				<code><pre>
+&lt;article&gt;
+  &lt;header&gt;
+     &lt;h1&gt;Title!&lt;/h1&gt;
+  &lt;/header&gt;
+&lt;/article&gt;</pre></code>
+				
 				<p>Ut rutrum, odio a suscipit aliquam, nunc elit suscipit lorem, nec sodales urna enim in leo. In quis
 				 lacus eu felis cursus pellentesque. Nullam dolor elit, dictum non accumsan nec, accumsan quis libero.
 				 Morbi faucibus pellentesque tortor, ut fermentum nisl luctus et.</p>

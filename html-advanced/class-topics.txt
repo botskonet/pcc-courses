@@ -147,20 +147,47 @@ Using CSS3
 ========================================
 Topics - Class Four
 
-
 - Using CSS3 To Enhance Page Design
+	(Ensure these work for all supported browsers)
 	- Add top/bottom left border radius
 	- Add a border-radius to the search box
-
-
-- Using new techniques to add content/sections to our example website
-	- New page layouts
-	- 
+	
+- [LAB]: Styling Blockquotes
+	- Use quote image for the left side of the quote (add padding!)
+	- Color the text #999
+	- Looking at blockquotes "quotes/open/close" properties
+	
+- [LAB]: Styling Code Displays
+	- The code element, the pre element
+	- Styling the elements
+	- Encoding html for display versus processing
+	
+- [LAB]: Styling Anchor Clues
+	- Styling icons for pdf, mailto
+	- Styling icons for external links
+	- Moving icons to the left
 	
 - Fonts
+	- Limitations of fonts until recently
+	- Other font replacement techniques
+		- Cufon: http://cufon.shoqolate.com/generate/
+		- sIFR: http://www.mikeindustries.com/blog/sifr
 	- @font-face
-	- Google Hosted Fonts
-	- Typekit
+		- Browser support: http://webfonts.info/wiki/index.php?title=%40font-face_browser_support
+	- FontSquirrel Font
+	- Hosted Fonts
+		- Google
+		- Typekit
+		
+	- Add new font-face for AaarghNormal
+	- Apply to section h2
+	- [LAB]
+		- Choose new font from fontsquirrel, download
+		- Add to directory
+		- Be careful with path names
+		- Apply font to .banner h2
+		
+- Additional: looking through html5boilerplate
 
 
 ========================================
