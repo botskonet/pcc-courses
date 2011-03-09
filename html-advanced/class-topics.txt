@@ -147,7 +147,20 @@ Using CSS3
 ========================================
 Topics - Class Four
 
-Fonts
+
+- Using CSS3 To Enhance Page Design
+	- Add top/bottom left border radius
+	- Add a border-radius to the search box
+
+
+- Using new techniques to add content/sections to our example website
+	- New page layouts
+	- 
+	
+- Fonts
+	- @font-face
+	- Google Hosted Fonts
+	- Typekit
 
 
 ========================================

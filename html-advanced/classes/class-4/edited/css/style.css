@@ -1,0 +1,7 @@
+@import 'base.css';
+
+.banner { -moz-border-radius: 20px 0 0 20px; }
+
+#search input[type=text] { -moz-border-radius: 20px; }
+
+h2 { font-family: "anivers-1","anivers-2"; }
