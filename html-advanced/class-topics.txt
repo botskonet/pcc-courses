@@ -161,6 +161,7 @@ Topics - Class Four
 	- The code element, the pre element
 	- Styling the elements
 	- Encoding html for display versus processing
+		- http://simplebits.com/cgi-bin/simplecode.pl
 	
 - [LAB]: Styling Anchor Clues
 	- Styling icons for pdf, mailto
@@ -186,9 +187,6 @@ Topics - Class Four
 		- Add to directory
 		- Be careful with path names
 		- Apply font to .banner h2
-		
-- Additional: looking through html5boilerplate
-
 
 ========================================
 Topics - Class Five

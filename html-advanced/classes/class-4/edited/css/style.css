@@ -12,13 +12,13 @@ section h3 {font: 16px/20px 'AaarghNormal'; }
 .banner { 
 	-moz-border-radius: 10px 0 0 10px;
 	-webkit-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px;
 }
 #search input[type=text] {
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
+	border-radius: 20px;
 }
-
-
 
 blockquote{
 	padding:5px 20px 5px 60px;
@@ -28,7 +28,7 @@ blockquote{
 blockquote span{ color: #666666; }
 
 
-/*
+/* Example of one of the many uses of "quotes" as dynamic content
 blockquote { display: block; quotes: "\201C" "\201D"; }
 blockquote:before, blockquote:after {
 	display: block;
