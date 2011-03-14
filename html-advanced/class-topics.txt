@@ -187,16 +187,91 @@ Topics - Class Four
 		- Add to directory
 		- Be careful with path names
 		- Apply font to .banner h2
+		
+	{this course needs labs, additional experimentation because it's too short}
 
 ========================================
 Topics - Class Five
 
-
-Print style sheets
-
+Print Style Sheets
+	- @media print
+	- Background images, items we can't control printing for
+	- Hiding banner and search form
+	- Removing floats, setting content to 100%
+	- Adding href after each anchor
+	
 Mobile Devices
-	- media queries
-	- mobile js libs
+	- Introducing Media Queries
+	- http://webdesignerwall.com/tutorials/css3-media-queries
+	- http://www.alistapart.com/articles/responsive-web-design/
+	- Devices:
+		http://labs.thesedays.com/2010/04/01/choosing-the-right-platform-for-your-mobile-website/
+		http://quirksmode.org/mobile/
+	- Setting a base iPhone media query
+		- Setting body, article, content widths
+		- Setting widths for iPhone4
+	- [LAB]: Styling the content
+		- Styling anchors, text content for device
+		- Hiding search form, banner, aside, static
+	- jQuery Mobile
+		- http://jquerymobile.com/
+		- Docs: http://jquerymobile.com/
+		- Page example: http://jquerymobile.com/demos/1.0a3/#docs/pages/docs-pages.html
+		- Movie Ticket App Example
+	- Testing without a phone:
+		- http://www.marketcircle.com/iphoney/
+		- There are other websites, but nothing that truly works.
+		
+Debugging
+	- Steps for Debugging HTML/CSS:
+		- First, avoid errors to begin with:
+			- Adhere to a strict coding standard
+				- Once you're used to seeing the code a certain way, errors stand out
+				- You'll form the habit of typing things in correctly
+			- Use a framework (yours or an existing) to ensure common issues are covered
+				- Tips for creating your own
+					- Keep project-specific stuff out
+					- Keep the css organized so that it's easy to override
+				- HTML5 Boilerplate
+					- Downloading: http://html5boilerplate.com/
+						- Review framework: html, css, building
+		- Validate your html/css
+		- Identify each browser the error appears in
+		- Identify the steps required to reproduce
+		- Google for the problem along with a browser
+		- Step-debug to narrow the point of failure
+		- Eliminate any variables (makes it faster to test too)
+		- Eliminate known issues with browsers
+			- Examples: IE issues with z-index, hasLayout
+	- Steps for Debugging Javascript
+		- First, avoid errors to begin with:
+			- Use a library like jQuery to avoid browser-compatibility issues
+			- Adhere to a strict coding standard
+		- Syntax-check your scripts (http://www.jslint.com/)
+		- Check for common/known errors
+			- IE7 and lower hates extra commas
+			- IE works differently with ajax, form elements
+		- In Firefox/Chrome/Safari use console.log
+		- Use an IDE or tool with "breakpoint" support
+	- Debugging in Firefox
+		- Using Firebug
+	- Debugging in Chrome/Safari
+		- Using Developer Tools
+	- Debugging in IE
+		- Using Developer Tools
+	- Testing browsers you don't have (or versions you don't have)
+		- https://browserlab.adobe.com/en-us/index.html
+		- http://browsershots.org/
+		- http://spoon.net/Studio/ (windows only)
+		- IETester (windows-only, runs IE5.5-IE9 rendering engines)
+		- http://www.webdevlab.com/app/screenshots (Mac-safari only, for windows-based folks)
+	- [Debugging Labs]:
+		- #1) Fixing a broken paragraph hover (Error: "" - means DOCTYPE is missing)
+		- #2) Fixing broken paragraph (Error: "No p element in scope but a p end tag seen." - means DIV breaking P, replace with span)
+		- #3) Fixing broken DIV structure (Error: "Unclosed element div." - there's a DIV missing a closing tag)
+		- #4) Fixing nesting error (Error: "End tag strong violates nesting rules." Strong opened before span, move closing to after)
+		- #5) Ampersand encoding error (Error: "& did not start a character reference. (& probably should have been escaped as &amp;.)")
+	
 
 
 ========================================
