@@ -27,23 +27,15 @@ header, #main { width: 978px; margin: 0 auto; overflow: hidden; }
 /* ------ Header ------ */
 header { height: 238px; background: url(../images/building.gif) right bottom no-repeat; margin-bottom: 24px; }
 header a { color: #fff; }
-header ul { float: right; }
-header li { line-height: 34px; float: left; padding-left: 27px; text-transform: uppercase; }
-header li a:hover, header li.active a { color: #2c2c2c; }
-
-#banner { margin-top: 120px; width: 450px; color: #a49c8f; font-weight: bold; }
-
-h1 { 
-	background-color: #BEB8AE; 
-	float: left;
-	padding: 0 15px;
-	border: 3px solid #fff;
-	-moz-border-radius: 0 0 20px 20px;
-	-webkit-border-radius: 0 0 20px 20px;
-	border-radius: 0 0 20px 20px;
+h1 { background-color: #BEB8AE; float: left; padding: 0 15px; border: 3px solid #fff;
+	-moz-border-radius: 0 0 20px 20px; -webkit-border-radius: 0 0 20px 20px; border-radius: 0 0 20px 20px;
 }
 h1 a { font-size: 24px; line-height: 71px; }
 h1 a:hover { color: #fff; }
+header ul { float: right; }
+header li { line-height: 34px; float: left; padding-left: 27px; text-transform: uppercase; }
+header li a:hover, header li.active a { color: #2c2c2c; }
+#banner { margin-top: 120px; width: 450px; color: #a49c8f; font-weight: bold; }
 
 /* ------ Sidebar ------ */
 aside { float: left; width: 154px; background: #f1f0ef; padding: 10px 23px; }
