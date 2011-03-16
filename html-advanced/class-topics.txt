@@ -276,7 +276,40 @@ Debugging
 Topics - Class Six
 
 
-version control
+- [LAB]:
+	- Build a webpage that matches the example.
+	- Ensure it works in IE7+, Firefox
 
 
 
+- Quality Assurance (QA)
+	- What is QA?
+	- QA means providing customers with a working, consistent, web experience
+	- How do you test?
+		- Browser/validation tests mentioned during debugging
+		- Automated testing
+			- Selenium http://seleniumhq.org/projects/ide/
+		- Accessibility testing using web developer toolbar (cynthiasays)
+		- Structure testing by disabling css
+		- Script/interaction testing by disabling javascript
+		- Colorblindness testing
+			- http://www.vischeck.com/vischeck/vischeckURL.php
+	- Revision Control
+		- Windows systems:
+			- Subversion (SVN) clients - http://tortoisesvn.tigris.org/
+			- Hosted subversion repos: beanstalkapp.com
+			- Git on Windows
+				- http://book.git-scm.com/6_git_on_windows.html
+				- http://code.google.com/p/tortoisegit/
+		- Mac/Linux:
+			- git (by far the best)
+		- Introduction to basic concepts of version control
+			- adding
+			- commit
+			- reverting
+			- github.com
+			
+
+- Evaluations
+
+- Certificates
