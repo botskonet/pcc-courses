@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url("reset-min.css");
+
+/* ------ Common Elements ------ */
+body{
+	font: 62.5%/2.2em "Lucida Grande", Tahoma, Verdana, sans-serif;
+	color: #4b4942;
+	background: #fff url(../images/top_bg.jpg) top repeat-x;
+	padding-top: 15px;
+}
+a { text-decoration: none; color: #5599a7; }
+a:hover { color: #bb800f; }
+
+/* ------ Containers ------ */
+header, #main { width: 900px; margin: 0 auto; overflow: hidden; }
+	
+/* ------ Header ------ */
+
+header { height: 238px; position: relative; }
+header { background: url(../images/building.gif) right bottom no-repeat; }
+header ul { float: right; }
+header li { line-height: 34px; float: left; padding-left: 27px; text-transform: uppercase; font-size: 1.3em; }
+header li a { color: #fff; }
+header li a:hover,#navigation li.active a {color: #2c2c2c;}
+
+#banner { margin-top: 120px; width: 450px; color: #a49c8f; font-weight: bold; font-size: 1.3em; }
+
+h1 { max-width: 200px; height: 71px; float: left; background: url(../images/logo_right.gif) right top no-repeat; }
+h1 a {
+	font: bold 24px/71px Arial, Helvetica, sans-serif;
+	padding-left: 13px;
+	margin-right: 13px;
+	display: block;
+	color: #fff;
+	background: url(../images/logo_bg.gif) left top no-repeat;
+}
+h1 a:hover { color: #fff; }
+
+	
+/* ------ Sidebar ------ */
+aside { float: left; width: 190px; }
+aside h3, aside ul {background: #f1f0ef;padding: 10px 23px 10px 23px;margin-bottom:3px;line-height:1.8em;}
+aside h3{font-size:19px;color: #8c8685; background: #f1f0ef; padding:5px 0 10px 23px;}
+aside ul{font-size: 1.2em;}
+aside li { border-bottom: 1px dashed #d1cfcd; }
+aside li a{ display: block; padding:3px 0 0 2px; height: 26px; color: #42423b; }
+aside li a:hover{ background: #E5E5E4; color: #42423b;}
+	
+/* ------ Content ------ */
+#main{ padding: 24px 0;}
+article { float: left; width:650px; padding: 0 20px;}
+section h2 { color: #5699A7; font-size: 2em; margin: 10px 0;}
+section p { padding-bottom: 10px; font-size: 1.3em;}	
+
+/* ------ Footer ------ */
+footer { height: 37px; background: #4a4841 url(../images/footer_bg.jpg) 0 0 repeat-x; }
+	
