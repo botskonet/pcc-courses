@@ -1,10 +1,10 @@
-@charset "UTF-8";
 @import url("reset.css");
 
 /*
 Colors:
 	Header a = #fff;
 	Header a.active/hover = #2c2c2c;
+	Sidebar bg = #f1f0ef;
 	Sidebar a = #42423b;
 	Sidebar dash = #d1cfcd;
 	Content a:hover = #bb800f;
@@ -18,14 +18,14 @@ body {
 	background: #fff url(../images/top_bg.jpg) top repeat-x;
 	padding-top: 15px;
 }
-a { text-decoration: none;  }
+a { text-decoration: none; }
 a:hover { color: #bb800f; }
 
 /* ------ Containers ------ */
 header, #main { width: 978px; margin: 0 auto; overflow: hidden; }
 	
 /* ------ Header ------ */
-header { height: 238px; background: url(../images/building.gif) right bottom no-repeat; }
+header { height: 238px; background: url(../images/building.gif) right bottom no-repeat; margin-bottom: 24px; }
 header a { color: #fff; }
 header ul { float: right; }
 header li { line-height: 34px; float: left; padding-left: 27px; text-transform: uppercase; }
@@ -44,16 +44,13 @@ h1 a {
 }
 h1 a:hover { color: #fff; }
 
-
 /* ------ Sidebar ------ */
 aside { float: left; width: 154px; background: #f1f0ef; padding: 10px 23px; }
-aside h3, aside ul { margin-bottom: 10px; }
 aside h3 { font-size: 1.3em; }
 aside li { border-bottom: 1px dashed #d1cfcd; }
 aside li a { line-height: 26px; color: #42423b; }
 	
 /* ------ Content ------ */
-#main{ padding: 24px 0;}
 article { float: right; width: 758px; }
-section h2 { color: #5699A7; font-size: 1.5em; margin-bottom: .6em; }
+section h2 { color: #5699A7; font-size: 1.5em; }
 section p { margin-bottom: 2em; }

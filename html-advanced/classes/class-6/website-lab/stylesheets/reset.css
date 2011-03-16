@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
@@ -43,4 +44,4 @@ input[type="radio"] { vertical-align: text-bottom; }
 input[type="checkbox"] { vertical-align: bottom; }
 button, input, select, textarea { margin: 0; }
 button {  width: auto; overflow: visible; }
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: .8em; }
