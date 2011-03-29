@@ -69,7 +69,7 @@ Topics - Class Two
 - Resolving the issue of navigation menus conflicting with contact form coloring
 	- Using jquery to set the opacity of the contact form
 	- Using jquery to revert the opacity to 1 when hover ends
-	- Resolving potetial z-index issues
+	- Resolving potential z-index issues
 	
 - Fixing IE Bugs
 	- Correcting li:hover issues using jquery
