@@ -49,6 +49,9 @@ Topics - Class One (Chapters 1, 2, part of 3)
 	- IDs
 	- Using spans
 	- Colors [http://www.colorpicker.com/]
+	- Basics of validating
+	- Validating pages with web developer toolbar
+	- Doctype Basics
 	
 ========================================
 Topics - Class Two
@@ -56,8 +59,6 @@ Topics - Class Two
 - [LAB]
 	- Building a basic page using elements from last class
 	- Uses: h1, p, span, also try: a
-	
-- Doctype Basics
 	
 - DIVs [p. 54]
 	- The empty element for all purposes
@@ -73,14 +74,14 @@ Topics - Class Two
 	- floats http://css-tricks.com/all-about-floats/
 
 - [Lab]:
-	- Play with floating the box, positioning the box.
-	
-- Include external css file [p. 78]
-	<link rel="stylesheet" type="text/css" href="class.css" />
-	<style>@import url(style.css);</style>
-	- Discuss relative URLs
+	- Play with floating the box
+	- Add third div and experiment with different float settings
 	
 - Article Example 1
+	- Include external css file [p. 78]
+		<link rel="stylesheet" type="text/css" href="class.css" />
+		<style>@import url(style.css);</style>
+		- Discuss relative URLs
 	- Start with core html and p tag content
 	- Look at image in first p, discuss alignment
 	- Assign font-family to body, background color of #eee
@@ -95,8 +96,6 @@ Topics - Class Two
 		- Center text in the H1
 	
 - CSS Comments
-	
-- Validating pages with web developer toolbar
 
 ========================================
 Topics - Class Three (Chapter 4, Floats pg 168)
