@@ -1,0 +1,45 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #eee;
+}
+#article {
+	margin: 0 auto;
+	width: 780px;
+}
+h1 {
+	/*border-bottom: 1px solid #ccc;*/
+	text-decoration: underline;
+}
+p {
+	line-height: 1.8em;
+	margin-bottom: 2em;
+	text-align: justify;
+}
+blockquote {
+	font-size: 1.3em;
+	font-style: italic;
+}
+blockquote p {
+	text-align: center;
+}
+
+/* Image Containers */
+.img-left, .img-right {
+	float: left;
+	margin: 5px 10px 0 0;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background-color: #fff;
+}
+/* fix image padding bug: https://developer.mozilla.org/en/Images,_Tables,_and_Mysterious_Gaps (setting a float works too) */
+.img-left img, .img-right img { display: block; }
+.img-left span, .img-right span {
+	display: block;
+	font-style: italic;
+	text-align: center;
+	padding: 6px;
+}
+.img-right {
+	float: right;
+	margin: 5px 0 0 10px;
+}

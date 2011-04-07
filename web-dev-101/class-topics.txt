@@ -49,6 +49,7 @@ Topics - Class One (Chapters 1, 2, part of 3)
 	- IDs
 	- Using spans
 	- Colors [http://www.colorpicker.com/]
+	- Font basics [http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html]
 	- Basics of validating
 	- Validating pages with web developer toolbar
 	- Doctype Basics
@@ -85,15 +86,17 @@ Topics - Class Two
 	- Start with core html and p tag content
 	- Look at image in first p, discuss alignment
 	- Assign font-family to body, background color of #eee
-	- Use wrapping div to center text, create narrow page
-	- Explain margin for centering
+	- Use wrapping div to center content, create narrow page
+	- Explain margin: auto for centering
 	- H1 styling
 	- Float image left, give it padding, border, margin
 	- Playing with line-height
 	- Discuss EM measurement, makes sizes relative
 	(More: http://jontangerine.com/log/2007/09/the-incredible-em-and-elastic-layouts-with-css)
+	- Adding containing div for image, adding caption
 	- [LAB]:
-		- Center text in the H1
+		- Centering the caption text
+	- Using classes for both left and right image containers
 	
 - CSS Comments
 
