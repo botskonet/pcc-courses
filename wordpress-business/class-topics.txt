@@ -1,0 +1,63 @@
+
+CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordPress to create top notch business BLOGs and websites. You can do the same! Learn about the wealth of plugins, the incredible online resources, and the tricks and techniques, to turn your WordPress site into a competitive business advantage! Prior experience with WordPress is highly recommended. 
+
+- Social Integration
+	- twitter http://wordpress.org/extend/plugins/twitter-widget-pro/
+	- facebook
+	
+- Plugins
+	- google analytics
+	- google maps
+	- google sitemaps xml
+	- wp backup
+	- wp total cache
+	- all in one seo
+	- syntax highlighter
+	- add to any/sociable
+	- google adsense
+	- related entries
+	
+- Better RSS?
+- Email campaign?
+- ContactForm 7
+- Shopping carts? - wp ecommerce http://wordpress.org/extend/plugins/wp-e-commerce/
+- nextgen gallery, portfolio plugins
+- wp touch for mobile?
+- wp security scan http://wordpress.org/extend/plugins/wp-security-scan/
+- videos http://wordpress.org/extend/plugins/vipers-video-quicktags/
+- wp greet box http://wordpress.org/extend/plugins/wp-greet-box/
+
+Course One - Topics
+==============================
+
+
+	
+
+Course Two - Topics
+==============================
+
+
+	
+
+Course Three - Topics
+==============================
+
+
+		
+		
+Course Four - Topics
+==============================
+
+
+
+	
+- Real Wordpress websites:
+	- http://irrationalgames.com/
+	- http://www.itsallthought.com/
+	- http://www.benchmark.com/
+	
+- Best Reference Websites
+	- http://www.wpbeginner.com/
+	- http://www.wp-tutorials.org/
+	
+- Course Evaluations

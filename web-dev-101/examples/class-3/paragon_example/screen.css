@@ -1,22 +1,22 @@
 @import 'reset.css';
 
 body { background-color: #fff; font-family: Palatino, "Book Antiqua", serif;}
-#article { width: 750px; padding: 0 5px; margin: 0 auto; }
+#article { width: 760px; margin: 0 auto; }
 
 /* header */
 #header { height: 200px; background: transparent url('img/restaurant_sm.jpg') 0 0 no-repeat; margin-bottom: 20px; }
 h1 { text-indent: -9999px; }
 
 /* nav/content container */
-#float-wrapper { overflow: hidden; }
+.float-wrap { overflow: hidden; width: 750px; margin-bottom: 20px; }
 
 /* navigation */
 #nav { width: 150px; float: left; }
 #nav li { line-height: 1.5em; margin-left: 20px; }
 
 /* page content */
-#content { float: right; width: 590px; }
-#content p { margin-top: 2em; }
+#section { float: right; width: 590px; }
+#section p { margin-top: 2em; }
 
 /* footer */
 #footer { padding: 10px; }

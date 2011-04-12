@@ -65,6 +65,10 @@ Course Two - Topics
 		- Setting thumbnail and link options
 		- Inserting into posts
 	- Finding images used previously
+	- Image Galleries
+		- Upload multiple images at once
+		- Set gallery settings
+		- Insert into post
 
 - Links
 
@@ -177,11 +181,6 @@ Course Four - Topics
 	
 - Advanced Wordpress Documentation
 	- http://codex.wordpress.org/Main_Page
-
-- Image Galleries
-	- Upload multiple images at once
-	- Set gallery settings
-	- Insert into post
 	
 - Real Wordpress websites:
 	- http://irrationalgames.com/
