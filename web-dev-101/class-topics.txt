@@ -105,6 +105,8 @@ Topics - Class Three (Chapter 4, Floats pg 168)
 
 - [LAB]
 	- Floating two DIVs within a parent container
+	- Introducing the float clearing bug "clearfix"
+	http://www.quirksmode.org/css/clearing.html
 	
 - Basics of inspecting with Firebug
 
