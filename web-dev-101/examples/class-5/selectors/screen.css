@@ -1,5 +1,5 @@
 /* CSS SELECTOR PLAYGROUND */
-
+/* http://www.quirksmode.org/css/contents.html */
 
 /* All Elements */
 /* { outline: 1px solid red; }*/
@@ -34,20 +34,58 @@
 /* Next element (no <= IE6, problematic in < IE9) */
 /*li+li { outline: 1px solid red; }*/
 
+/* General sibling (no <= IE6) */
+/*pre~p { outline: 1px solid red; }*/
+
 /* Attribute value selector (no <= IE6) */
 /*input[type="text"] { outline: 1px solid red; }*/
 
 /* Hover pseudo-class (no <= IE6 except for anchors) */
 /*p:hover { outline: 1px solid red; }*/
 
+/* Active pseudo-class (no <= IE7 except for anchors) */
+/*p:active { outline: 1px solid red; }*/
+
 /* First Child (no <= IE6, problematic in < IE9)) */
 /*li:first-child { outline: 1px solid red; }*/
+
+/* First Line of text */
+/*p:first-line { color: red; }*/
+
+/* First letter of text */
+/*p:first-letter { color: red; }*/
 
 /* empty elements (no < IE9) */
 /*p:empty { outline: 1px solid red; min-height: 10px; }*/
 
 /* Last Child (no < IE9) */
 /*li:last-child { outline: 1px solid red; }*/
+
+/* Nth-Child() (no < IE9) */
+/*li:nth-child(2) { outline: 1px solid red; }*/
+/* also accepts "odd" and "even" keywords */
+/*li:nth-child(even) { outline: 1px solid red; }*/
+
+/* Nth-Last-Child() (no < IE9) */
+/*p:nth-last-child(1) { outline: 1px solid red;  }*/
+
+/* First-of-type (no < IE9) */
+/*p:first-of-type { outline: 1px solid red; }*/
+
+/* Nth-of-type() (no < IE9) */
+/*p:nth-of-type(1) { outline: 1px solid red;  }*/
+
+/* Nth-last-of-type() (no < IE9) */
+/*p:nth-last-of-type(1) { outline: 1px solid red;  }*/
+
+/* only child (no < IE9) */
+/*ol:only-child { outline: 1px solid red;  }*/
+
+/* only child (no < IE9) */
+/*pre:only-of-type { outline: 1px solid red;  }*/
+
+/* Table Columns (incomplete < IE8) - Won't override a row or cell style */
+/*col:nth-child(2) { background-color: #6374AB; }*/
 
 /* elements that are not *x* (no < IE9) */
 /*p:not(.para) { outline: 1px solid red; }*/

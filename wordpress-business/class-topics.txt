@@ -8,9 +8,6 @@ CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordP
 - Plugins
 	- google analytics
 	- google maps
-	- google sitemaps xml
-	- wp backup
-	- wp total cache
 	- all in one seo
 	- syntax highlighter
 	- add to any/sociable
@@ -30,6 +27,21 @@ CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordP
 Course One - Topics
 ==============================
 
+- The Most Important Plugins, for Any WP Install
+
+- Google Sitemaps XML
+
+- WP DB Backup
+
+- WP Total Cache (play with)
+
+- All in One SEO (play with)
+
+- Choosing a theme that won't damage SEO
+	- validation
+	- accessibility
+	
+- Having themes custom designed
 
 	
 

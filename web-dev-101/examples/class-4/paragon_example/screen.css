@@ -1,7 +1,7 @@
 @import '../reset.css';
 
 /* DEBUG ONLY */
-#article { background: transparent url('../img/grid.gif'); top left no-repeat; }
+/*#article { background: transparent url('../img/grid.gif'); top left no-repeat; }*/
 
 /* Structural CSS from previous class */
 body { background-color: #fff; font-family: Palatino, "Book Antiqua", serif;}
