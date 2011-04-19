@@ -90,20 +90,33 @@
 /* elements that are not *x* (no < IE9) */
 /*p:not(.para) { outline: 1px solid red; }*/
 
-/* Labs: */
+/* Learn how to break down your goals to find a selector: */
+
+/* All TDs, which are not empty */
+/*td:not(:empty) { outline: 1px solid red; }*/
+
+/* The last td in the last row */
+/*tr:last-child td:last-child { outline: 1px solid red; }*/
+
+
+/* LABS: */
 
 /* Highlight all anchors */
 /*a { outline: 1px solid red; }*/
+
+/* Highlight all strong and b elements */
+/*strong, b { outline: 1px solid red; }*/
 
 /* Highlight all list items of a UL */
 /*ul li { outline: 1px solid red; }*/
 
 /* Highlight the middle list items */
 
-/* Solution #1, mixed support in <= IE9
-li { outline: 1px solid red; }
+/* Solution #1, mixed support in <= IE9*/
+/*li { outline: 1px solid red; }
 li:first-child,li:last-child { outline: 0; }*/
 
-/* Solution #2, mixed support in <= IE9
-li+li { outline: 1px solid red; }
+/* Solution #2, mixed support in <= IE9 */
+/*li+li { outline: 1px solid red; }
 li:last-child { outline: 0; }*/
+

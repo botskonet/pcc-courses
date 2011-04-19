@@ -190,12 +190,14 @@ Topics - Class Five
 	- #3) Fixing broken DIV structure (Error: "Unclosed element div." - there's a DIV missing a closing tag)
 	- #4) Fixing nesting error (Error: "End tag strong violates nesting rules." Strong opened before span, move closing to after)
 	- #5) Ampersand encoding error (Error: "& did not start a character reference. (& probably should have been escaped as &amp;.)")
-	
-- CSS vendor prefixes
 
 - Browser Personalities (Important bugs or support in browsers)
 	- IE (everything, really):
 		- http://www.positioniseverything.net/explorer.html
+		
+- Acid Tests
+		
+- CSS vendor prefixes
 		
 - Intro to HTML5
 	- Article, section, nav, header, footer, aside
