@@ -1,5 +1,5 @@
 
-CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordPress to create top notch business BLOGs and websites. You can do the same! Learn about the wealth of plugins, the incredible online resources, and the tricks and techniques, to turn your WordPress site into a competitive business advantage! Prior experience with WordPress is highly recommended. 
+CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordPress to create top notch business BLOGs and websites. You can do the same! Learn about the wealth of plugins, the incredible online resources, and the tricks and techniques, to turn your WordPress site into a competitive business advantage! Prior experience with WordPress is highly recommended.
 
 - Social Integration
 	- twitter http://wordpress.org/extend/plugins/twitter-widget-pro/
@@ -8,12 +8,12 @@ CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordP
 - Plugins
 	- google analytics
 	- google maps
-	- all in one seo
 	- syntax highlighter
 	- add to any/sociable
 	- google adsense
 	- related entries
 	
+- Better discussions
 - Better RSS?
 - Email campaign?
 - ContactForm 7
@@ -27,21 +27,37 @@ CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordP
 Course One - Topics
 ==============================
 
+- Default Wordpress installs have been setup.
+
+- Installing Wordpress for class
+
+- Understanding the tools Wordpress provides by default
+	- Automatic RSS
+	- User controls http://codex.wordpress.org/Roles_and_Capabilities
+	- Security: Keeping wordpress up to date
+	- Discussions and easy reply system
+
 - The Most Important Plugins, for Any WP Install
-
-- Google Sitemaps XML
-
-- WP DB Backup
-
-- WP Total Cache (play with)
-
-- All in One SEO (play with)
-
-- Choosing a theme that won't damage SEO
-	- validation
-	- accessibility
-	
-- Having themes custom designed
+	- Enabling Akismet, costs for commercial use
+	- Install and configure each plugin:
+		- Google XML Sitemaps
+		- WP DB Backup
+		- W3 Total Cache
+			- Understanding why cache is important
+			- Walk through each part:
+				- Pages
+				- Minify
+				- DB Cache
+				- CDN
+				- Servers using APC/Memcached
+				- Testing response times (apache benchmark)
+			- All in One SEO
+	- Understanding SEO
+		- Web address, priority of keywords
+		- Page Structure
+		- Validation of HTML
+		- Commercial themes versus Free
+		- Having themes custom designed
 
 	
 
