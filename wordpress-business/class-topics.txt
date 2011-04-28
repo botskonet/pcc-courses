@@ -1,27 +1,4 @@
-
 CBS New York, CNN's Political Ticker and NASA Ames Research Center all use WordPress to create top notch business BLOGs and websites. You can do the same! Learn about the wealth of plugins, the incredible online resources, and the tricks and techniques, to turn your WordPress site into a competitive business advantage! Prior experience with WordPress is highly recommended.
-
-- Social Integration
-	- twitter http://wordpress.org/extend/plugins/twitter-widget-pro/
-	- facebook
-	- share this http://alexking.org/projects/wordpress
-	
-- Plugins
-	- google maps
-	- syntax highlighter
-	- add to any/sociable
-	- related entries
-	
-- Better RSS?
-- Email campaign?
-- ContactForm 7
-- Shopping carts? - wp ecommerce http://wordpress.org/extend/plugins/wp-e-commerce/
-- nextgen gallery, portfolio plugins
-- wp touch for mobile?
-- wp security scan http://wordpress.org/extend/plugins/wp-security-scan/
-- videos http://wordpress.org/extend/plugins/vipers-video-quicktags/
-- wp greet box http://wordpress.org/extend/plugins/wp-greet-box/
-- broken links http://wordpress.org/extend/plugins/broken-link-checker/
 
 
 Course One - Topics
@@ -52,7 +29,6 @@ Course One - Topics
 		- Having themes custom designed
 		
 		- or http://www.seodesignsolutions.com/wordpress-seo/
-
 	
 
 Course Two - Topics
@@ -69,47 +45,78 @@ Course Two - Topics
 			- Servers using APC/Memcached
 			- Testing response times (apache benchmark)
 			
-	- Analytics
-		- Google Analytics plugin "Analyticator"
-			http://ronaldheft.com/code/analyticator/
-			- Understanding analytics
-		- Get Clicky
-		
-	- RSS Stats with Feedburner
-		- FeedSmith Plugin
-		
-	- Discussions
-		- ReplyMe 
-		-  Mention: Subscribe to Comments
-		- Closing comments after number of days
-		
-	- Social Media
-		- Twitter Widget Pro
-		- Facebook
-			- Facebook Comments
-		- ShareThis
-
+- Analytics
+	- Google Analytics plugin "Analyticator"
+		http://ronaldheft.com/code/analyticator/
+		- Understanding analytics
+	- Get Clicky
+	
+- RSS Stats with Feedburner
+	- FeedSmith Plugin
+	
+- Discussions
+	- ReplyMe 
+	-  Mention: Subscribe to Comments
+	- Closing comments after number of days
+	
+- Social Media
+	- Twitter Widget Pro
+	- Facebook
+		- Facebook Comments
+	- ShareThis http://alexking.org/projects/wordpress
 	
 
 Course Three - Topics
 ==============================
 
+- ContactForm7 (http://contactform7.com/)
+- Email campaigns
+	- MailChimp http://www.mailchimp.com (http://wordpress.org/extend/plugins/mailchimp/)
+	- Campaign Monitor http://www.campaignmonitor.com/
+	- Contact Form 7 Campaign Monitor Addon
+- WP Touch
+- Syntax Highlighter
+- Related Entries (Yet Another Related Posts Plugin)
 
-		
+- Embedding Google Maps
+  http://en.support.wordpress.com/google-maps/
+- MapPress
+
 		
 Course Four - Topics
 ==============================
 
-
-
+- Creating custom content with Custom Post Types
+	http://codex.wordpress.org/Post_Types#Custom_Types
+	- Examples:
+		- http://www.itsallthought.com
+		- Products, Staff Directory, Portfolios, Testimonials
 	
-- Real Wordpress websites:
-	- http://irrationalgames.com/
-	- http://www.itsallthought.com/
-	- http://www.benchmark.com/
-	
+- Ecommerce
+	- Building separate store/blog - similiar themes, subdomain routing
+	- http://bigcartel.com/
+	- http://www.shopify.com/
+	- http://pulleyapp.com/
+	- WP E-commerce
+		- Install, activate, configure
+		- Test add products
+	- http://shopplugin.net/
+
+- Online resources for wordpress
+	- Documentation: http://codex.wordpress.org/Main_Page
 - Best Reference Websites
 	- http://www.wpbeginner.com/
 	- http://www.wp-tutorials.org/
-	
+	- http://wordpress.tv/
+
+- Tips for driving traffic
+	- writing content for seo
+	- Visitors clicking on your site in results, and staying longer increases the value of the content
+		- Write original content, and do not allow duplication
+		- Headlines should be descriptive, contain important keywords for your content
+		- Page titles should be descriptive, not vague
+		- Link words should not be "click here", but a clear summary of where the link goes.
+		
+- Questions/Additional Topics
+
 - Course Evaluations
