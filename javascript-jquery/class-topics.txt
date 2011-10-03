@@ -1,0 +1,83 @@
+JavaScript is the most popular web scripting language and JQuery is an exceptionally clever and concise library designed to change the way that you write JavaScript. Learn to use them to provide powerful event handling, animating, and Ajax interactions for rapid web development. Helpful Experience: HTML/CSS  
+
+
+========================================
+Topics - Class One
+
+- Introduction to Javascript (Core)
+	- Placement of script tag
+	- Variables
+	- Differences between integers, strings
+	- Basic operations: math, string concatenation, alert()
+	- Logging to the Firebug Console
+	- Conditions
+	- Code comments
+	- [LAB]
+		- Create two variables which container integers
+		- Add them together, use console.log to print the result
+	
+- Introduction to DOM
+	- What is the DOM?
+	- "document" object
+	- Accessing elements using getElementById
+	- Inspecting properties of a DOM element in Firebug
+	- [LAB]
+		- Add a new div
+		- Set it's width, height, and background color
+
+
+- Introduction to jQuery
+	- Downloading jquery
+	- Including the file (locally or from a CDN)
+	- The $ variable
+	- Using document ready
+	- Using CSS selectors
+
+
+	- Basic selector experimentation
+	- Practice: setting css for a, div and p
+
+
+	- [LAB]
+		- Hiding all DIVs
+		
+	- Introduction to Events
+	- Anonymous functions
+	- "this"
+		
+	- Adding a click event to all anchors
+	- Step 1: SlideToggle the DIV immediately following the anchor
+	- [LAB]
+		- Step 2: Close all open DIVs (before slidetoggle runs)
+	- Step 3: Fix the weirdness when you click again on a link
+
+
+========================================
+Topics - Class Two
+
+
+========================================
+Topics - Class Three
+
+
+========================================
+Topics - Class Four
+
+
+========================================
+Topics - Class Five
+
+
+========================================
+Topics - Class Six
+
+
+- Traversal
+- Effects & jQuery UI
+- Ajax, JSON, and working with the backend
+- Data attributes
+- Events
+- JSON
+- Mobile
+- 
+

@@ -1,0 +1,4 @@
+body { font-family: Consolas, "Lucida Console", sans-serif; }
+li { list-style: none; padding: 10px 0; }
+div { width: 600px; }
+div p { background-color: #CCFF66; padding: 10px; }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DOM JavaScript</title>
+</head>
+<body>
+	<p id="example-text">This is some example text</p>
+	<div id="lab">hello</div>
+</body>
+<script>
+
+	document.bgColor = 'gray';
+	// console.log(document);
+	
+	var p = document.getElementById('example-text');
+	p.style.padding = '10px';
+	p.style.fontSize = '16pt';
+	p.style.backgroundColor = 'white';
+	
+	// lab solution
+	var lab = document.getElementById('lab');
+	lab.style.width = '500px';
+	lab.style.height = '500px';
+	lab.style.backgroundColor = 'blue';
+
+</script>
+</html>
