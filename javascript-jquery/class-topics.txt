@@ -44,16 +44,43 @@ Topics - Class One
 	- Introduction to Events
 	- Anonymous functions
 	- "this"
+
+
+	[ need more expanded here since anchor project moved classes]
 		
-	- Adding a click event to all anchors
-	- Step 1: SlideToggle the DIV immediately following the anchor
-	- [LAB]
-		- Step 2: Close all open DIVs (before slidetoggle runs)
-	- Step 3: Fix the weirdness when you click again on a link
 
 
 ========================================
 Topics - Class Two
+
+
+- Anchor Toggling Lab
+
+	- Introduction to events: http://api.jquery.com/category/events/
+	- Extreme basics of event bubbling, live/delegation
+	- Step 1: Hiding elements on page load. Explain why we do this in js and not css
+	- Step 2: Add an event to all anchors
+	- Why is not a good idea to use onclick, etc
+	- Step 3: SlideToggle the DIV immediately following the anchor (using traversal) http://api.jquery.com/category/traversing/tree-traversal/
+	- [LAB]
+		- Step 2: Close all open DIVs (before slidetoggle runs)
+	- Step 3: Fix the bug when you click again on a link
+
+
+- Contact Form Demo
+	- Review html
+	- Add an event to the contact anchor
+	- slideToggle the contact form
+	- Using traversal to parent to set class on li
+
+	- Understanding the hover event's dual functions
+	- CSS :hover versus jQuery hover
+	-[LAB]: Setting the opacity of the contact form to ease navigation menus
+
+	- Extra (if time allows): using a better overlay div
+	- The logic behind when to set the div width/height
+	
+
 
 
 ========================================
@@ -80,4 +107,6 @@ Topics - Class Six
 - JSON
 - Mobile
 - 
+
+
 

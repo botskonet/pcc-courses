@@ -5,12 +5,12 @@
 	<title>jQuery</title>
 	<style>@import url('screen.css');</style>
 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="../../jquery.min.js"><\/script>')</script>
 	<script>
 	$(function(){
 		
-		// lab
+		// "returning lab"
 		$('div').hide();
 		
 		// real demo
@@ -27,6 +27,8 @@
 			var my_div = $(this).next(); // Figure out which DIV comes after the clicked anchor
 			$('div').not( my_div ).slideUp(); // slideUp all DIVs which do not belong to the clicked anchor
 			my_div.slideToggle(); // Either open (if it's currently closed) or close (if it's currently open) the chosen div.
+
+			return false; // stops
 			
 		});
 	});

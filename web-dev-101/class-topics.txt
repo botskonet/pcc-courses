@@ -249,6 +249,25 @@ Topics - Class Six
 	- [LAB]
 		- Step 2: Close all open DIVs (before slidetoggle runs)
 	- Step 3: Fix the weirdness when you click again on a link
+
+
+
+
+
+
+========================================
+Topics - Class Seven
+
+
+
+
+========================================
+Topics - Class Eight
+
+
+
+
+
 	
 - Where to go from here.
 
