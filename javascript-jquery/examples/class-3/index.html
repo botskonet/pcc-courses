@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Playground</title>
+	<style>@import url('screen.css');</style>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../jquery.min.js"><\/script>')</script>
+	<script src="script.js"></script>
+	<style>
+		.sel { border: 1px solid green; min-height: 10px }
+	</style>
+</head>
+<body>
+	<article>
+		<section class="text reused-class">
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+		</section>
+		<section class="text reused-class">
+			<a href="#">Anchor</a>
+			<p class="para reused-class">This is a paragraph, with class of "para"</p>
+			<p id="para" class="reused-class">This is a paragraph, with id of "para"</p>
+			<p>This is <a href="#">an anchor</a></p>
+			<p>This is <em>emphasized</em></p>
+			<p>This is <strong>strong</strong></p>
+			<p>This is <b>bold</b></p>
+			<p>This is <i>italicized</i></p>
+			<p>This is a <span>span</span></p>
+			<p>This is a line <br>break</p>
+			<p>This is abbreviated: <abbr title="Assistant">Asst.</abbr></p>
+			<p>This text is <small>small</small></p>
+			<p>Read the <cite>W3C HTML 4.01 Specifications</cite> for cite</p>
+			<p>This text is <sup>super-script</sup></p>
+			<p>This text is <sub>sub-script</sub></p>
+			<pre>Use pre to maintain plain-text formatting</pre>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+			<p></p> <!-- needs to remain empty -->
+		</section>
+		<section class="lists reused-class">
+			<ol>
+				<li>First OL Item</li>
+				<li>Second OL Item</li>
+				<li>Third OL Item</li>
+				<li>Fourth OL Item
+					<ol>
+						<li>First SUB OL Item</li>
+						<li>Second SUB OL Item</li>
+					</ol>
+				</li>
+			</ol>
+			<ul>
+				<li>First UL Item</li>
+				<li>Second UL Item</li>
+				<li>Third UL Item</li>
+				<li>Fourth UL Item
+					<ol>
+						<li>First SUB-UL, OL Item</li>
+						<li>Second SUB-UL, OL Item</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+		<section class="divs reused-class">
+			<div></div>
+		</section>
+		<section class="tables">
+			<table>
+				<col />
+				<col />
+				<col />
+				<thead>
+					<tr>
+						<th>Browser</th>
+						<th>Vendor</th>
+						<th>Engine</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Firefox</td>
+						<td>Mozilla</td>
+						<td>Gecko</td>
+					</tr>
+					<tr>
+						<td>Safari</td>
+						<td>Apple</td>
+						<td>Webkit</td>
+					</tr>
+					<tr>
+						<td>Chrome</td>
+						<td>Google</td>
+						<td>Webkit</td>
+					</tr>
+					<tr>
+						<td>IE</td>
+						<td>Microsoft</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section class="forms reused-class">
+			<form action="http://experiments.botsko.net/tests/post.php" method="post">
+				<fieldset>
+					<legend>Example Form</legend>
+					<input type="hidden" id="field0" name="field0" value="im-hiding">
+					<ol>
+						<li>
+							<label for="field1">"Text" Input</label>
+							<input type="text" id="field1" name="field1" value="">
+						</li>
+						<li>
+							<label for="field2-yes">"Checkbox" Input</label>
+							<input type="checkbox" id="field2-yes" name="field2" value="Yes" checked="checked">
+							<input type="checkbox" id="field2-no" name="field2" value="No">
+						</li>
+						<li>
+							<label for="field3-yes">"Radio" Input</label>
+							<input type="radio" id="field3-yes" name="field3" value="Yes" checked="checked">
+							<input type="radio" id="field3-no" name="field3" value="No">
+						</li>
+						<li>
+							<label for="field4">"Password" Input</label>
+							<input type="password" id="field4" name="field4" value="">
+						</li>
+						<li>
+							<label for="field5">Select Box</label>
+							<select id="field5" name="field5">
+								<option value="1" selected="selected">One</option>
+								<option value="2">Two</option>
+								<option value="3">Three</option>
+							</select>
+						</li>
+						<li>
+							<label for="field6">Textarea</label>
+							<textarea id="field6" name="field6" cols="30" rows="10">Value goes here</textarea>
+						</li>
+						<li>
+							<button>A Button</button>
+						</li>
+						<li>
+							<input type="submit" name="submit" value="Submit">
+							<input type="reset" name="reset" value="Reset">
+						</li>
+					</ol>
+				</fieldset>
+			</form>
+		</section>
+	</article>
+</body>
+</html>

@@ -47,6 +47,26 @@
 			// Overlay:
 			$('.overlay').hide();
 		});
+
+		// Extremely basic form validation example
+		$('form').submit(function(){
+			
+			var is_error = 0;
+
+			if($('#your_name').val() == ''){
+				$('#your_name').after('<span>Error!</span>');
+				is_error++; // essentially, this is "is_error = is_error + 1"
+			}
+
+			if($('#email').val() == ''){
+				$('#email').after('<span>Error!</span>');
+				is_error++; // essentially, this is "is_error = is_error + 1"
+			}
+
+			if(is_error > 0){
+				return false;
+			}
+		});
 	});
 	</script>
 </head>

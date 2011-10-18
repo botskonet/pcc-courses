@@ -77,8 +77,13 @@ Topics - Class Two
 	- CSS :hover versus jQuery hover
 	-[LAB]: Setting the opacity of the contact form to ease navigation menus
 
-	- Extra (if time allows): using a better overlay div
+	- Using a better overlay div
 	- The logic behind when to set the div width/height
+
+	- The basics of form validation
+	- Form submit event
+	- Checking for empty fields
+	- Stopping form only if there is an error
 	
 
 
@@ -86,27 +91,41 @@ Topics - Class Two
 ========================================
 Topics - Class Three
 
+- Working with attributes/data in html5
+- Traversal
+- Events
+- Manipulation
+- Understanding live/delegate
+
 
 ========================================
 Topics - Class Four
 
+- Ajax
+	- JSON
+	- GET
+	- POST
+	- Callbacks
+- JSONP
+
 
 ========================================
 Topics - Class Five
+
+- Debugging
+
+- Recommended Plugins
+
+
+- Resize Throttle
+- jQuery UI
 
 
 ========================================
 Topics - Class Six
 
 
-- Traversal
-- Effects & jQuery UI
-- Ajax, JSON, and working with the backend
-- Data attributes
-- Events
-- JSON
-- Mobile
-- 
+- Basics of Mobile
 
 
 
