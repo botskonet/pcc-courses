@@ -208,6 +208,172 @@ Topics - Class Five
 ========================================
 Topics - Class Six
 
+"A Deeper Dive into CSS"
+
+- Fonts
+	- @font-face
+	- Licensing issues
+	- Browser/format support (http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)
+	- Google font directory
+	- Typekit
+
+- Basics of Absolute positioning
+
+- Creating a drop-down menu
+	- Absolute/relative positioning
+	- Using top/left
+	- Absolute elements inside relative elements
+	- Using display: inline-block
+	- Using :hover pseudo class on li
+	
+- Border Radius in CSS3
+	(http://www.css3.info/preview/rounded-border/)
+	(http://www.quirksmode.org/css/contents.html#t46)
+	- Browser prefixes (-moz, -webkit)
+	
+- Z-Index (http://reference.sitepoint.com/css/z-index)
+	- Positions
+	- IE Issues (select boxes, frames, hasLayout)
+	
+- Inner-CSS @media
+	- screen, print
+
+
+CSS2 Techniques in Use Today
+
+- Creating a hover menu system using css
+	- Creating nested lists and understanding semantic hierarchy
+	- Hiding the nested ul by default
+	- Use the :hover pseudo element to show the submenu
+	
+	(Understanding positions: http://www.quirksmode.org/css/position.html)
+	- Set parent li to position:relative
+	- Set sub ul to position:absolute
+	
+	(Understanding z-index: https://developer.mozilla.org/en/understanding_css_z-index)
+	- Fix the z-index problems with banner and sub-uls
+	- Set background color of the sub ul so it's no transparent
+	- Correct margins/padding
+	
+- Playing with position: fixed
+	- Create a new div
+	- Set basic width, height, and background-color
+	- Set position:fixed, set bottom/right
+		
+- Using Sprites
+	- Setting up some base box styling
+		- Color, background/border colors
+	- Combining images into one
+	- Setting the initial background image and position
+	- Using background-position to alter the positioning
+
+- "Sliding Doors" (http://www.alistapart.com/articles/slidingdoors/)
+	- http://www.jankoatwarpspeed.com/post/2008/04/30/make-fancy-buttons-using-css-sliding-doors-technique.aspx
+	- Reviewing how sliding doors has been used to make flexible-width buttons
+	- Looking at basic elements which we're able to use css3 for.
+	
+	
+{this course needs labs, additional experimentation with positioning, floating, display}
+
+
+- Using CSS3 To Enhance Page Design
+	(Ensure these work for all supported browsers)
+	- Add top/bottom left border radius
+	- Add a border-radius to the search box
+	
+- [LAB]: Styling Blockquotes
+	- Use quote image for the left side of the quote (add padding!)
+	- Color the text #999
+	- Looking at blockquotes "quotes/open/close" properties
+	
+- [LAB]: Styling Code Displays
+	- The code element, the pre element
+	- Styling the elements
+	- Encoding html for display versus processing
+		- http://simplebits.com/cgi-bin/simplecode.pl
+	
+- [LAB]: Styling Anchor Clues
+	- Styling icons for pdf, mailto
+	- Styling icons for external links
+	- Moving icons to the left
+	
+- Fonts
+	- Limitations of fonts until recently
+	- Other font replacement techniques
+		- Cufon: http://cufon.shoqolate.com/generate/
+		- sIFR: http://www.mikeindustries.com/blog/sifr
+	- @font-face
+		- Browser support: http://webfonts.info/wiki/index.php?title=%40font-face_browser_support
+	- FontSquirrel Font
+	- Hosted Fonts
+		- Google
+		- Typekit
+		
+	- Add new font-face for AaarghNormal
+	- Apply to section h2
+	- [LAB]
+		- Choose new font from fontsquirrel, download
+		- Add to directory
+		- Be careful with path names
+		- Apply font to .banner h2
+		
+	{this course needs labs, additional experimentation because it's too short}
+
+
+========================================
+Topics - Class Seven
+
+
+Using CSS3
+
+- Understanding vendor prefixes
+	- Remember to always define each vendor prefix, and then
+		the attribute itself without any prefix.
+
+- Border-Radius (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
+	- Methods to achieve this effect today
+	- What is border-radius
+	- Adjusting border-radius
+	- [LAB]:
+		- Use border radius to create leaf-shape
+		- Create the reverse leaf shaped
+		- Style a series of LIs as overlapping full circles
+		
+- Box Shadow (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
+	- Methods to achieve this effect today
+	- What is box-shadow
+	- Adjusting box-shadow
+	- [LAB]:
+		- Set the inset borders for all four sides
+		- Using positioning and box-shadow, create a "window"-style
+		div which covers another div with text in it.
+			- Uses positioning, box-shadow
+
+- Text Shadow (& other effects) (Firefox 3.0+, Safari 4+, Chrome 4+)
+	- Methods to achieve this effect today
+	- What is text-shadow
+	- Adjusting text-shadow
+	- Looking at ways of mirroring text (vertical/horizontal)
+
+- Gradients (Firefox 3.6+, Safari 4+, Chrome 4+)
+	- http://www.colorzilla.com/gradient-editor/
+	- Basic Exploration of gradients
+	- Combining gradients, box-shadow, border-radius to create a pill button
+	- Using to :active class to offset during click
+
+- Working with IE:
+	http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
+	
+	
+	{this course needs labs, additional experimentation because it's too short}
+
+
+
+
+========================================
+Topics - Class Eight
+
+
 - Introduction to Javascript (Core)
 	- Placement of script tag
 	- Variables
@@ -249,20 +415,6 @@ Topics - Class Six
 	- [LAB]
 		- Step 2: Close all open DIVs (before slidetoggle runs)
 	- Step 3: Fix the weirdness when you click again on a link
-
-
-
-
-
-
-========================================
-Topics - Class Seven
-
-
-
-
-========================================
-Topics - Class Eight
 
 
 

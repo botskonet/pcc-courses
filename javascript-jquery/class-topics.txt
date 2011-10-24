@@ -102,11 +102,33 @@ Topics - Class Three
 Topics - Class Four
 
 - Ajax
+	- What is Ajax?
+	- http://adaptivepath.com/ideas/ajax-new-approach-web-applications
+	- History of Ajax
+	- What can be transported to and from the server?
+	
+	- Understanding GET
+	- Understanding POST
+	- http://experiments.botsko.net/tests/getpost.php
+	
+	- Same-origin policy
+	
+	- Data packing formats:
+	- XML
 	- JSON
-	- GET
-	- POST
+	
+	- The basic ajax call
+	- Shortcut functions using .get/.post
+	- And .getJSON
 	- Callbacks
-- JSONP
+	
+	- The tricks of JSONP
+	- Gets around same origin policies
+	- Example: http://dev.28sports.com
+	
+	- Long Polling
+	- Quick what-is for Node.js
+	
 
 
 ========================================

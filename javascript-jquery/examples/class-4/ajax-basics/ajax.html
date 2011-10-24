@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Ajax</title>
+	<link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../jquery.min.js"><\/script>')</script>
+	<script type="text/javascript">
+	$(function(){
+		
+		// Using the core .ajax, this is a GET request
+		// $.ajax({
+		// 	url: 'json.php',
+		// 	data: 'zip=97006',
+		// 	dataType: 'json',
+		// 	success: function(json){
+		// 		console.log( json );
+		// 		$('h1').append(json.forecast.high+'&deg;F');
+		// 	}
+		// });
+		
+		// Or, we can just use the .get shortcut:
+		// $.get('json.php', 'zip=97006', function(json){
+		// 		$('h1').append(json.forecast.high+'&deg;F');
+		// 	}, 'json'
+		// );
+		
+		// Or we can use .getJson
+		$.getJSON('json.php', 'zip=97006', function(json){
+				$('h1').append(json.forecast.high+'&deg;F');
+			}
+		);
+		
+	});
+	</script>
+</head>
+<body>
+
+	<h1></h1>
+
+</body>
+</html>
