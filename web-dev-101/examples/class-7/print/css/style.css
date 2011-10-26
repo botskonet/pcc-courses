@@ -1,0 +1,9 @@
+@import 'base.css';
+
+@media print {
+	body>article { border: 0; }
+	.banner, #search { display: none; }
+	header li, header nav ul, header a, aside { float: none; }
+	.col-700, aside, aside ul { width: 100%; }
+	a[href]:after { content: " (" attr(href) " ) "; }
+}

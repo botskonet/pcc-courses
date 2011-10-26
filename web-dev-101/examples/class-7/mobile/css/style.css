@@ -1,0 +1,17 @@
+@import 'base.css';
+
+/* These styles currently specifically target the iPhone and iPod touch */
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+	body { padding: 0; width: 480px; }
+	body>article { width: 470px; padding: 5px; border: 0; }
+	header li a { line-height: 1.5em; padding: 0 0 20px 15px; }
+	header nav ul, aside, .col-700  { float: none; }
+	.banner, #search, header a, .static, aside { display: none; }
+	.col-700 { width: 100%; }
+}
+
+/* These styles currently specifically target the iPhone 4 */
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	body { width: 960px; }
+	body>article { width: 940px; padding: 10px; }
+}

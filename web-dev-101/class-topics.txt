@@ -208,41 +208,11 @@ Topics - Class Five
 ========================================
 Topics - Class Six
 
-"A Deeper Dive into CSS"
-
-- Fonts
-	- @font-face
-	- Licensing issues
-	- Browser/format support (http://www.webfonts.info/wiki/index.php?title=@font-face_browser_support)
-	- Google font directory
-	- Typekit
-
-- Basics of Absolute positioning
-
-- Creating a drop-down menu
-	- Absolute/relative positioning
-	- Using top/left
-	- Absolute elements inside relative elements
-	- Using display: inline-block
-	- Using :hover pseudo class on li
-	
-- Border Radius in CSS3
-	(http://www.css3.info/preview/rounded-border/)
-	(http://www.quirksmode.org/css/contents.html#t46)
-	- Browser prefixes (-moz, -webkit)
-	
-- Z-Index (http://reference.sitepoint.com/css/z-index)
-	- Positions
-	- IE Issues (select boxes, frames, hasLayout)
-	
-- Inner-CSS @media
-	- screen, print
-
-
-CSS2 Techniques in Use Today
+- Positioning Lab
 
 - Creating a hover menu system using css
 	- Creating nested lists and understanding semantic hierarchy
+	- Understand the difference between float and display inline for horizontal nav
 	- Hiding the nested ul by default
 	- Use the :hover pseudo element to show the submenu
 	
@@ -255,47 +225,34 @@ CSS2 Techniques in Use Today
 	- Set background color of the sub ul so it's no transparent
 	- Correct margins/padding
 	
-- Playing with position: fixed
-	- Create a new div
-	- Set basic width, height, and background-color
-	- Set position:fixed, set bottom/right
-		
-- Using Sprites
-	- Setting up some base box styling
-		- Color, background/border colors
-	- Combining images into one
-	- Setting the initial background image and position
-	- Using background-position to alter the positioning
-
-- "Sliding Doors" (http://www.alistapart.com/articles/slidingdoors/)
-	- http://www.jankoatwarpspeed.com/post/2008/04/30/make-fancy-buttons-using-css-sliding-doors-technique.aspx
-	- Reviewing how sliding doors has been used to make flexible-width buttons
-	- Looking at basic elements which we're able to use css3 for.
-	
-	
-{this course needs labs, additional experimentation with positioning, floating, display}
+- Z-Index (http://reference.sitepoint.com/css/z-index)
+	- Positions
+	- IE Issues (select boxes, frames, hasLayout)
 
 
-- Using CSS3 To Enhance Page Design
-	(Ensure these work for all supported browsers)
-	- Add top/bottom left border radius
-	- Add a border-radius to the search box
+- Float Lab
+	- Determine box structure
+	- Create div elements
+	- Float them properly
+	- Apply clearfix bug
+
+
+
+========================================
+Topics - Class Seven
+
+
+- Media Queries
+
+	- Print
+		- Common things to do for print
+		- Background colors, images, anchors
 	
-- [LAB]: Styling Blockquotes
-	- Use quote image for the left side of the quote (add padding!)
-	- Color the text #999
-	- Looking at blockquotes "quotes/open/close" properties
+	- Device Screen Size
+		- Common Screen Sizes
+		- What is progressive enhancement?
+		- Walking through css changes for mobile version of site
 	
-- [LAB]: Styling Code Displays
-	- The code element, the pre element
-	- Styling the elements
-	- Encoding html for display versus processing
-		- http://simplebits.com/cgi-bin/simplecode.pl
-	
-- [LAB]: Styling Anchor Clues
-	- Styling icons for pdf, mailto
-	- Styling icons for external links
-	- Moving icons to the left
 	
 - Fonts
 	- Limitations of fonts until recently
@@ -309,20 +266,29 @@ CSS2 Techniques in Use Today
 		- Google
 		- Typekit
 		
-	- Add new font-face for AaarghNormal
-	- Apply to section h2
-	- [LAB]
-		- Choose new font from fontsquirrel, download
-		- Add to directory
-		- Be careful with path names
-		- Apply font to .banner h2
 		
-	{this course needs labs, additional experimentation because it's too short}
+- Styling Anchor Clues
+	- Styling icons for pdf, mailto
+	- Styling icons for external links
+	- [LAB]: Moving icons to the right
+
+
+- Overview of CSS/HTML Frameworks
+	- Grid Systems:
+		- Blueprint http://blueprintcss.org/
+		- 960 Grid http://960.gs/
+		- 978 Grid system http://978.gs/
+		- 320 and up: http://stuffandnonsense.co.uk/projects/320andup/
+	- HTML5 Boilerplate: http://html5boilerplate.com/
+	
+	- Review the pieces of html5boilerplate
 
 
 ========================================
-Topics - Class Seven
+Topics - Class Eight
 
+- final lab [html intro class five]
+- more float labs
 
 Using CSS3
 
@@ -366,57 +332,6 @@ Using CSS3
 	
 	
 	{this course needs labs, additional experimentation because it's too short}
-
-
-
-
-========================================
-Topics - Class Eight
-
-
-- Introduction to Javascript (Core)
-	- Placement of script tag
-	- Variables
-	- Differences between integers, strings
-	- Basic operations: math, string concatenation, alert()
-	- Logging to the Firebug Console
-	- Conditions
-	- Code comments
-	- [LAB]
-		- Create two variables which container integers
-		- Add them together, use console.log to print the result
-	
-- Introduction to DOM
-	- What is the DOM?
-	- "document" object
-	- Accessing elements using getElementById
-	- Inspecting properties of a DOM element in Firebug
-	- [LAB]
-		- Add a new div
-		- Set it's width, height, and background color
-
-- Introduction to jQuery
-	- Downloading jquery
-	- Including the file
-	- Using document ready
-	- The $ variable
-	- Using CSS selectors
-	
-	- Practice: setting css for a, div and p
-	- [LAB]
-		- Hiding all DIVs
-		
-	- Events
-	- Anonymous functions
-	- "this"
-		
-	- Adding a click event to all anchors
-	- Step 1: SlideToggle the DIV immediately following the anchor
-	- [LAB]
-		- Step 2: Close all open DIVs (before slidetoggle runs)
-	- Step 3: Fix the weirdness when you click again on a link
-
-
 
 
 

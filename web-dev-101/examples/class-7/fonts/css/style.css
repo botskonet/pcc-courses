@@ -1,0 +1,74 @@
+@import 'base.css';
+
+@font-face {
+    font-family: 'AaarghNormal';
+    src: url('../fonts/Aaargh/Aaargh-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+section h2 {font: 22px/27px 'AaarghNormal'; }
+section h3 {font: 16px/20px 'AaarghNormal'; }
+
+
+
+
+/* Existing CSS */
+.banner { 
+	-moz-border-radius: 10px 0 0 10px;
+	-webkit-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px;
+}
+#search input[type=text] {
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+blockquote{
+	padding:5px 20px 5px 60px;
+	background: transparent url(../img/quote.gif) no-repeat top left;
+	color:#999;
+}
+blockquote span{ color: #666666; }
+
+code{
+	border: 1px solid #444;
+	color: #444;
+	border-left-width:10px;
+	display: block;
+	padding: 10px;
+	font: 14px/19px 'Consolas',monospace;
+	background-color:#f5f5f5;
+}
+
+a[href$='.pdf'] { background: url(../img/icon_pdf.gif); }
+a[href ^="mailto:"] { background: url(../img/icon_mailto.gif); }
+a.ext { background: url(../img/icon_external.gif); }
+/* Icons on the right */
+/*a[href$='.pdf'], a[href ^="mailto:"], a.ext {
+	padding: 5px 20px 5px 0;
+	background-repeat: no-repeat;
+	background-position: center right;
+}*/
+/* Icons on the left */
+a[href$='.pdf'], a[href ^="mailto:"], a.ext {
+	padding: 5px 0 5px 20px;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+
+/* Original icons for links, not easily extendable
+a[href$='.pdf'] { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(../img/icon_pdf.gif) no-repeat center right;
+}
+a[href ^="mailto:"] {
+	padding: 5px 20px 5px 0;
+    background: transparent url(../img/icon_mailto.gif) no-repeat center right;
+}
+a.ext { 
+	padding: 5px 20px 5px 0;
+	background: transparent url(../img/icon_external.gif) no-repeat center right;
+}
+*/

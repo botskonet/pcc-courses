@@ -1,0 +1,15 @@
+
+
+.left-col, .right-col { width: 49%; }
+.left-col { float: left; }
+.right-col { float: right; }
+
+/* one clearfix method */
+#main{overflow:hidden;height:1%;}
+
+
+
+/* debug values to help you build without content */
+body{min-width:800px;}
+div{outline: 1px solid green;min-height:80px;}
+body>div { margin-bottom:10px; }

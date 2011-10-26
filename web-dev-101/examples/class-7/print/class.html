@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Understanding CSS Drop Down Menus</title>
+	<link href="css/style.css" rel="stylesheet" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+	<article>
+		<div class="static"></div>
+		<header class="fixed">
+			<nav class="col-700 fixed">
+				<a href="#"><img src="img/logo.png" width="160" height="50" alt="Company Logo" /></a>
+				<ul>
+					<li class="current"><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a>
+						<ul>
+							<li><a href="#">Programming</a></li>
+							<li><a href="#">Design</a></li>
+							<li><a href="#">Management</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<form id="search" action="#" method="get" class="last">
+				<input type="text" class="text" placeholder="search..." value=""  />
+				<input type="submit" value="" />
+			</form>
+		</header>
+		<div class="banner">
+			<h2>The Web Today</h2>
+			<p>Aliquam et interdum arcu. Duis elementum augue sed magna pharetra at tincidunt mi gravida.
+			 Duis nulla nibh, tempor quis volutpat sed, pharetra sed mauris. In hac habitasse platea dictumst.</p>
+		</div>
+		<article class="fixed">
+			<aside>
+				<h4>Sidebar Content</h4>
+				<ul>
+					<li><a href="fakefile.pdf">Vivamus elementum</a></li>
+					<li><a href="mailto:bob@bob.com">Nulla et orci neque</a></li>
+					<li><a href="#" class="ext">Ut neque metus</a></li>
+				</ul>
+			</aside>
+			<section class="col-700 last">
+				<h2>The Importance of Clean, Semantic HTML</h2>
+				
+				<!-- <div class="errormsg">Error Message</div>
+				<div class="successmsg">Success Message</div>
+				<div class="infomsg">Information Message</div> -->
+
+				<p>Suspendisse potenti. Nullam in lectus nibh, in semper eros. Integer nec diam tellus. Quisque sit amet
+				 auctor purus. Sed vitae erat et tellus adipiscing lobortis vel in orci. Morbi semper, lacus ac rutrum
+				 tincidunt, eros ipsum ultricies lorem, quis dictum sem eros sed ante. Curabitur adipiscing vulputate
+				 euismod. Phasellus commodo nisi vitae tellus adipiscing faucibus at nec leo. Mauris laoreet mi et augue
+				 sodales accumsan. Suspendisse vel mauris metus, ac tristique enim. </p>
+				<p>Vestibulum et felis eu dui imperdiet accumsan eu in quam. In hac habitasse platea dictumst. Integer eget
+				 placerat diam. Praesent eget nunc vel sem bibendum adipiscing. Aliquam faucibus diam non metus aliquet eu
+				 euismod lorem elementum. Rasid tempor orci. Aliquam erat volutpat. Etiam condimentum rhoncus tellus et sagittis.
+				 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				
+				<div class="bq-container">
+					<blockquote>
+						<p>Praesent nec aliquet elit. Nullam convallis placerat metus, sit amet ultrices nulla faucibus sit amet.
+						 Quisque dictum lorem sed sem pharetra luctus. Donec sed posuere nisl. Aliquam eu vestibulum mauris. 
+						 <br /><span><strong>John Doe</strong>, Some Business</span></p>
+					</blockquote>
+				</div>
+				
+				<h3>Code Preview</h3>
+				<pre><code>&lt;article&gt;
+  &lt;header&gt;
+     &lt;h1&gt;Title!&lt;/h1&gt;
+  &lt;/header&gt;
+&lt;/article&gt;</code></pre>
+				
+				<p>Ut rutrum, odio a suscipit aliquam, nunc elit suscipit lorem, nec sodales urna enim in leo. In quis
+				 lacus eu felis cursus pellentesque. Nullam dolor elit, dictum non accumsan nec, accumsan quis libero.
+				 Morbi faucibus pellentesque tortor, ut fermentum nisl luctus et.</p>
+				<p>Suspendisse potenti. Nullam in lectus nibh, in semper eros. Integer nec diam tellus. Quisque sit amet
+				 auctor purus. Sed vitae erat et tellus adipiscing lobortis vel in orci. Morbi semper, lacus ac rutrum
+				 tincidunt, eros ipsum ultricies lorem, quis dictum sem eros sed ante. Curabitur adipiscing vulputate
+				 euismod. Phasellus commodo nisi vitae tellus adipiscing faucibus at nec leo. Mauris laoreet mi et augue
+				 sodales accumsan. Suspendisse vel mauris metus, ac tristique enim. </p>
+				<p>Vestibulum et felis eu dui imperdiet accumsan eu in quam. In hac habitasse platea dictumst. Integer eget
+				 placerat diam. Praesent eget nunc vel sem bibendum adipiscing. Aliquam faucibus diam non metus aliquet eu
+				 euismod lorem elementum. Rasid tempor orci. Aliquam erat volutpat. Etiam condimentum rhoncus tellus et sagittis.
+				 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<p>Ut rutrum, odio a suscipit aliquam, nunc elit suscipit lorem, nec sodales urna enim in leo. In quis
+				 lacus eu felis cursus pellentesque. Nullam dolor elit, dictum non accumsan nec, accumsan quis libero.
+				 Morbi faucibus pellentesque tortor, ut fermentum nisl luctus et.</p>
+			</section>
+		</article>
+		<footer>
+			<p><strong>&copy; 2011 Executive Company</strong></p>
+		</footer>
+	</article>
+</body>
+</html>

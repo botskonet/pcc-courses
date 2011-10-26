@@ -1,0 +1,40 @@
+ul,li,h1{margin:0;padding:0;}
+
+/* content containers */
+body { background-color: #fefefe; }
+#article { margin: 0 auto; width: 960px; }
+#header { margin-bottom: 20px; }
+#main { width: 840px; float: right }
+h1 { font-family: 'Lobster', arial, serif; font-size: 4em; }
+p { font-family: 'Neuton', arial, serif; margin-top: 0 }
+
+/* navigation */
+#nav { float: left }
+#nav a { width: 80px; } 
+#nav li { background-color: #2B393C; list-style: none }
+#nav>li { position: relative; }
+li ul { display: none; position: absolute; top: 0; left: 100px; width: 300px }
+li:hover ul { display: block; }
+li li { float: left }
+
+
+#nav li:hover, #nav ul, #nav ul a { background-color: #4A626F;}
+a { 
+	font-family: Helvetica, arial, serif;
+	color: #FEEBE0;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+a:hover { color: #E5E29A;}
+
+/* z-index example */
+/*#main p { position: relative; z-index: 500; }
+#nav ul { z-index: 1; }
+
+/* at media */
+@media print {
+	h1 { font-family: Arial, serif; }
+	li { display: block; }
+	a:after { content: " (" attr(href) ") "; }
+}
