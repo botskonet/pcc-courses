@@ -287,55 +287,13 @@ Topics - Class Seven
 ========================================
 Topics - Class Eight
 
-- final lab [html intro class five]
-- more float labs
-
-Using CSS3
-
-- Understanding vendor prefixes
-	- Remember to always define each vendor prefix, and then
-		the attribute itself without any prefix.
-
-- Border-Radius (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
-	- Methods to achieve this effect today
-	- What is border-radius
-	- Adjusting border-radius
-	- [LAB]:
-		- Use border radius to create leaf-shape
-		- Create the reverse leaf shaped
-		- Style a series of LIs as overlapping full circles
-		
-- Box Shadow (IE9, Firefox 3.5+, Safari 4+, Chrome 4+)
-	- Methods to achieve this effect today
-	- What is box-shadow
-	- Adjusting box-shadow
-	- [LAB]:
-		- Set the inset borders for all four sides
-		- Using positioning and box-shadow, create a "window"-style
-		div which covers another div with text in it.
-			- Uses positioning, box-shadow
-
-- Text Shadow (& other effects) (Firefox 3.0+, Safari 4+, Chrome 4+)
-	- Methods to achieve this effect today
-	- What is text-shadow
-	- Adjusting text-shadow
-	- Looking at ways of mirroring text (vertical/horizontal)
-
-- Gradients (Firefox 3.6+, Safari 4+, Chrome 4+)
-	- http://www.colorzilla.com/gradient-editor/
-	- Basic Exploration of gradients
-	- Combining gradients, box-shadow, border-radius to create a pill button
-	- Using to :active class to offset during click
-
-- Working with IE:
-	http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
+- Understand Forms
+	- We spend too much time with them because you need a server-side tool for processing them
 	
-	
-	{this course needs labs, additional experimentation because it's too short}
+- Final Website Lab
+	- Floating and sizing elements
+	- Header, Aside, Content
 
-
-
-	
 - Where to go from here.
 
 - Evaluations!

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form Example</title>
+	<style type="text/css">@import url('screen.css');</style>
+</head>
+<body>
+	<form action="http://experiments.botsko.net/tests/post.php" method="post">
+		<fieldset>
+			<legend>Example Form</legend>
+			<input type="hidden" id="field0" name="field0" value="im-hiding">
+			<ol>
+				<li>
+					<label for="field1">"Text" Input</label>
+					<input type="text" id="field1" name="field1" value="">
+				</li>
+				<li>
+					<label>"Checkbox" Input</label>
+					<input type="checkbox" id="field2-c1" name="field2" value="Choice 1" checked="checked">
+					<label for="field2-c1">Choice 1</label>
+					<input type="checkbox" id="field2-c2" name="field2" value="Choice 2">
+					<label for="field2-c2">Choice 2</label>
+				</li>
+				<li>
+					<label for="field3-yes">"Radio" Input</label>
+					<input type="radio" id="field3-yes" name="field3" value="Yes" checked="checked">
+					<label for="field3-yes">Yes</label>
+					<input type="radio" id="field3-no" name="field3" value="No">
+					<label for="field3-no">No</label>
+				</li>
+				<li>
+					<label for="field4">"Password" Input</label>
+					<input type="password" id="field4" name="field4" value="">
+				</li>
+				<li>
+					<label for="field5">Select Box</label>
+					<select id="field5" name="field5">
+						<option value="1" selected="selected">One</option>
+						<option value="2">Two</option>
+						<option value="3">Three</option>
+					</select>
+				</li>
+				<li>
+					<label for="field6">Textarea</label>
+					<textarea id="field6" name="field6" cols="30" rows="10">Value goes here</textarea>
+				</li>
+				<li>
+					<button>A Button</button>
+				</li>
+				<li>
+					<input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Reset">
+				</li>
+			</ol>
+		</fieldset>
+	</form>
+</body>
+</html>
