@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Simple Slideshow</title>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../jquery.min.js"><\/script>')</script>
+	
+	<style>
+	.slideshow { position: relative; width: 420px; height: 320px }
+	.slideshow img { position: absolute; top: 0; left: 0; z-index: 8 }
+	.slideshow img.active { z-index: 10; }
+	.slideshow img.last-active { z-index: 9; }
+	</style>
+	
+
+	<script>
+	function slideSwitch() {
+		
+		// Pull the slideshow elements and cache them as a variable
+		var ss = $('.slideshow');
+		
+		// Find the currently active element
+		var active = ss.find('.active');
+
+		// if there is an image after the current image, use it, otherwise return to the first image
+	    var next = active.next().length ? active.next() : ss.find('img:first');
+
+		// Current will be the last image, so we need to move it behind
+	    active.addClass('last-active');
+
+		// Start the transition to the next image
+	    next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate( { opacity: 1.0 }, 1000, function() {
+	            active.removeClass('active last-active');
+	        });
+	}
+
+	// Set the function to run on an interval
+	$(function(){
+	    setInterval(slideSwitch, 4000 );
+	});
+	
+	</script>
+	
+</head>
+<body>
+
+	<div class="slideshow">
+	    <img src="img/1.jpg" alt="" class="active" />
+	    <img src="img/2.jpg" alt="" />
+	    <img src="img/3.jpg" alt="" />
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Core JavaScript</title>
+	<script>
+	
+		// Objects
+
+		var o = { variable: 'value' };
+		// console.log(o);
+		// console.log(o.variable);
+
+
+		// Objects can hold anything:
+		var o = {
+			a: 'string',
+			b: 1, // int
+			c: function(){
+				// function
+			}
+		};
+		// console.log(o);
+
+
+		// From the previous function example, these var/sfuncs were in global scope:
+		// test, scope_a, scope_test
+
+		// let's clean that up:
+
+		var scope_a = 0;
+
+		var m = {
+			scope_c: 0,
+			add: function (a, b){
+				return a + b;
+			},
+			scope_test: function (){
+				this.scope_c = 3;
+				scope_a = 1;
+				var scope_b = 2;
+				return scope_b;
+			}
+		}
+
+
+		// console.log( m.add(5, 10) );
+
+		m.scope_test()
+		console.log( scope_a, m.scope_c );
+	
+	</script>
+</head>
+<body>
+</body>
+</html>

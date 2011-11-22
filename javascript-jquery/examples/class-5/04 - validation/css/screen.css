@@ -1,0 +1,53 @@
+html { overflow-y: scroll; }
+
+
+/* resets/shared classes */
+ul,ol,li,h1,h2{margin:0;padding:0}
+li{list-style:none}
+a,a:link{outline:none;}
+.left{float:left}
+.right{float:right;}
+
+/* content containers */
+#article{margin:0 auto;width:960px}
+#header{margin-bottom:20px}
+h1,h2{font-family:'Lobster',arial,serif;font-size:4em}
+h2{font-size:2em;padding-top:18px}
+p{font-family:'Neuton',arial,serif}
+
+/* sidebar */
+#nav{background-color:#2B393C;width:100%;position:relative;overflow:hidden}
+#nav li{float:left;display:inline-block;position:relative;padding:5px 10px}
+#nav li ul{display:none;position:absolute;top:33px;left:0;z-index:200;}
+#nav li:hover ul, #nav li.at ul{display:block}
+#nav li:hover,#nav li.at,li ul{background-color:#4A626F}
+#nav a{font-family:'Verdana',arial,serif;color:#FEEBE0;text-decoration:none}
+#nav a:hover, #nav .at a{color:#E5E29A}
+#nav{-webkit-border-radius:10px;border-radius:5px}
+#nav li:first-child{-moz-border-radius:5px 0 0 5px;-webkit-border-radius:5px 0 0 5px;border-radius:5px 0 0 5px}
+#nav li:last-child{-moz-border-radius:0 5px 5px 0;-webkit-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0}
+#nav #contact{float:right}
+
+/* form layout */
+#contact-us{position:relative;z-index:1;background-color:#4A626F;color:#FEEBE0;font-family:'Verdana',arial,serif;width:940px;margin:0 auto;overflow:hidden;font-size:.8em}
+#contact-us p { font-family:'Verdana',arial,serif; line-height: 1.5em; }
+#contact-us{-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px}
+#contact-us ol{padding:10px 20px;border-left:1px dashed #708E9B;height:150px}
+#contact-us div{width:160px;padding:10px 20px}
+#contact-us li{margin-bottom:10px}
+#contact-us p{margin:0}
+#contact-us label{display:block}
+#contact-us textarea{width:500px;height:80px}
+
+#main{clear:both}
+
+.overlay { background-color: rgba(0, 0, 0, 0.7); display: none; width: 100%; position: absolute; top: 0; left: 0; z-index:50; }
+
+.frm-success { color: green; border: 1px solid green; padding: 10px; margin-top: 10px }
+
+/* print styles */
+@media print {
+h1{font-family:Arial,serif;}
+li{display: block;}
+a:after content:" (" attr(href) ") "}
+}

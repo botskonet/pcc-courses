@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Core JavaScript</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../jquery.min.js"><\/script>')</script>
+	<script>
+	
+		// Arrays
+		var people = ['Bob', 'Sue', 'Pete'];
+		// console.log(people);
+
+				// Alternate ways of creating an array
+		var a = new Array( 'Bob', 'Sue', 'Pete' );
+		// console.log(a);
+
+		var b = new Array();
+		b[0] = 'Bob';
+		b[1] = 'Sue';
+		b[2] = 'Pete';
+		// console.log(b);
+
+		// Iterating "Looping" // 1.15ms
+		// for(name in people){
+		// 	console.log( people[name] );
+		// }
+
+
+		// Looping with jQuery // 1.499ms
+		// $.each(people, function(index, value){
+		// 	console.log( value );
+		// });
+
+
+		// Using For // 1.604ms
+		// for(i=0; i <= people.length; i++){
+		// 	console.log(people[i]);
+		// }
+
+
+		// Using For with caching // 1.426ms
+		// for(i=0,l=people.length; i <= l; i++){
+		// 	console.log(people[i]);
+		// }
+	
+	</script>
+</head>
+<body>
+</body>
+</html>

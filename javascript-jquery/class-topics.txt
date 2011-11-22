@@ -134,20 +134,141 @@ Topics - Class Four
 ========================================
 Topics - Class Five
 
-- Debugging
+- Understanding arrays
+	- Organizing data
+	- Alternate methods
+	- Looping arrays
 
-- Recommended Plugins
+- Understanding functions
+	- Arguments
+	- Scope
+	- Returning data
+- Understanding objects
 
+- Organizing code into objects
+	- Understanding object-oriented programming
 
-- Resize Throttle
-- jQuery UI
+- Better form validation
+	- Extremely, Totally, Basic intro to Regex
+	- Creating a new validation object
+	- Creating an object of rules
+	- Creating a counter
+	- Creating a tester
+
+- Objects can very easily be turned into jquery plugins
+
 
 
 ========================================
 Topics - Class Six
 
 
-- Basics of Mobile
+- Putting it all together for a slideshow
+	- Looking at the structure and styling for the list
+	- Loading a list of images
+	- Finding the proper next image
+	- Adding a transition to it
+	- Learning the ternary condition
+	- Learning the setInterval function
+	
+- Learning how to make the code a plugin
+	- Extending the jquery with a new function
+	- Using this.each
+	- Importing our code
+	- Setting variables to pass to setInterval
+	- Using options/extend to create a configuration
 
+- What can we do better?
+	- Move essential css into the plugin so that it's always self-contained
+	- Add manual controls to force transitions, with keyboard and mouse
+	- Change the system to not rely on "active" being set at first
+
+
+
+========================================
+Topics - Class Seven
+
+- Using existing plugins
+- Where to find them?
+	- http://plugins.jquery.com/
+	- Googling ;)
+	
+- Choosing plugins
+	- How recently they were updated
+	- How often they seem to be updated
+	- what version of jquery they support
+	- What browser support they offer
+	- What accessibility/keyboard commands they support
+	- Have they worked towards any graceful degradation/etc ?
+	- Do they offer related features, or will you need another plugin? i.e. Lightbox, support for html, etc
+	
+- Downloading, finding source code
+
+- Slideshow Plugins
+	- http://slidesjs.com/
+	- http://jquery.malsup.com/cycle/
+	- http://nivo.dev7studios.com/
+	
+- Trying slidejs
+	- Download the code
+	- Look through provided examples
+	- Copy over necessary files - images, css, js
+	- Include proper css and js in the file
+	- Take example markup, make it work for us
+	
+	- Load fixed css
+	- What changed:
+		- Sizes and positioning changed to accommodate our images
+		- Developer had a ton of css in there that wasn't needed
+		- Css reset was entirely useless, and a bad idea - let users choose their own
+		- "example" div wasn't needed
+		
+		
+- jQuery UI
+	- Building a custom download - http://jqueryui.com/
+	- Loading files into our project
+	- Using jui to make a list sortable
+	- Overview of all of the effects
+	
+- Other recommended plugins
+	- Validation http://bassistance.de/jquery-plugins/jquery-plugin-validation/
+	- Resize throttle http://benalman.com/projects/jquery-throttle-debounce-plugin/
+	- scrollTo http://demos.flesler.com/jquery/scrollTo/
+	- stylish select http://www.prismstudio.co.uk/plugins/stylish-select/0.4/
+	- uniformjs http://uniformjs.com/
+	- simplemodal http://www.ericmmartin.com/projects/simplemodal/
+	- hoverintent http://cherne.net/brian/resources/jquery.hoverIntent.html
+	- flexigrid http://flexigrid.info/
+	- fancybox http://fancybox.net/
+	- uploadify http://www.uploadify.com/
+	
+Other Libraries w/jQuery Hooks
+	- tinymce http://www.tinymce.com/tryit/jquery_plugin.php
+	- ckeditor http://ckeditor.com/blog/CKEditor_for_jQuery
+	- highcharts http://www.highcharts.com/documentation/how-to-use
+	
+- Other recommended javascripts
+	- Modernizr http://www.modernizr.com/
+	- Respondr https://github.com/scottjehl/Respond
+	- Selectivizr http://selectivizr.com/
+	
+- What's Hot in JS World
+	
+- LESS
+	- http://lesscss.org/
+
+- NodeJS
+	- The basics of NodeJS http://nodejs.org/
+
+
+========================================
+Topics - Class Eight
+
+- Mobile
+
+
+	- Debugging
+	- Where to find help
+	
 
 

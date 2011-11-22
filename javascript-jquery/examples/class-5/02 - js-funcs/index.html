@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Core JavaScript</title>
+	<script>
+	
+		// Functions
+
+		function add(a, b){
+			return a + b;
+		}
+
+		console.log( add(5, 10) );
+
+
+		var scope_a = 0;
+
+		function scope_test(){
+			scope_a = 1;
+			var scope_b = 2;
+			return scope_b;
+		}
+
+		// console.log( scope_a, scope_b );
+
+		// Typeof
+		scope_test();
+		if(typeof scope_b === 'undefined'){
+			console.log( 'no scope b' );
+		} else {
+			console.log( scope_a, scope_b );
+		}
+
+	
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Simple Slideshow</title>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../jquery.min.js"><\/script>')</script>
+	<link rel="stylesheet" href="css/global.css">
+	<script src="slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="slides">
+			<div class="slides_container">
+				<img src="img/1.jpg" width="480" height="320" alt="">
+				<img src="img/2.jpg" width="480" height="320" alt="">
+				<img src="img/3.jpg" width="480" height="320" alt="">
+			</div>
+			<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+			<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+		</div>
+		<img src="img/example-frame.png" width="480" height="401" alt="Example Frame" id="frame">
+	</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Simple Slideshow</title>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../jquery.min.js"><\/script>')</script>
+	
+	<style>
+	.slideshow { position: relative; }
+	.slideshow img { top: 0; left: 0; z-index: 8 }
+	.slideshow img.active { z-index: 10; }
+	.slideshow img.last-active { z-index: 9; }
+	</style>
+	
+	
+	<script>
+	// Begin the core of the plugin, simply extending jQuery
+	(function( $ ){
+		$.fn.mSlides = function( options ){
+			
+			// Extend a default object of options with those passed in by the user
+			var opts = $.extend({
+				'interval': 4000
+			}, options);
+			
+			// Iterate all elements the user called the plugin on
+			return this.each(function(){
+				
+				// Re-assign "this" because it will lose meaning once given to setInterval
+				var ss = $(this);
+				
+				// Set some styles here rather than in css
+				ss.find('img').css('position', 'absolute');
+				var first_img = ss.find('img:first-child');
+				first_img.addClass('active');
+				ss.width( first_img.width() );
+				ss.height( first_img.height() );
+				
+				// Set a function to execute every few seconds
+				setInterval(
+					function(){
+						// Determine the active image, then find the next one (or first if none exists)
+						var active = ss.find('img.active'), next = active.next().length ? active.next() : ss.find('img:first-child');
+						active.addClass('last-active');
+						// Begin the transition to the next image
+						next.css('opacity', 0).addClass('active').animate( {opacity: 1.0}, 1000, function(){
+							active.removeClass('active last-active');
+						});
+						
+						// Note: the classes could be replaced with hard-coded z-index
+						// but you'd need to replace ALL z-index related classes
+						// because jQuery sets the css on the style attribute
+						// meaning NOTHING can override it. The only way to override it
+						// is to always change the attribute, which is a pain.
+						// So either go full-inline styles or full-css classes.
+						// Since users could often apply more styling to the last/current
+						// images, we'll leave them all in css.
+						
+					},
+					opts.interval
+				);
+
+			});
+		};
+	})( jQuery );
+	
+	$(function(){
+		$('.slideshow').mSlides( {'interval':2000} );
+	});
+	</script>
+	
+</head>
+<body>
+
+	<div class="slideshow">
+	    <img src="img/1.jpg" alt="" />
+	    <img src="img/2.jpg" alt="" />
+	    <img src="img/3.jpg" alt="" />
+	</div>
+	
+</body>
+</html>
