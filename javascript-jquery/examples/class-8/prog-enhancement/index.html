@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery</title>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
+	<style>@import url('screen.css');</style>
+	<script src="modernizr.js"></script>
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../jquery.min.js"><\/script>')</script>
+	<!--[if IE]>
+		<style type="text/css">
+			#nav li ul{top:36px}
+			#contact-us ol{padding:10px 15px;}
+			#nav{z-index:200}
+			#nav ul{z-index:100}
+		</style>
+	<![endif]-->
+	<script>
+	
+	if($('html').hasClass('fontface')){
+		document.write('<link href="http://fonts.googleapis.com/css?family=Neuton" rel="stylesheet" type="text/css">');
+		document.write('<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">');
+	}
+	
+	$(function(){
+
+		// original example
+		// var width = $.browser.mozilla ? $(document).width()+15 : $(document).width();
+		// if(width >= 768){
+		
+		var width = Modernizr.mq('only screen and (min-width: 768px)');
+		
+		if(width){
+			$('#contact a').click(function(){
+				$('#contact-us').slideToggle();
+				$(this).parent().toggleClass('at');  // Step 2
+				return false;
+			});
+			// Gray-out the contact form when the navigation items are hovered
+			$('#nav li:not(#contact)').hover(function(){
+				var css = {
+					width: $('#contact-us').width(),
+					height: $('#contact-us').height()
+				}
+				$('.overlay').css(css).show();
+
+			}, function(){
+				$('.overlay').hide();
+			});
+		}
+
+		// Extremely basic form validation example
+		$('form').submit(function(){
+			
+			var is_error = 0;
+
+			if($('#your_name').val() == ''){
+				$('#your_name').after('<span>Error!</span>');
+				is_error++; // essentially, this is "is_error = is_error + 1"
+			}
+
+			if($('#email').val() == ''){
+				$('#email').after('<span>Error!</span>');
+				is_error++; // essentially, this is "is_error = is_error + 1"
+			}
+
+			if(is_error > 0){
+				return false;
+			}
+		});
+	});
+	</script>
+</head>
+<body>
+	<div id="article">
+		<div id="header">
+			<h1>Page Title</h1>
+		</div>
+		
+		<ul id="nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Menu</a>
+				<ul>
+					<li><a href="#">Breakfast</a></li>
+					<li><a href="#">Lunch</a></li>
+					<li><a href="#">Dinner</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Staff</a>
+				<ul>
+					<li><a href="#">Bob</a></li>
+					<li><a href="#">Sue</a></li>
+				</ul>
+			</li>
+			<li id="contact"><a href="#">Contact Us</a></li>
+		</ul>
+		<div id="contact-us">
+			<div class="overlay"></div>
+			<form action="#" method="post">
+				<div class="left">
+					<p>Please provide your name, email, and a message and we'll contact you within the next day or two.</p>
+				</div>
+				<ol class="left">
+					<li>
+						<label for="your_name">Your Name</label>
+						<input type="text" name="your_name" id="your_name">
+					</li>
+					<li>
+						<label for="email">Your E-mail</label>
+						<input type="text" name="email" id="email">
+					</li>
+				</ol>
+				<ol class="right">
+					<li>
+						<label for="your_message">Message</label>
+						<textarea name="your_message" id="your_message" cols="30" rows="5"></textarea>
+					</li>
+					<li>
+						<input type="submit" name="submit" id="submit" value="Send!">
+					</li>
+				</ol>
+			</form>
+		</div>
+		<div id="main">
+			<h2>Section 1</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<h2>Section 2</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</div>
+	</div>
+</body>
+</html>

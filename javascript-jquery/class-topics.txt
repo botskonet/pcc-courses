@@ -264,11 +264,80 @@ Other Libraries w/jQuery Hooks
 ========================================
 Topics - Class Eight
 
-- Mobile
 
+- Keeping a site mobile friendly
 
-	- Debugging
-	- Where to find help
+	(test with Chrome Window Resizer 1.7)
+
+	- General tips:
+		- Remember hover doesn't exist
+		- Keep files small - faster downloads over unknown network quality
+		- Possibly fragment large js/css files if they're not always needed
+		- Design for finger sizes. Fitts's law
+		- Allow larger text and double-tap zooming
+		- Sans-serif fonts are easier to read
+	- Choice 1: Progressive Enhancement
+		- It's not just for mobile but for better device and feature support
+		- Begin with base design and interaction
+		- Use media queries, javascript tools for adding styling, features as screen grows
+		- It's not just about screen size, but feature support
+		- Converting progressive enhancement to contact form
+			- Reviewing the css structuring
+			- Graceful degradation for the form
+			- [Lab]
+				- Detect if the browser is firefox
+				- Only activate form hide, navigation features if width is 768 or higher
+				- The scrollbar bug will bite you: http://www.456bereastreet.com/archive/201101/media_queries_viewport_width_scrollbars_and_webkit_browsers/
+			- [Lab]
+				- Using Modernizr (http://www.modernizr.com/)
+				- Download modernizr (for font-face, rgba, mediaquery)
+				- Convert the width to the modernizr tester  http://www.modernizr.com/docs/#mq
+			- [Lab]
+				- Hide contact form with .js classes instead
+				- Use overlay only if rgba is supported
+			- [Lab]
+				- Convert web font loading to web font conditional
+			
+			- Alternate ideas:
+				- Use rgba feature detection to add in ie opacity support
+			
+	- Responsive site examples
+		http://www.fork-cms.com/
+		http://authenticjobs.com
+		http://www.whitelotusaromatics.com/
+		http://thisisyoke.com/
+	
+	- Choice 2: Building a separate mobile site/application
+		- jQuery Mobile
+			- Downloading
+			- Starting with the base example template
+			- Pagination, history, bookmarking
+			- Building our contact form
+				- Using the documentation to recreate our form
+				- Adding back in our validation example
+
+	- JSTools
+		- http://jsfiddle.net/
+		- http://developer.yahoo.com/yui/compressor/
+		- http://www.jslint.com/
+		
+	- What's coming?
+		- Canvas (http://calebevans.me/projects/jcanvas/index.php)
+		- LocalStorage (http://www.jstorage.info/)
+
+	- Keeping watch over jquery/projects/plugins
+	- GitHub!
+		- https://github.com/jquery/jquery
+		- https://github.com/jquery/jquery-ui
+		- https://github.com/jquery/jquery-mobile
+
+- Where to find help	
+	- google
+	- jquery forums
+		- http://forum.jquery.com/
+	- javascript / jquery tags on stackoverflow
+		- http://stackoverflow.com/questions/tagged/javascript
+		- http://stackoverflow.com/questions/tagged/jquery
 	
 
 

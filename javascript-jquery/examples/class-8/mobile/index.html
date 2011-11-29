@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+	
+	<script>
+	
+	if($('html').hasClass('fontface')){
+		document.write('<link href="http://fonts.googleapis.com/css?family=Neuton" rel="stylesheet" type="text/css">');
+		document.write('<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">');
+	}
+	
+	$(function(){
+		// Extremely basic form validation example
+		$('form').submit(function(){
+			
+			var is_error = 0;
+
+			if($('#your_name').val() == ''){
+				$('#your_name').after('<span>Error!</span>');
+				is_error++; // essentially, this is "is_error = is_error + 1"
+			}
+
+			if($('#email').val() == ''){
+				$('#email').after('<span>Error!</span>');
+				is_error++; // essentially, this is "is_error = is_error + 1"
+			}
+
+			if(is_error > 0){
+				return false;
+			}
+		});
+	});
+	</script>
+	
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header">
+		<h1>My Title</h1>
+	</div>
+	<div data-role="content">	
+		<form action="http://experiments.botsko.net/tests/post.php" method="post">
+			<div data-role="fieldcontain" class="ui-hide-label">
+				<label for="your_name">Your Name</label>
+				<input type="text" name="your_name" id="your_name" value="" placeholder="Your Name"/>
+			</div>
+			<div data-role="fieldcontain" class="ui-hide-label">
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email" value="" placeholder="Email"/>
+			</div>
+			<div data-role="fieldcontain" class="ui-hide-label">
+				<label for="your_message">Message</label>
+				<textarea name="your_message" id="your_message" cols="30" rows="5" placeholder="Message"></textarea>
+			</div>
+			<input type="submit" data-theme="b" value="Submit">
+		</form>
+	</div><!-- /content -->
+</div><!-- /page -->
+</body>
+</html>
